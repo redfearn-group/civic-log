@@ -43,9 +43,10 @@ if (dry) {
   if (existing.includes(title)) {
     console.log('Digest for this week already posted.');
   } else {
-    gh(['issue', 'create', '--title', title, '--label', 'digest', '--body-file', '-'], body);
-    // Close it right away: the email is the point, not an open issue to track.
-    const url = gh(['issue', 'list', '--label', 'digest', '--state', 'open', '--limit', '1', '--json', 'number', '--jq', '.[0].number']).trim();
+    // gh prints the new issue's URL. Close it right away: the email is the
+    // point, not an open issue to track. (Listing open issues to find it
+    // races GitHub's index and came back empty on the first run.)
+    const url = gh(['issue', 'create', '--title', title, '--label', 'digest', '--body-file', '-'], body).trim().split(/\s+/).pop();
     if (url) gh(['issue', 'close', url]);
     console.log(`POSTED ${title}`);
   }
