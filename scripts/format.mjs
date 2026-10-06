@@ -25,7 +25,7 @@ export function time12(t) {
   return `${((h + 11) % 12) + 1}:${String(m).padStart(2, '0')} ${h >= 12 ? 'PM' : 'AM'}`;
 }
 
-export const SITE = 'https://redfearn-group.github.io/civic-log/';
+export const SITE = 'https://redfearn.group/civic-log/';
 export const siteUrl = (p = '') => SITE + p;
 
 const bodies = new Map(loadBodies({ includeInactive: true }).map((b) => [b.id, b]));
