@@ -2,7 +2,7 @@
 
 Short summaries of Spanish Fork and Utah County public meetings, with the hearings worth attending flagged.
 
-**Site:** https://redfearn-group.github.io/civic-log/
+**Site:** https://redfearn.group/civic-log/
 
 ## How it works
 
@@ -11,8 +11,8 @@ Short summaries of Spanish Fork and Utah County public meetings, with the hearin
 3. **Score.** Each item is tagged and scored 1 to 5 against `config/interests.yaml`. A meeting is marked **Attend** when it holds a public hearing on a high-impact item or touches a topic on the watch list.
 4. **Deliver.**
    - The site, rebuilt daily.
-   - An [RSS feed](https://redfearn-group.github.io/civic-log/feed.xml).
-   - A [calendar feed](https://redfearn-group.github.io/civic-log/attend.ics) of Attend meetings.
+   - An [RSS feed](https://redfearn.group/civic-log/feed.xml).
+   - A [calendar feed](https://redfearn.group/civic-log/attend.ics) of Attend meetings.
    - An issue for each new Attend meeting, which GitHub emails to watchers.
    - A weekly digest issue every Monday.
 

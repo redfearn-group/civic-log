@@ -1,6 +1,6 @@
 # civic-log
 
-Civic monitor for Spanish Fork, Utah County and (later) Utah. Public repo, Astro site at `/civic-log/`. The README explains the pipeline; this file holds what a session needs to change it safely.
+Civic monitor for Spanish Fork, Utah County and (later) Utah. Public repo, Astro site at https://redfearn.group/civic-log/ (Pages, served under the custom domain of redfearn-group.github.io). The README explains the pipeline; this file holds what a session needs to change it safely.
 
 ## Pipeline and who runs what
 
