@@ -1,0 +1,48 @@
+name: Daily collect
+
+# Reads the Utah Public Notice Website for every active body and commits any
+# new or changed notice. No AI here. Then redeploys the site every day, since
+# "upcoming" moves with the date even when no notice changed.
+
+on:
+  schedule:
+    # 12:00 UTC = 06:00 MDT / 05:00 MST
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run collect
+      - name: Commit changed notices
+        run: |
+          git config user.name "civic-log-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/notices
+          if git diff --cached --quiet; then
+            echo "No notice changes."
+          else
+            git commit -m "Collect notices $(TZ=America/Denver date +%F)"
+            git push
+          fi
+      - name: Redeploy
+        # A push made with the default GITHUB_TOKEN does not trigger the
+        # on-push deploy (GitHub's anti-loop rule), so start it explicitly.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --repo ${{ github.repository }}

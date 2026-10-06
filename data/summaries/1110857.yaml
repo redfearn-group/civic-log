@@ -1,0 +1,24 @@
+notice: 1110857
+sourceHash: e366fda351f24b49
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Spanish Fork public hearing tonight on FY2027 Budget Revision 1, fees and utility rates"
+summary: "The Spanish Fork City Council holds a public hearing at 6:00 pm on 06 OCT 2026 in the Council Chambers, 80 South Main Street, on Budget Revision 1 for Fiscal Year 2027. It covers revenues, expenditures and transfers for all funds and the schedule of all fees and utility rates. Residents can comment at the hearing."
+items:
+  - title: "Fiscal Year 2027 Budget Revision 1"
+    what: "Public comment on proposed revisions to FY2027 revenues, expenditures and transfers for all funds, and on all fees and the utility rate schedule."
+    tags: [taxes, home]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+tags: [taxes, home]
+watch: []
+score: 4
+hearing: { date: 2026-10-06, time: "18:00" }
+attend: true
+attendWhy: "Public hearing on FY2027 Budget Revision 1, including all fees and utility rates."
+basis: agenda
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1110857.html" }

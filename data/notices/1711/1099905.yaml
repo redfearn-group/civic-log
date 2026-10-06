@@ -1,0 +1,47 @@
+id: 1099905
+body: 1711
+bodyLabel: Utah County Planning Commission
+title: Planning Commission Meeting Agenda August 18th, 2026 Cancelled
+kind: meeting
+types:
+  - Notice
+  - Meeting
+tags: []
+start:
+  date: '2026-08-15'
+  time: '17:30'
+location: 100 E Center; suite 1400 Provo, UT 84606
+posted: '2026-08-06'
+edited: '2026-08-06'
+url: https://www.utah.gov/pmn/sitemap/notice/1099905.html
+video: null
+attachments:
+  - id: 1470875
+    name: Agenda 2026 August 18 CANCELED.pdf
+    category: Other
+    added: '2026-08-06'
+    url: https://www.utah.gov/pmn/files/1470875.pdf
+agenda: |-
+  UTAH COUNTY PLANNING COMMISSION
+  51 S UNIVERSITY AVE #117
+  PROVO, UT
+
+  THE REGULARLY SCHEDULED MEETING OF THE UTAH COUNTY
+  PLANNING COMMISSION SCHEDULED FOR
+
+  August 18, 2026
+
+  HAS BEEN CANCELED
+
+  THE NEXT REGULARLY SCHEDULED MEETING OF THE
+  PLANNING COMMISSION IS
+  September 15, 2026
+
+  FOR MORE INFORMATION VISIT
+  https://codev.utahcounty.gov/
+
+  For questions, contact Utah County Community Development -
+  (801) 851-8343
+hash: cbce4cd8465db90c
+firstSeen: '2026-10-06'
+lastChanged: '2026-10-06'

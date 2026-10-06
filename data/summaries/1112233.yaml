@@ -1,0 +1,53 @@
+notice: 1112233
+sourceHash: 5af03b425dd25c57
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Planning Commission hearings on five land-use items incl. a Title 15 amendment"
+summary: "On 07 OCT 2026 the Planning Commission holds public hearings on a 16.8-acre industrial rezone, a commercial rezone and plat on South Main, a general plan change and rezone on East River Bottoms Road, a 45-unit townhome project on SR-51, and a Title 15 amendment on Planning Commission procedures and training. The meeting starts at 6:00 pm in the Council Chambers after a 5:00 pm work session. Residents can attend and comment at the hearings."
+items:
+  - title: "Builders FirstSource zone change"
+    what: "Hearing on rezoning 16.8 acres at 1617 North 300 West from R-R Rural Residential to I-1 Light Industrial."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Nelson Commercial zone change and plat"
+    what: "Hearing on rezoning property at 2162 South Main Street from R-R Rural Residential to C-2 General Commercial and a preliminary plat for five commercial lots."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Shady Oaks general plan amendment and zone change"
+    what: "Hearing on changing 3575 East River Bottoms Road from R-1-30 Residential to C-O Commercial Office and from Medium Density Residential to Mixed Use in the general plan."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Ridgeline Townhomes plan change, rezone and plat"
+    what: "Hearing on 1217 North SR-51: general plan from Business Park to High Density Residential, zoning from C-2 to R-3 with the Master Planned Development Overlay, and a plat for 45 multi-family units."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Title 15 amendment: Planning Commission"
+    what: "Hearing on updating Title 15 on the procedures and training for the Planning Commission, based on recently adopted state code."
+    tags: [land-use]
+    watch: [title-15]
+    hearing: true
+    applicant: false
+    result: null
+tags: [land-use]
+watch: [title-15]
+score: 5
+hearing: { date: 2026-10-07, time: "18:00" }
+attend: true
+attendWhy: "Public hearing on a Title 15 amendment, plus hearings on four rezones and plan changes in Spanish Fork."
+basis: "agenda+attachments (scan read as images)"
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1112233.html" }
+  - { label: "Planning Commission Agenda.pdf", url: "https://www.utah.gov/pmn/files/1495655.pdf" }

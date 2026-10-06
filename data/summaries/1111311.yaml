@@ -1,0 +1,59 @@
+notice: 1111311
+sourceHash: a57c1d4560e1e2aa
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Hearings 07 and 20 OCT: four rezones, a 45-townhome plan, two Title 15 amendments"
+summary: "The Planning Commission and City Council hold public hearings at 6:00 p.m. on 07 OCT 2026 and 20 OCT 2026 on four zone changes, a General Plan map change with a 45-unit townhome plan, and two Title 15 land use code amendments. Residents can speak at the hearings in the Council Chambers at 80 South Main Street, or send written questions and comments, which are forwarded to the City Council."
+items:
+  - title: "Shady Oaks Event Center"
+    what: "Zone change from R-1-30 to C-O and General Plan change from Medium Density Residential to Mixed Use at 3575 East River Bottoms Road."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Builders FirstSource zone change"
+    what: "Zone change from R-R to I-1 for property at 1617 North 300 West."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Nelson Commercial zone change"
+    what: "Zone change from R-R Rural Residential to C-2 General Commercial at 2162 South Main Street."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Ridgeline Townhomes"
+    what: "General Plan change from Business Park to High Density Residential, rezone from C-2 to R-3, and a preliminary plat for 45 townhomes at about 1217 North SR-51."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Title 15: Planning Commission procedures"
+    what: "Amendment to Title 15 on Planning Commission procedures and training, based on recently adopted state code."
+    tags: [land-use]
+    watch: [title-15]
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Title 15: indoor volleyball facilities"
+    what: "Amendment to the Municipal Code to allow indoor volleyball facilities as a permitted use in the I-1 Light Industrial Zone."
+    tags: [land-use]
+    watch: [title-15]
+    hearing: true
+    applicant: false
+    result: null
+tags: [land-use]
+watch: [title-15]
+score: 5
+hearing: { date: 2026-10-07, time: "18:00" }
+attend: true
+attendWhy: "Public hearings on two Title 15 amendments, four zone changes and a General Plan map change."
+basis: agenda
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1111311.html }

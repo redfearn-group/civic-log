@@ -1,0 +1,52 @@
+notice: 1108825
+sourceHash: c594b9aacca24387
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Spanish Fork review committee: three zone changes, 45 townhomes and a Title 15 change"
+summary: "The Spanish Fork Development Review Committee met 16 SEP 2026 at 10 am to review two zone changes, a five-lot commercial plat, a 45-unit townhome plat with a zone change, an 11-lot plat re-approval and a Title 15 amendment for indoor volleyball facilities. The agenda lists proposals only and records no votes. Several of these items appear in the 20 OCT 2026 City Council hearing notice."
+items:
+  - title: "Canyon Creek zone change"
+    what: "Request to change a 32-acre site at about 2100 North Canyon Creek Parkway from I-1 Light Industrial to R-4 Residential."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Nelson Commercial zone change and plat"
+    what: "Zone change from R-R Rural Residential to C-2 General Commercial at 2162 South Main Street, with a preliminary plat for five commercial lots."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Ridgeline Townhomes plat and zone change"
+    what: "Request to change 1217 North State Street from C-2 General Commercial to R-3 Residential with the Master Planned Development Overlay, for a preliminary plat of 45 multi-family units."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Park Estates Plat C (2026) re-final plat"
+    what: "Re-approval of a final plat for 11 single-family lots at 2740 East 360 South."
+    tags: [land-use]
+    watch: [developments]
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Title 15: indoor volleyball facilities"
+    what: "Proposed amendment to the municipal code to allow indoor volleyball facilities as a permitted use in the I-1 Light Industrial zone, for property at 2761 North 170 East."
+    tags: [land-use]
+    watch: [title-15]
+    hearing: false
+    applicant: false
+    result: null
+tags: [land-use]
+watch: [developments, title-15]
+score: 4
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1108825.html" }

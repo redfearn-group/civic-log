@@ -1,0 +1,19 @@
+---
+import Base from "../layouts/Base.astro";
+import EntryCard from "../components/EntryCard.astro";
+import { getEntries, todayMountain } from "../lib/data";
+
+const today = todayMountain();
+// Past notices with a summary worth reading, newest first. Score 1 is
+// cancelled meetings and boilerplate; it stays on the notice page only.
+const past = getEntries().filter((e) => e.date < today && (e.summary?.score ?? 0) >= 2).slice(0, 60);
+---
+<Base title="Latest">
+  <h2>Recent meetings</h2>
+  <p class="lede">What already happened, newest first. Votes appear once the minutes are posted, usually with the next meeting's notice.</p>
+  {past.length ? (
+    <div class="entry-list">{past.map((e) => <EntryCard entry={e} />)}</div>
+  ) : (
+    <p class="empty">No summaries yet.</p>
+  )}
+</Base>

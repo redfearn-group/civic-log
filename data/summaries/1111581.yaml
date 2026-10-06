@@ -1,0 +1,24 @@
+notice: 1111581
+sourceHash: 36abbf529748d337
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "DRC meeting notice for 30 SEP 2026 with no agenda posted"
+summary: "The Development Review Committee notice lists a meeting on 30 SEP 2026 at 10:00 at 80 S Main Street. The agenda field says \"See attachment\" but no attachment is posted, so the items are unknown. The meeting date has passed."
+items:
+  - title: "DRC meeting, no agenda posted"
+    what: "Meeting notice for 30 SEP 2026 at 10:00 whose agenda reads \"See attachment\" with no attachment on the notice."
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: []
+watch: []
+score: 1
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1111581.html }

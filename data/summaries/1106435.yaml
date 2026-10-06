@@ -1,0 +1,25 @@
+notice: 1106435
+sourceHash: b2c2bd27c9de72c4
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Utah County public hearing on amending the 2026 county budget"
+summary: "The Utah County Commission set a public hearing for 23 SEP 2026 at 2:00 pm on amending the 2026 general fund and other fund budgets, revising revenue estimates and department appropriations, and moving unspent balances between departments in the same fund. The notice gives no dollar figures. The notice title says 26 SEP, but the text and attached notice both say 23 SEP, and that date has passed."
+items:
+  - title: "2026 county budget amendments"
+    what: "Hearing on amending the general fund and other county funds, revising revenue estimates and department appropriations, and transferring unspent balances between departments in the same fund."
+    tags: [taxes]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+tags: [taxes]
+watch: []
+score: 4
+hearing: { date: 2026-09-23, time: "14:00" }
+attend: false
+attendWhy: null
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1106435.html" }
+  - { label: "Notice 2026-702.pdf", url: "https://www.utah.gov/pmn/files/1484247.pdf" }

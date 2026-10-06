@@ -1,0 +1,25 @@
+notice: 1106625
+sourceHash: 77845205fc638fec
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Utah County Planning Commission heard the county data center ordinance, 15 SEP"
+summary: "The Utah County Planning Commission held a public hearing on 15 SEP 2026 on a proposed county Land Use Ordinance amendment that would allow data centers in the Mining and Grazing (M&G-1) and Industrial (I-1) zones and add a Data Center Overlay zone. This is the county-wide ordinance the County Commission asked for, so it would apply across unincorporated Utah County. The meeting has passed and the notice has no minutes, so the outcome is not recorded here."
+items:
+  - title: "County data center ordinance hearing"
+    what: "Public hearing on a Land Use Ordinance text amendment adding data centers as a permitted use in the M&G-1 and I-1 zones, a Data Center Overlay (DCO) zone, and development standards."
+    tags: [land-use, technology]
+    watch: [data-centers, county-data-center-ordinance]
+    hearing: true
+    applicant: false
+    result: null
+tags: [land-use, technology]
+watch: [data-centers, county-data-center-ordinance]
+score: 5
+hearing: { date: 2026-09-15, time: "17:30" }
+attend: false
+attendWhy: null
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1106625.html }
+  - { label: Agenda 2026 September 15.pdf, url: https://www.utah.gov/pmn/files/1484639.pdf }

@@ -1,0 +1,25 @@
+notice: 1109817
+sourceHash: b27565a26ef28659
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Three seats open on the Springville Drainage District board; letters due 30 OCT 2026"
+summary: "Utah County gave notice that three trustee seats are vacant on the Springville Drainage District Board. Residents of the district who are registered voters, or Utah County officers or employees, can send a letter of interest to boards@utahcounty.gov by 5:00 p.m. on 30 OCT 2026. The County Commission will appoint the trustees by resolution."
+items:
+  - title: "Springville Drainage District vacancies"
+    what: "Three trustee vacancies. Letters of interest with qualifications are due 30 OCT 2026 at 5:00 p.m.; the Commission appoints by resolution."
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: []
+watch: []
+score: 2
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1109817.html }
+  - { label: Notice 2026-724, url: https://www.utah.gov/pmn/files/1490459.pdf }

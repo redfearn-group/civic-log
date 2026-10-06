@@ -1,0 +1,25 @@
+notice: 1108467
+sourceHash: 10f0d50f2d3ca5e7
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Utah County Commission held a 2027 budget work session on 15 SEP 2026"
+summary: "The Utah County Commission held a work session on the 2027 county budget for the General Fund and other funds on 15 SEP 2026 at the Ruth Theater in Pleasant Grove. The agenda lists one item and gives no figures. The county budget affects property tax and county services countywide, and an audio recording of the session is attached to the notice."
+items:
+  - title: "2027 county budget work session"
+    what: "Work session on the 2027 Utah County budget for the General Fund and other budgetary funds."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [taxes]
+watch: []
+score: 3
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1108467.html }
+  - { label: 09.15.2026 Budget Work Session Agenda, url: https://www.utah.gov/pmn/files/1487829.pdf }

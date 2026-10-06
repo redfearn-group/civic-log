@@ -1,0 +1,71 @@
+name: Vendored file drift check
+
+# brand.css and src/lib/kit/ are authored in redfearn-group/redfearn-brand
+# and vendored here so builds stay hermetic. This job is what stops a
+# vendored copy from silently drifting away from canonical. If it fails,
+# run `node sync.mjs` in the brand repo and commit the result, rather than
+# editing the copy in this repo.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      CANONICAL: https://raw.githubusercontent.com/redfearn-group/redfearn-brand/main
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compare vendored copies against canonical
+        run: |
+          set -uo pipefail
+          status=0
+
+          # canonical-path-in-brand-repo => vendored-path-here
+          check() {
+            src="$1"; dest="$2"
+            if [ ! -f "$dest" ]; then
+              echo "::error file=$dest::$dest is missing. Run 'node sync.mjs' in redfearn-brand."
+              status=1
+              return
+            fi
+            if ! curl -sfL "$CANONICAL/$src" -o /tmp/canonical; then
+              echo "::error::Could not fetch $src from redfearn-brand. Was it renamed or removed?"
+              status=1
+              return
+            fi
+            # Compare on content: a CRLF checkout would otherwise report
+            # every line as drift even when nothing changed.
+            if ! diff -u --strip-trailing-cr /tmp/canonical "$dest"; then
+              echo "::error file=$dest::$dest has drifted from redfearn-group/redfearn-brand ($src)."
+              status=1
+            else
+              echo "OK  $dest"
+            fi
+          }
+
+          check brand.css src/styles/brand.css
+
+          # Every .ts in the vendored kit. Enumerated from what is checked in
+          # here, so a kit file deleted locally to dodge the check still
+          # fails: sync.mjs would put it back, and the build below would then
+          # break on the missing import.
+          if [ -d src/lib/kit ]; then
+            for f in src/lib/kit/*.ts; do
+              [ -e "$f" ] || continue
+              check "kit/$(basename "$f")" "$f"
+            done
+          else
+            echo "::error::src/lib/kit is missing. Run 'node sync.mjs' in redfearn-brand."
+            status=1
+          fi
+
+          if [ "$status" -ne 0 ]; then
+            echo "Vendored files are out of sync with canonical."
+            exit 1
+          fi
+          echo "All vendored files match canonical."

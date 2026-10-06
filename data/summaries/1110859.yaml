@@ -1,0 +1,24 @@
+notice: 1110859
+sourceHash: a98e509cb0ed52a4
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Public hearing 06 OCT 2026 on FY2027 pay increases for elected officials and executives"
+summary: "The Spanish Fork City Council holds a public hearing on 06 OCT 2026 at 6:00 p.m. in the Council Chambers, 80 S Main Street, on proposed compensation increases for elected officials and municipal employees, including executive municipal officers. The increases are set out in the Fiscal Year 2027 Budget Revision 1. Residents can attend and comment."
+items:
+  - title: "FY2027 officer compensation hearing"
+    what: "Public hearing on proposed compensation increases for elected officials and municipal employees, including executive officers, in FY2027 Budget Revision 1."
+    tags: [taxes]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+tags: [taxes]
+watch: []
+score: 4
+hearing: { date: 2026-10-06, time: "18:00" }
+attend: true
+attendWhy: "Public hearing on pay increases for elected officials and executive officers in the FY2027 budget revision."
+basis: agenda
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1110859.html }

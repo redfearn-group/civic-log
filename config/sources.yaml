@@ -1,0 +1,49 @@
+# Public bodies the collector watches on the Utah Public Notice Website
+# (https://www.utah.gov/pmn/). Each id is the number in
+# /pmn/sitemap/publicbody/<id>.html. Set active: false to keep a body on file
+# without collecting it.
+#
+# tier sets the default weight in scoring:
+#   home      Spanish Fork itself
+#   county    Utah County
+#   neighbor  nearby cities, Provo to Payson
+#   region    school district, regional planning
+bodies:
+  - id: 5
+    label: Spanish Fork City Council
+    short: SF Council
+    tier: home
+    active: true
+  - id: 6
+    label: Spanish Fork Planning Commission
+    short: SF Planning
+    tier: home
+    active: true
+  - id: 7
+    label: Spanish Fork Development Review Committee
+    short: SF DRC
+    tier: home
+    active: true
+  - id: 2731
+    label: Utah County Commission
+    short: County Commission
+    tier: county
+    active: true
+  - id: 1711
+    label: Utah County Planning Commission
+    short: County Planning
+    tier: county
+    active: true
+
+  # Phase 3. Confirm each id against its PMN page before switching on.
+  - { id: 689, label: Salem City Council, short: Salem Council, tier: neighbor, active: false }
+  - { id: 690, label: Salem Planning and Zoning, short: Salem Planning, tier: neighbor, active: false }
+  - { id: 600, label: Springville City Council, short: Springville Council, tier: neighbor, active: false }
+  - { id: 592, label: Springville Planning Commission, short: Springville Planning, tier: neighbor, active: false }
+  - { id: 582, label: Mapleton City Council, short: Mapleton Council, tier: neighbor, active: false }
+  - { id: 583, label: Mapleton Planning Commission, short: Mapleton Planning, tier: neighbor, active: false }
+  - { id: 667, label: Payson City Council, short: Payson Council, tier: neighbor, active: false }
+  - { id: 668, label: Payson Planning Commission, short: Payson Planning, tier: neighbor, active: false }
+  - { id: 1600, label: Provo Municipal Council, short: Provo Council, tier: neighbor, active: false }
+  - { id: 1676, label: Nebo School District Board of Education, short: Nebo Board, tier: region, active: false }
+  - { id: 1480, label: Mountainland Association of Governments, short: MAG, tier: region, active: false }

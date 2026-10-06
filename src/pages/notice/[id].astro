@@ -1,0 +1,88 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getEntries, formatTime, tagLabel, watchLabel, todayMountain } from "../../lib/data";
+import { formatDate } from "../../lib/kit/date";
+import type { Entry } from "../../lib/types";
+
+export function getStaticPaths() {
+  return getEntries().map((entry) => ({ params: { id: String(entry.notice.id) }, props: { entry } }));
+}
+
+const { entry } = Astro.props as { entry: Entry };
+const { notice, summary, body, date, time, stale } = entry;
+const upcoming = date >= todayMountain();
+---
+<Base title={summary?.headline ?? notice.title} description={summary?.summary}>
+  <p class="entry__meta">
+    <span>{formatDate(date)}{time ? `, ${formatTime(time)}` : ""}</span>
+    <span>{body?.label ?? notice.bodyLabel}</span>
+    {notice.kind === "hearing" && <span class="badge hearing">Hearing</span>}
+    {upcoming && summary?.attend && <span class="badge attend">Attend</span>}
+  </p>
+  <h2>{summary?.headline ?? notice.title}</h2>
+  <p class="muted">{notice.title}{notice.location ? ` · ${notice.location}` : ""}</p>
+
+  {summary ? (
+    <>
+      {upcoming && summary.attendWhy && <p class="entry__why">{summary.attendWhy}</p>}
+      <p>{summary.summary}</p>
+      <p class="tag-row">
+        {summary.watch.map((w) => <span class="chip chip--watch">{watchLabel(w)}</span>)}
+        {summary.tags.map((t) => <span class="chip">{tagLabel(t)}</span>)}
+      </p>
+      {stale && <p class="note">The notice changed after this summary was written. A new summary is pending.</p>}
+
+      {summary.items.length > 0 && (
+        <>
+          <h3 class="section-title">Items</h3>
+          <ul class="item-list">
+            {summary.items.map((it) => (
+              <li>
+                <h3>{it.title}</h3>
+                <p>{it.what}</p>
+                {it.result && <p class="result">{it.result}</p>}
+                <p class="tag-row">
+                  {it.hearing && <span class="badge hearing">Hearing</span>}
+                  {it.applicant && <span class="chip">Applicant's description</span>}
+                  {(it.watch ?? []).map((w) => <span class="chip chip--watch">{watchLabel(w)}</span>)}
+                  {(it.tags ?? []).map((t) => <span class="chip">{tagLabel(t)}</span>)}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      <h3 class="section-title">Sources</h3>
+      <ul>
+        {summary.sources.map((s) => <li><a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>)}
+        {notice.video && <li><a href={notice.video} target="_blank" rel="noopener">Meeting video</a></li>}
+      </ul>
+      <p class="note">
+        AI summary ({summary.engine === "claude-local" ? "Claude, run locally" : "Claude API"}, {formatDate(summary.summarized)}),
+        based on {summary.basis}. Check the source before relying on it.
+      </p>
+    </>
+  ) : (
+    <p class="muted">Not summarized yet.</p>
+  )}
+
+  {notice.attachments.length > 0 && (
+    <>
+      <h3 class="section-title">All attachments</h3>
+      <ul>
+        {notice.attachments.map((a) => (
+          <li><a href={a.url} target="_blank" rel="noopener">{a.name}</a>{a.category ? <span class="muted"> · {a.category}</span> : null}</li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {notice.agenda && (
+    <details class="section">
+      <summary class="section-summary"><h3>Full agenda text from the notice</h3></summary>
+      <div class="agenda-text">{notice.agenda}</div>
+    </details>
+  )}
+  <p><a href={notice.url} target="_blank" rel="noopener">Open the notice on the Utah Public Notice Website</a></p>
+</Base>

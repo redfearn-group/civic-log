@@ -1,0 +1,38 @@
+id: 1103577
+body: 5
+bodyLabel: Spanish Fork City Council
+title: Public Notice
+kind: hearing
+types:
+  - Notice
+  - Meeting
+  - Hearing
+tags:
+  - Housing and Community Development
+start:
+  date: '2026-09-01'
+  time: '18:00'
+location: 40 S Main Street Spanish Fork, UT 84660
+posted: '2026-08-21'
+edited: '2026-08-21'
+url: https://www.utah.gov/pmn/sitemap/notice/1103577.html
+video: null
+attachments:
+  - id: 1478357
+    name: notice.pc.cc.oakvillagezonechange.9-2-2026.pdf
+    category: Audio Recording
+    added: '2026-08-21'
+    url: https://www.utah.gov/pmn/files/1478357.pdf
+agenda: >-
+  Public hearings will be held with the Planning Commission and City Council as part of the review
+  of the proposed Oak Village Subdivision Zone Change and Preliminary Plat approval request. This
+  proposal involves changing the current zoning of multiple properties from R-R and R-1-12 to R-1-9
+  and R-1-12 with the Master Planned Development Overlay to accommodate a residential subdivision of
+  110 lots as a Master Planned Development to be located at approximately 100 South Spanish Fork
+  Parkway.
+
+  FOR MORE INFORMATION: Please contact Kasey Woodard, Community Development Division Secretary, by
+  calling 801.804.4580 or emailing kwoodard@spanishfork.gov
+hash: a56fc4e33bf24699
+firstSeen: '2026-10-06'
+lastChanged: '2026-10-06'

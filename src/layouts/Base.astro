@@ -1,0 +1,79 @@
+---
+// brand.css must load first: it defines the tokens global.css consumes.
+// It is vendored from redfearn-group/redfearn-brand and CI fails on drift.
+import "../styles/brand.css";
+import "../styles/global.css";
+import { withBase } from "../lib/kit/base";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = "Short updates on Spanish Fork and Utah County public meetings, with the hearings worth attending." } = Astro.props;
+
+const here = Astro.url.pathname.replace(/\/$/, "") || "/";
+const is = (p: string) => here === (withBase(p).replace(/\/$/, "") || "/");
+---
+<html lang="en" class="app-layer">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · Civic Log</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href={withBase("/favicon.svg")} />
+    <link rel="alternate" type="application/rss+xml" title="Civic Log" href={withBase("/feed.xml")} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <header class="site-header no-print">
+      <div class="container">
+        <h1>
+          <a href={withBase("/")} class="site-brand">
+            <img src={withBase("/logo-wide-dark.svg")} alt="Redfearn Group" width="305" height="50" />
+            <span class="site-brand__app">Civic Log</span>
+          </a>
+        </h1>
+        <nav>
+          <a href={withBase("/")} aria-current={is("/") ? "page" : undefined}>Upcoming</a>
+          <a href={withBase("/latest")} aria-current={is("/latest") ? "page" : undefined}>Latest</a>
+          <a href={withBase("/topics")} aria-current={is("/topics") ? "page" : undefined}>Topics</a>
+          <a href={withBase("/about")} aria-current={is("/about") ? "page" : undefined}>About</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container" id="main">
+      <slot />
+    </main>
+    <footer class="site-footer no-print">
+      <div class="container">
+        <a href="https://redfearn.group" class="site-footer__brand" target="_blank" rel="noopener">
+          <img src={withBase("/logo-lockup-dark.svg")} alt="Redfearn Group" width="250" height="58" />
+        </a>
+        <p class="site-footer__meta">
+          AI summaries of public records. Always check the source.
+          <a href={withBase("/feed.xml")}>RSS</a> ·
+          <a href={withBase("/attend.ics")}>Calendar</a> ·
+          <a href="https://github.com/redfearn-group/civic-log" target="_blank" rel="noopener">Source</a>
+        </p>
+        <div class="site-footer__bottom">
+          <span>REDFEARN GROUP &middot; EST. 2014 &middot; SPANISH FORK, UT</span>
+          <span>&copy; {new Date().getFullYear()} Brady Redfearn</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

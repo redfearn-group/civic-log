@@ -1,0 +1,42 @@
+---
+import Base from "../layouts/Base.astro";
+import EntryCard from "../components/EntryCard.astro";
+import { getEntries, todayMountain } from "../lib/data";
+import { formatDate } from "../lib/kit/date";
+import { withBase } from "../lib/kit/base";
+
+const today = todayMountain();
+const upcoming = getEntries()
+  .filter((e) => e.date >= today)
+  .sort((a, b) => a.date.localeCompare(b.date) || (a.time ?? "").localeCompare(b.time ?? ""));
+const attend = upcoming.filter((e) => e.summary?.attend);
+const rest = upcoming.filter((e) => !e.summary?.attend);
+const icsUrl = new URL(withBase("/attend.ics"), Astro.site).href;
+---
+<Base title="Upcoming">
+  <h2>What's coming up</h2>
+  <p class="lede">
+    Short summaries of Spanish Fork and Utah County public meetings, read from the Utah Public Notice Website.
+    Meetings with a public hearing on a high-impact item, or anything on the watch list, are marked Attend.
+    Updated {formatDate(today)}.
+  </p>
+  <p class="subscribe">
+    <a href={withBase("/attend.ics")}>Calendar of Attend meetings</a>
+    <a href={withBase("/feed.xml")}>RSS feed</a>
+    <span class="muted">Calendar URL for Google Calendar's "From URL": <code>{icsUrl}</code></span>
+  </p>
+
+  <h3 class="section-title">Attend</h3>
+  {attend.length ? (
+    <div class="entry-list">{attend.map((e) => <EntryCard entry={e} showAttend />)}</div>
+  ) : (
+    <p class="empty">Nothing flagged right now.</p>
+  )}
+
+  <h3 class="section-title">Also on the calendar</h3>
+  {rest.length ? (
+    <div class="entry-list">{rest.map((e) => <EntryCard entry={e} />)}</div>
+  ) : (
+    <p class="empty">No other upcoming notices.</p>
+  )}
+</Base>

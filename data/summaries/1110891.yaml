@@ -1,0 +1,25 @@
+notice: 1110891
+sourceHash: 1191b6cd553dce22
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Utah County seeks applicants for a North Utah County Water Conservancy trustee seat"
+summary: "The Utah County Commission posted a notice dated 23 SEP 2026 of one vacancy on the North Utah County Water Conservancy District Board of Trustees, to fill an expired term. The seat is for a representative of the Utah County Commission. Letters of interest with qualifications are due by 5:00 pm on 30 OCT 2026 at boards@utahcounty.gov, and the County Commission will appoint by resolution."
+items:
+  - title: "Water Conservancy District trustee vacancy"
+    what: "One vacancy on the Board of Trustees for an expired term, open to a representative of the Utah County Commission. Letters of interest are due 30 OCT 2026 at 5:00 pm."
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: []
+watch: []
+score: 2
+hearing: null
+attend: false
+attendWhy: null
+basis: "agenda+attachments (scan read as images)"
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1110891.html" }
+  - { label: "Notice 2026-743.pdf", url: "https://www.utah.gov/pmn/files/1492875.pdf" }

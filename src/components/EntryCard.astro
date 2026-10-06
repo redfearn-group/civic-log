@@ -1,0 +1,37 @@
+---
+import type { Entry } from "../lib/types";
+import { formatDate } from "../lib/kit/date";
+import { withBase } from "../lib/kit/base";
+import { formatTime, tagLabel, watchLabel } from "../lib/data";
+
+interface Props {
+  entry: Entry;
+  showAttend?: boolean;
+}
+const { entry, showAttend = false } = Astro.props;
+const { notice, summary, body, date, time, stale } = entry;
+const href = withBase(`/notice/${notice.id}`);
+---
+<article class={`entry ${showAttend && summary?.attend ? "entry--attend" : ""}`}>
+  <p class="entry__meta">
+    <span class="entry__date">{formatDate(date)}{time ? `, ${formatTime(time)}` : ""}</span>
+    <span class="entry__body">{body?.short ?? notice.bodyLabel}</span>
+    {summary && <span class={`score score--${summary.score}`} title="Relevance, 1 to 5">{summary.score}</span>}
+    {showAttend && summary?.attend && <span class="badge attend">Attend</span>}
+    {notice.kind === "hearing" && <span class="badge hearing">Hearing</span>}
+  </p>
+  <h3 class="entry__title"><a href={href}>{summary?.headline ?? notice.title}</a></h3>
+  {summary ? (
+    <>
+      {showAttend && summary.attendWhy && <p class="entry__why">{summary.attendWhy}</p>}
+      <p class="entry__summary">{summary.summary}</p>
+      <p class="tag-row">
+        {summary.watch.map((w) => <span class="chip chip--watch">{watchLabel(w)}</span>)}
+        {summary.tags.map((t) => <span class="chip">{tagLabel(t)}</span>)}
+        {stale && <span class="chip chip--stale">Notice changed, summary pending</span>}
+      </p>
+    </>
+  ) : (
+    <p class="entry__summary muted">Not summarized yet. <a href={notice.url} target="_blank" rel="noopener">Read the notice</a>.</p>
+  )}
+</article>

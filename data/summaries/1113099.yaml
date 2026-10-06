@@ -1,0 +1,145 @@
+notice: 1113099
+sourceHash: 41bbd71d82fd6e04
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: '2026-10-06'
+headline: 'Utah County Commission 07 OCT: $30M sales tax bond, property tax actions'
+summary: >-
+  The Utah County Commission meets 07 OCT 2026 at 2:00 pm with a long agenda that includes a
+  resolution on about $30,000,000 of sales tax revenue bonds, property tax actions, an email
+  retention schedule, a software contract for the Community Development Block Grant system, and
+  software and IT contracts with IBM, Workday and Accenture. Residents can comment in person (two
+  minutes each) or watch on YouTube. The agenda lists actions only, with no dollar figures except
+  the bond amount.
+items:
+  - title: Sales tax revenue bonds, about $30,000,000
+    what: >-
+      Resolution authorizing the issuance and sale of approximately $30,000,000 aggregate principal
+      amount of sales tax revenue bonds within certain parameters, and related matters.
+    tags:
+      - taxes
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: Property tax actions, letter 2026-11
+    what: Approve the property tax actions included in recommendation letter 2026-11.
+    tags:
+      - taxes
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: Email communications retention schedule
+    what: >-
+      Resolution adopting a retention schedule for email communications, presented by Information
+      Systems.
+    tags:
+      - technology
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: Cloud software for the CDBG system
+    what: >-
+      Approve a contract to purchase a cloud-based software-as-a-service program for managing the
+      Community Development Block Grant system.
+    tags:
+      - technology
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: IBM, Workday and Accenture contracts
+    what: >-
+      Contract with IBM to extend hypercare for 6 weeks, a Workday renewal for HRIS subscription
+      services, and an Accenture change order for AMS support hours in 2027.
+    tags:
+      - technology
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: County ADA compliance policy
+    what: Resolution adopting and enacting a Utah County ADA compliance policy.
+    tags:
+      - home
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: Mapleton bike park agreement
+    what: Approve an agreement between Utah County and Mapleton City for the Mapleton Bike Park.
+    tags:
+      - home
+      - roads
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: Road, rail crossing and sidewalk agreements
+    what: >-
+      Interlocal agreements with Eagle Mountain (Ranches Parkway) and Lindon (400 West), a Union
+      Pacific crossing for Dairy Fork Road, and a Payson CDBG grant for 500 S sidewalk and road.
+    tags:
+      - roads
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: Home rehabilitation environmental reviews
+    what: >-
+      Eleven consent items approving environmental reviews for single-family home rehabilitations in
+      nine cities, including two in Spanish Fork.
+    tags:
+      - home
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: Spanish Fork River Park pipe fence
+    what: >-
+      Agreement with Custom Fence Co to complete the pipe fence specified in ITB #2026-17 for
+      Spanish Fork River Park.
+    tags:
+      - home
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: Fiber repair at 3075 North Main
+    what: >-
+      Agreement with C&C Doing It Right Construction to provide materials and manpower to repair
+      fiber at 3075 North Main.
+    tags:
+      - technology
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: Eight jail control board operator positions
+    what: >-
+      Add eight full-time Control Board Operator positions to the Sheriff's Office Housing Division,
+      earliest start 02 JAN 2027.
+    tags:
+      - home
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags:
+  - taxes
+  - technology
+  - home
+  - roads
+watch: []
+score: 4
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda+attachments
+sources:
+  - label: PMN notice
+    url: https://www.utah.gov/pmn/sitemap/notice/1113099.html
+  - label: Commission_Agenda_10-07-2026 Version 2.pdf
+    url: https://www.utah.gov/pmn/files/1497135.pdf

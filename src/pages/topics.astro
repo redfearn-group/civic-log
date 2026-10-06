@@ -1,0 +1,46 @@
+---
+import Base from "../layouts/Base.astro";
+import { getEntries, getInterests, formatTime } from "../lib/data";
+import { formatDate } from "../lib/kit/date";
+import { withBase } from "../lib/kit/base";
+
+const { watch } = getInterests();
+const entries = getEntries();
+const topics = watch.map((t) => ({
+  ...t,
+  hits: entries.flatMap((e) =>
+    (e.summary?.items ?? [])
+      .filter((it) => it.watch?.includes(t.id))
+      .map((it) => ({ e, it }))
+  ),
+}));
+---
+<Base title="Topics">
+  <h2>Watch list</h2>
+  <p class="lede">Topics followed across every body and meeting. Any agenda item that touches one is listed here, newest first.</p>
+  {topics.map((t) => (
+    <section>
+      <h3 class="section-title" id={t.id}>{t.label}</h3>
+      {t.why && <p class="note">{t.why}</p>}
+      {t.hits.length ? (
+        <ul class="item-list">
+          {t.hits.map(({ e, it }) => (
+            <li>
+              <p class="entry__meta">
+                <span>{formatDate(e.date)}{e.time ? `, ${formatTime(e.time)}` : ""}</span>
+                <span>{e.body?.short ?? e.notice.bodyLabel}</span>
+                {it.hearing && <span class="badge hearing">Hearing</span>}
+                {it.applicant && <span class="chip">Applicant's description</span>}
+              </p>
+              <h3><a href={withBase(`/notice/${e.notice.id}`)}>{it.title}</a></h3>
+              <p>{it.what}</p>
+              {it.result && <p class="result">{it.result}</p>}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="empty">Nothing in the last 30 days.</p>
+      )}
+    </section>
+  ))}
+</Base>

@@ -1,0 +1,31 @@
+notice: 1110855
+sourceHash: d52938edcc248044
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Spanish Fork Council hearings tonight: Leland Meadows (206 lots), Oak Village (110 lots)"
+summary: "The Spanish Fork City Council holds public hearings on 06 OCT 2026 at 6:00 pm on two rezonings with preliminary plats: Leland Meadows, 206 lots and garden homes near 1200 West 1400 South, and Oak Village, 110 lots near 100 South Spanish Fork Parkway. Both use the Master Planned Development Overlay. Residents can speak at the hearings in the Council Chambers or send written comments to the Community Development contact named in the notice."
+items:
+  - title: "Leland Meadows zone change and plat"
+    what: "Public hearing on rezoning from R-R to R-1-6 and R-1-15 with the Master Planned Development Overlay, for 206 residential lots and garden homes near 1200 West 1400 South."
+    tags: [land-use]
+    watch: [developments]
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Oak Village zone change and plat"
+    what: "Public hearing on rezoning from R-R and R-1-12 to R-1-9 and R-1-12 with the Master Planned Development Overlay, for 110 lots near 100 South Spanish Fork Parkway."
+    tags: [land-use]
+    watch: [developments]
+    hearing: true
+    applicant: false
+    result: null
+tags: [land-use]
+watch: [developments]
+score: 5
+hearing: { date: 2026-10-06, time: "18:00" }
+attend: true
+attendWhy: "Public hearings on the Leland Meadows and Oak Village zone changes and preliminary plats."
+basis: agenda
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1110855.html }

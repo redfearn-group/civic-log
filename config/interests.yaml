@@ -1,0 +1,54 @@
+# What makes an item matter. The summarizer reads this file on every run.
+#
+# tags: the six impact tags every agenda item can carry.
+# watch: named topics followed across meetings. Any agenda item that touches a
+#   watch topic is flagged, and an upcoming meeting with one is an Attend.
+#
+# Topics only. Never put a home address, a street, or a personal position in
+# this file: the repo is public.
+
+tags:
+  - id: home
+    label: Home & neighborhood
+    about: Anything that changes daily life for a Spanish Fork household. Utility rates, garbage, parks, public safety, nuisance and noise rules, city services.
+  - id: land-use
+    label: Land use
+    about: Zone changes, annexations, subdivisions, plats, site plans, general plan and code amendments, development agreements.
+  - id: technology
+    label: Technology
+    about: Data centers, broadband and fiber, telecom franchises, smart meters, city IT, software and AI procurement, cybersecurity, public-records systems.
+  - id: taxes
+    label: Taxes & utilities
+    about: Budgets, budget revisions, tax rates, fees, bonds, utility rate changes, power and water supply.
+  - id: schools
+    label: Schools
+    about: Nebo School District, school sites, school impact fees.
+  - id: roads
+    label: Roads
+    about: Road projects, traffic, transportation plans, UDOT and MAG projects, trails.
+
+watch:
+  - id: data-centers
+    label: Data centers and Volition
+    keywords: [data center, datacenter, Volition, Bloom Energy, fuel cell, Stockman Flats, Industrial Data Center Overlay, onsite power, natural gas generation]
+    why: Spanish Fork's Title 15 data center amendment passed 3-2 on 21 SEP 2026. Volition's site plan, development agreement and overlay hearings come next. Utah County is drafting its own data center ordinance.
+  - id: title-15
+    label: Title 15 land use code
+    keywords: [Title 15, land use code amendment, zoning ordinance amendment, referendum]
+    why: Every Title 15 amendment changes what can be built in Spanish Fork. A referendum on the data center amendment was filed in late September 2026.
+  - id: county-data-center-ordinance
+    label: Utah County data center ordinance
+    keywords: [data center overlay, M&G-1, I-1, Mining and Grazing, data centers as a permitted use]
+    why: The County Commission asked its Planning Commission to add data centers as a permitted use with an overlay zone. First hearing 15 SEP 2026.
+  - id: broadband
+    label: Broadband and telecom
+    keywords: [fiber, broadband, telecommunications franchise, SFCN, Spanish Fork Community Network, wireless facility, small cell]
+    why: Technology infrastructure where a systems engineer's input applies directly.
+  - id: city-technology
+    label: Government technology and AI
+    keywords: [artificial intelligence, AI policy, cybersecurity, new software system, records management system, GIS, smart meter, AMI, SCADA]
+    why: New systems and technology policy in city or county government, where a systems engineer's public comment is most useful. Routine renewals do not count.
+  - id: developments
+    label: Developments in the pipeline
+    keywords: [Oak Village, Leland Meadows, Larson Park, Mill Meadows, Ellis Park, Temple View Estates, Maple View Heights, Spanish Breeze, Maple Park Estates, Park Estates, The Orchard, Andy Ridge, Cobalt Ridge, Factory Point, Hidden Groves, Gage Canyon, Whispering Pines, Eagle Haven, Stephens-Hill, Palmyra, West Meadows, Spanish View, Arrowhead]
+    why: Named Spanish Fork projects already on the radar. New ones are caught by the land-use tag.

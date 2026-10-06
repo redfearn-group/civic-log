@@ -1,0 +1,21 @@
+# build output
+dist/
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# Working files for the local summarizer: downloaded PDFs, extracted text and
+# the pending list. Rebuilt on every run, never published.
+work/
+
+.DS_Store
+.idea/

@@ -1,0 +1,38 @@
+notice: 1106923
+sourceHash: 8a7c9623f0a8f153
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "DRC agenda: 16.8-acre rezone to light industrial, a substation plat, a 2-lot split"
+summary: "The Development Review Committee agenda for 09 SEP 2026 listed a request to rezone 16.8 acres at 1617 North 300 West from Rural Residential to Light Industrial, a final plat for the Verk 1 Substation, and a 2-lot residential subdivision. The meeting date has passed and no minutes are posted. The same Builders FirstSource rezone is on later public hearing notices."
+items:
+  - title: "Builders FirstSource Rezone"
+    what: "Request to change 16.8 acres at 1617 North 300 West from R-R Rural Residential to I-1 Light Industrial."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Verk 1 Substation Final Plat"
+    what: "Final plat approval for a substation to be developed at 1730 West 3400 North."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Abbott 2-Lot Subdivision"
+    what: "Minor subdivision of one residential lot into two lots at 868 East 200 South."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [land-use]
+watch: []
+score: 4
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1106923.html }

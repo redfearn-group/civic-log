@@ -1,0 +1,32 @@
+name: Attend alerts
+
+# When summaries change on main, open one issue per new upcoming Attend
+# meeting. GitHub emails each new issue to the repo's watchers.
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/summaries/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: alerts
+  cancel-in-progress: false
+
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run alerts
+        env:
+          GH_TOKEN: ${{ github.token }}

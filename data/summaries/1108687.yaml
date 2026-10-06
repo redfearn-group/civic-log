@@ -1,0 +1,102 @@
+notice: 1108687
+sourceHash: 8eb60b19eee18c97
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Utah County Commission 16 SEP: county fiber standards, MAG road projects, jail fee"
+summary: "The Utah County Commission's 16 SEP 2026 agenda included an engineering agreement for standard specifications for county fiber installation, the list of 2026 MAG-approved road projects funded with county sales tax, and a change to the jail fingerprinting fee. It also covered tax roll and tax adjustment items, a trail feasibility study with Elk Ridge, and UDOT agreements. The meeting has passed and no results are recorded in the notice."
+items:
+  - title: "Standards for county fiber installation"
+    what: "Agreement with Horrocks Engineers to provide standard specifications and drawings for county fiber installation at hourly rates set in UCA 2026-205."
+    tags: [technology]
+    watch: [broadband]
+    hearing: false
+    applicant: false
+    result: null
+  - title: "2026 MAG projects using county sales tax"
+    what: "Approval of the list of 2026 MAG-approved projects that use county sales tax funds."
+    tags: [roads, taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Jail fingerprinting fee ordinance"
+    what: "Ordinance amending the Utah County fee schedule for the jail fingerprinting fee."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Three-year email retention schedule"
+    what: "Resolution adopting a three-year retention schedule for email communications used by Utah County."
+    tags: [technology]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Unlock the 2026 tax roll"
+    what: "Official action to approve or deny permission to unlock the 2026 tax roll to change dates for listed parcels for tax year 2026."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Tax adjustment resolution"
+    what: "Consent item: resolution authorizing adjustments of taxes as specified in two auditor letters dated 04 SEP 2026 and 11 SEP 2026."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Payson Canyon Trail Phase 2 study"
+    what: "Consent item: resolution authorizing an interlocal agreement with Elk Ridge City for the Payson Canyon Trail Phase 2 feasibility study."
+    tags: [roads]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "UDOT connected vehicle system, PG Canyon Road"
+    what: "Agreement between UDOT and Utah County on installing, maintaining and operating a connected vehicle system for the traffic signals on PG Canyon Road."
+    tags: [roads, technology]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "UDOT access points, Eagles Landing area"
+    what: "Agreement with Horrocks Engineers for permitted UDOT access to three access points in the Eagles Landing area, at hourly rates from UCA 2026-21."
+    tags: [roads]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Thistle gun range change order"
+    what: "Change Order 1 to UCA 2026-158 with Alt Architecture to change walls to concrete and move the new septic system, for the Thistle Gun Range Training Facility project."
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Fairgrounds use for 2027 RAD training"
+    what: "Agreement with Spanish Fork City for use of fairground facilities for 2027 RAD instructor training, plus a related agreement with RAD Systems."
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "New sheriff deputy position"
+    what: "Addition of one full-time Deputy Sheriff II judicial position (district court security) to the Sheriff Department staffing plan."
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [technology, roads, taxes, home]
+watch: [broadband]
+score: 4
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1108687.html }
+  - { label: 09.16.2026 Commission Meeting Agenda.pdf, url: https://www.utah.gov/pmn/files/1488219.pdf }

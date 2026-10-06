@@ -1,0 +1,98 @@
+notice: 1109425
+sourceHash: 581148a0a68751cb
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Spanish Fork special meeting 21 SEP: Volition data center Title 15 amendment on agenda"
+summary: "At its 21 SEP 2026 special meeting the Spanish Fork City Council took up the Volition-proposed Title 15 amendment for data centers with onsite power generation, which it had tabled on 18 AUG and again on 01 SEP. The agenda also had a hearing on vacating part of Volunteer Drive, a $1,450,000 airport property purchase, a storm drain master plan update, and work sessions on salaries and recreation fees. The meeting has passed; the attached minutes cover 18 AUG, and the notice links a video of the meeting."
+items:
+  - title: "Title 15 data center amendment (Volition)"
+    what: "Ordinance defining data centers with onsite power and setting requirements. Staff slides say adoption lets the city accept one such application, then a site plan and development agreement."
+    tags: [land-use, technology]
+    watch: [data-centers, title-15]
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Minutes, 18 AUG 2026: Title 15 data center hearing"
+    what: "After a public hearing with extensive comment, the Council tabled the data center amendment to 01 SEP 2026 so staff could revise the language."
+    tags: [land-use, technology]
+    watch: [data-centers, title-15]
+    hearing: false
+    applicant: false
+    result: "Tabled 5-0 (Oyler moved, Tooke seconded)"
+  - title: "Minutes, 18 AUG 2026: Hollow Acres zone change"
+    what: "Zone change from R-R and R-1-12 to C-2 (general commercial) on the northern part of a property near 400 North Spanish Fork Parkway, with a condition that Parkway improvements be built in one phase."
+    tags: [land-use, roads]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Approved 5-0 (Oyler moved, Beck seconded)"
+  - title: "Minutes, 18 AUG 2026: accessory dwelling unit parking"
+    what: "Title 15 amendment changing parking requirements for detached accessory dwelling units smaller than 650 square feet, needed because of changes to state law."
+    tags: [land-use, home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Approved 5-0 (Cardon moved, Marshall seconded)"
+  - title: "Volunteer Drive vacation near Annie's Acres"
+    what: "Public hearing on an ordinance vacating a portion of Volunteer Drive near the Annie's Acres subdivision. The agenda says staff reports would be posted later."
+    tags: [land-use, roads]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Airport land purchase for Taxiway Bravo"
+    what: "Consent item: buy 3226 N 1150 W for $1,450,000, paid $500,000 at closing, $500,000 by 01 JUL 2027 and $450,000 by 15 JAN 2028, with a $1 leaseback to the seller until 31 DEC 2027."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Storm Drain Master Plan update 2026"
+    what: "Resolution updating the Storm Drain Master Plan to match the newly adopted Land Use Element of the General Plan."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Transportation Utility Fee discussion"
+    what: "Discussion item on a Transportation Utility Fee. The agenda gives no further description."
+    tags: [roads, taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Work session: employee salary study"
+    what: "Staff slides propose a 5.5% raise budget against a 4.24% average market increase, a wider pay grade structure, and the same 4.24% raise for part-time pay, the Mayor and the Council."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Work session: parks and recreation fees"
+    what: "Staff slides propose 2027 changes to outdoor pool hours and rental fees and slightly higher FitCity Center membership prices in every category shown."
+    tags: [home, taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Patey Aviation lease assignment consent"
+    what: "Consent item letting Patey Aviation Development, LLC borrow against its airport ground lease, with lender rights to cure defaults or take over the lease."
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [land-use, technology, roads, home, taxes]
+watch: [data-centers, title-15]
+score: 5
+hearing: { date: 2026-09-21, time: "18:00" }
+attend: false
+attendWhy: null
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1109425.html }
+  - { label: Adopted City Council Minutes 09-01-2026 .pdf, url: https://www.utah.gov/pmn/files/1493235.pdf }
+  - { label: presentation.cc.9-21-2026.pdf, url: https://www.utah.gov/pmn/files/1493243.pdf }
+  - { label: PRESENTATION FY'27 Salary Presentation - Council.pdf, url: https://www.utah.gov/pmn/files/1493241.pdf }
+  - { label: PRESENTATION 26 Rec Center CC Worksession - Google Slides.pdf, url: https://www.utah.gov/pmn/files/1493239.pdf }

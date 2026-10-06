@@ -1,0 +1,36 @@
+---
+import Base from "../layouts/Base.astro";
+import { getBodies } from "../lib/data";
+
+const bodies = getBodies().filter((b) => b.active);
+---
+<Base title="About">
+  <h2>About Civic Log</h2>
+  <p class="lede">
+    A personal monitor for local government in Spanish Fork, Utah. It reads public meeting notices so a
+    resident does not have to read every agenda, and flags the hearings worth showing up for.
+  </p>
+
+  <h3 class="section-title">How it works</h3>
+  <ol>
+    <li>Every morning a GitHub Action reads the Utah Public Notice Website for each body below and saves any new or changed notice. The commit history is the change log.</li>
+    <li>Claude reads each new notice, its agenda and its attachments, and writes a short summary: what is happening, why it matters, and what a resident can do.</li>
+    <li>Each item is tagged and scored 1 to 5. A meeting is marked <strong>Attend</strong> when it holds a public hearing on a high-impact item or touches a topic on the watch list.</li>
+    <li>Attend meetings go to a calendar feed and an email alert. A weekly digest goes out on Mondays.</li>
+  </ol>
+
+  <h3 class="section-title">Bodies watched</h3>
+  <ul>
+    {bodies.map((b) => (
+      <li><a href={`https://www.utah.gov/pmn/sitemap/publicbody/${b.id}.html`} target="_blank" rel="noopener">{b.label}</a></li>
+    ))}
+  </ul>
+
+  <h3 class="section-title">Ground rules</h3>
+  <ul>
+    <li>Summaries come only from public records, and every one links its source.</li>
+    <li>An applicant's own description of a project is labeled as such, not stated as fact.</li>
+    <li>Elected and appointed officials are named with their votes. Residents who comment, staff and applicant employees are not named.</li>
+    <li>AI summaries can be wrong. The notice and its attachments are the record.</li>
+  </ul>
+</Base>

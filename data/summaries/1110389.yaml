@@ -1,0 +1,59 @@
+notice: 1110389
+sourceHash: 16377568e067ee80
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-06
+headline: "Spanish Fork DRC 23 SEP: two General Plan map changes, plat, auto dealer site plan"
+summary: "The Spanish Fork Development Review Committee met on 23 SEP 2026 to review a six-lot final plat, an auto dealership site plan, two General Plan map amendments (Ridgeline Townhomes and Hidden Groves) and a Title 15 update about the Planning Commission. The meeting has passed, and the notice lists no results or public hearing. Items that need further approval would come to the Planning Commission or City Council."
+items:
+  - title: "Zions Landing 2.0 final plat reapproval"
+    what: "Reapproval of a Final Plat for six residential lots at 1495 East 400 North."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Doug Smith Autoplex site plan"
+    what: "Site plan for a commercial lot to hold an auto dealership at approximately 2850 North 350 East."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Ridgeline Townhomes General Plan map change"
+    what: "Request to change the General Plan Land Use Map designation from Business Park to Mixed Use for parcels at 1217 North SR-51."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Hidden Groves General Plan map change"
+    what: "Request to change the General Plan Land Use Map designation from Agricultural to Medium Density Residential for parcels at 119 East South Field Road."
+    tags: [land-use]
+    watch: [developments]
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Title 15 update: Planning Commission"
+    what: "Updates to Title 15 regarding the Planning Commission."
+    tags: [land-use]
+    watch: [title-15]
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Airport 700 West parking lot concept"
+    what: "Concept review of a parking lot and addition at the airport on 700 West."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [land-use]
+watch: [developments, title-15]
+score: 4
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1110389.html }

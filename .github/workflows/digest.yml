@@ -1,0 +1,28 @@
+name: Weekly digest
+
+# Posts the week's short digest as an issue every Monday morning, then closes
+# it. The email GitHub sends is the point.
+
+on:
+  schedule:
+    # 14:00 UTC Monday = 08:00 MDT / 07:00 MST
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run digest
+        env:
+          GH_TOKEN: ${{ github.token }}
