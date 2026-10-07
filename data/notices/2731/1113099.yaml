@@ -13,20 +13,20 @@ start:
   time: '14:00'
 location: 100 East Center Street Room 1400 PROVO, UT 84606
 posted: '2026-10-05'
-edited: '2026-10-06'
+edited: '2026-10-07'
 url: https://www.utah.gov/pmn/sitemap/notice/1113099.html
 video: null
 attachments:
-  - id: 1497135
-    name: Commission_Agenda_10-07-2026 Version 2.pdf
-    category: Audio Recording
-    added: '2026-10-06'
-    url: https://www.utah.gov/pmn/files/1497135.pdf
   - id: 1496955
     name: Commission_Agenda_10-07-2026.pdf
     category: Public Information Handout
     added: '2026-10-05'
     url: https://www.utah.gov/pmn/files/1496955.pdf
+  - id: 1497135
+    name: Commission_Agenda_10-07-2026 Version 2.pdf
+    category: Public Information Handout
+    added: '2026-10-06'
+    url: https://www.utah.gov/pmn/files/1497135.pdf
 agenda: >-
   PUBLIC NOTICE IS HEREBY GIVEN THAT THE
 
@@ -368,6 +368,6 @@ agenda: >-
   THE VOTE OF EACH COMMISSIONER)
 
   -Jolynn Clegg, Clerk
-hash: 41bbd71d82fd6e04
+hash: 6f9b7c77ee7f8377
 firstSeen: '2026-10-06'
-lastChanged: '2026-10-06'
+lastChanged: '2026-10-07'
