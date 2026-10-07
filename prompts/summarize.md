@@ -5,7 +5,8 @@ This prompt is the contract for the summarizer. The local scheduled task follows
 ## Input
 - `config/interests.yaml`: the impact tags and watch topics.
 - One notice: `data/notices/<body>/<id>.yaml` (title, date, agenda text, attachment list).
-- Extracted attachment text, if any: `work/text/<attachmentId>.txt`, listed in `work/pending.json`. Minutes are the only source for votes.
+- Extracted attachment text, if any: `work/text/<attachmentId>.txt`, listed in `work/pending.json`.
+- The meeting video's captions, if `video` is set in the pending entry: `excerpts` (passages around motions, votes and watch-topic keywords) and `transcript` (the whole meeting, timestamped). See Meeting video below.
 
 ## Output
 Write `data/summaries/<id>.yaml` with exactly these fields:
@@ -25,14 +26,17 @@ items:                       # substantive agenda items only, at most 12
     watch: [data-centers]    # zero or more watch ids from interests.yaml
     hearing: true            # a public hearing is held on this item
     applicant: false         # true if the description comes from the applicant's own material
-    result: null             # from minutes only, e.g. "Approved 3-2 (Cardon, Tooke opposed)"
+    result: null             # from minutes or the meeting video, e.g. "Approved 3-2 (Cardon, Tooke opposed)"
+    resultFrom: minutes      # minutes | video; only when result is set
+    at: "1:01:20"            # optional: where this item is in the meeting video (m:ss or h:mm:ss)
 tags: [land-use]             # union of the item tags
 watch: [data-centers]        # union of the item watch ids
 score: 4                     # 1 to 5, see scoring
 hearing: { date: 2026-10-20, time: "18:20" }   # or null if no public hearing
 attend: true                 # see the attend rule
 attendWhy: <one line, or null>
-basis: agenda                # agenda | agenda+attachments | agenda text only (scan)
+basis: agenda                # agenda | agenda+attachments | agenda text only (scan); add "+video" when the captions were used
+video: { id: xupvfBbJDPI, url: "https://www.youtube.com/watch?v=xupvfBbJDPI" }   # the video you used, copied from the pending entry; omit if none
 sources:
   - { label: PMN notice, url: <notice url> }
   - { label: <attachment name>, url: <attachment url> }   # each attachment you used
@@ -45,6 +49,15 @@ sources:
 - **Notices with no agenda** (hearing notices, vacancy notices, schedule changes): one item describing what the notice announces.
 - **A cancelled meeting:** headline says so, `items: []`, score 1.
 - **Minutes of an earlier meeting** are often attached to a later notice. Report only their decisions on substantive items, one item each, titled "Minutes, DD MMM YYYY: <topic>", with `result` set from the recorded vote. Skip unanimous routine approvals.
+
+## Meeting video
+The city streams its Council and Planning Commission meetings, and the video is up the same night. Minutes take weeks. When the pending entry has a `video`, use it as the record of what happened at this meeting.
+- **Read the excerpts first.** They hold every motion, vote and watch-topic passage. Search the full transcript for any substantive agenda item whose outcome the excerpts do not show.
+- **Results.** For each substantive item that was decided, set `result` from the motion and roll call heard in the video, e.g. "Approved 3-2 (Cardon, Tooke opposed)" or "Continued to 20 OCT 2026", with `resultFrom: video` and `at` set to the timestamp of the vote. Give a count such as 3-2 only when every member's answer is heard in the captions; otherwise write "Approved, no opposing vote heard" and name any no votes that are heard. If the video does not make the outcome clear, leave `result: null`.
+- **Staff reports and discussion** on a watch topic that is not its own agenda item (an update under staff reports, direction given to staff): add one item titled "Staff report: <topic>" or "Discussion: <topic>", with `at` and no `result`. Say what was reported or directed, not who said it.
+- **Captions are automatic and mishear things.** Spell officials' names as the agenda or earlier minutes do (the captions write Oyler as "Oiler", Tooke as "Tuk", Cardon as "Carden"). Never take a dollar figure, address, acreage or vote count from captions alone when the agenda or an attachment gives it; if only the captions give a number, write "about". Never quote a resident who spoke in public comment, and never name one.
+- **Minutes outrank the video.** When minutes of this meeting arrive with a later notice, they are summarized there as usual. If the two disagree, the minutes are right; say so in the later summary's item.
+- Set `video` to the pending entry's `id` and `url`, and add `+video` to `basis`. Leave `video` out when no captions were given.
 
 ## Watch topics are about substance, not keywords
 A watch id applies only when the item is actually about that topic: a decision, hearing or policy that changes it. A keyword match alone is not enough. Routine renewals or purchases of existing software, IT services, records schedules and maintenance contracts do not count as `city-technology`. A new system, a new policy, or a contract that changes how residents are served does. When unsure, tag the item (e.g. `technology`) without a watch id.

@@ -12,6 +12,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "collect": "node scripts/collect.mjs",
+    "videos": "node scripts/videos.mjs",
     "pending": "node scripts/pending.mjs",
     "check-summaries": "node scripts/check-summaries.mjs",
     "alerts": "node scripts/alerts.mjs",

@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import ItemResult from "../../components/ItemResult.astro";
 import { getEntries, formatTime, tagLabel, watchLabel, todayMountain } from "../../lib/data";
 import { formatDate } from "../../lib/kit/date";
 import type { Entry } from "../../lib/types";
@@ -40,7 +41,7 @@ const upcoming = date >= todayMountain();
               <li>
                 <h3>{it.title}</h3>
                 <p>{it.what}</p>
-                {it.result && <p class="result">{it.result}</p>}
+                <ItemResult item={it} video={summary.video} />
                 <p class="tag-row">
                   {it.hearing && <span class="badge hearing">Hearing</span>}
                   {it.applicant && <span class="chip">Applicant's description</span>}
@@ -56,7 +57,7 @@ const upcoming = date >= todayMountain();
       <h3 class="section-title">Sources</h3>
       <ul>
         {summary.sources.map((s) => <li><a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>)}
-        {notice.video && <li><a href={notice.video} target="_blank" rel="noopener">Meeting video</a></li>}
+        {(notice.video || summary.video) && <li><a href={notice.video ?? summary.video?.url} target="_blank" rel="noopener">Meeting video</a></li>}
       </ul>
       <p class="note">
         AI summary ({summary.engine === "claude-local" ? "Claude, run locally" : "Claude API"}, {formatDate(summary.summarized)}),

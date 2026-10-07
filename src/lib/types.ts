@@ -37,6 +37,10 @@ export interface SummaryItem {
   hearing: boolean;
   applicant: boolean;
   result?: string | null;
+  /** Where result came from. Absent means minutes. A video result is unofficial until minutes are adopted. */
+  resultFrom?: "minutes" | "video";
+  /** Timestamp in the meeting video, m:ss or h:mm:ss. */
+  at?: string;
 }
 
 export interface Summary {
@@ -56,6 +60,8 @@ export interface Summary {
   attendWhy: string | null;
   basis: string;
   sources: { label: string; url: string }[];
+  /** The meeting video whose captions this summary used. */
+  video?: { id: string; url: string } | null;
 }
 
 export interface Body {

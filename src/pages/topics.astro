@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import ItemResult from "../components/ItemResult.astro";
 import { getEntries, getInterests, formatTime } from "../lib/data";
 import { formatDate } from "../lib/kit/date";
 import { withBase } from "../lib/kit/base";
@@ -34,7 +35,7 @@ const topics = watch.map((t) => ({
               </p>
               <h3><a href={withBase(`/notice/${e.notice.id}`)}>{it.title}</a></h3>
               <p>{it.what}</p>
-              {it.result && <p class="result">{it.result}</p>}
+              <ItemResult item={it} video={e.summary?.video} />
             </li>
           ))}
         </ul>

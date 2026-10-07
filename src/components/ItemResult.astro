@@ -1,0 +1,20 @@
+---
+// An item's recorded result, and a link to the moment in the meeting video.
+// A result taken from the video is labeled unofficial until minutes are adopted.
+import type { Summary, SummaryItem } from "../lib/types";
+
+interface Props {
+  item: SummaryItem;
+  video?: Summary["video"];
+}
+const { item, video } = Astro.props;
+const seconds = (at: string) => at.split(":").reduce((t, n) => t * 60 + Number(n), 0);
+const watch = video && item.at ? `${video.url}&t=${seconds(item.at)}s` : null;
+---
+{item.result && <p class="result">{item.result}</p>}
+{(item.resultFrom === "video" || watch) && (
+  <p class="note">
+    {item.resultFrom === "video" && "From the meeting video, unofficial until minutes are adopted. "}
+    {watch && <a href={watch} target="_blank" rel="noopener">Watch at {item.at}</a>}
+  </p>
+)}

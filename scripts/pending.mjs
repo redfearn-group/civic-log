@@ -1,9 +1,11 @@
 // List the notices that need a new or refreshed summary, and extract text from
 // their attachments so the summarizer can read them. Writes work/pending.json.
 //
-// A notice is pending when it has no summary, or its hash changed since the
-// summary was written. Only notices dated within the last BACKFILL_DAYS (or in
-// the future) are considered, so a first run is not flooded with history.
+// A notice is pending when it has no summary, its hash changed since the
+// summary was written, or scripts/videos.mjs found a meeting video with captions
+// that the summary has not used yet. Only notices dated within the last
+// BACKFILL_DAYS (or in the future) are considered, so a first run is not
+// flooded with history.
 //
 //   node scripts/pending.mjs                    list and extract
 //   node scripts/pending.mjs --list             list only, no downloads
@@ -15,7 +17,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { ROOT, loadNotices, loadSummaries, todayMountain, addDays, sleep } from './lib.mjs';
+import { ROOT, DATA, readYaml, loadNotices, loadSummaries, todayMountain, addDays, sleep } from './lib.mjs';
 
 const BACKFILL_DAYS = 30;
 // Attachments worth reading. Minutes carry votes; staff reports and
@@ -90,9 +92,22 @@ async function extract(att, tool) {
 const today = todayMountain();
 const from = addDays(today, -BACKFILL_DAYS);
 const summaries = loadSummaries();
+
+// Meeting videos with captions on disk (written by scripts/videos.mjs).
+const VIDEO = path.join(WORK, 'video');
+function videoFor(id) {
+  const v = readYaml(path.join(DATA, 'videos', `${id}.yaml`));
+  if (!v) return null;
+  const transcript = path.join(VIDEO, `${v.video}.txt`);
+  const excerpts = path.join(VIDEO, `${v.video}.excerpts.txt`);
+  if (!fs.existsSync(transcript)) return null;
+  return { id: v.video, url: v.url, transcript: path.relative(ROOT, transcript), excerpts: path.relative(ROOT, excerpts) };
+}
+const videoChanged = (n) => { const v = videoFor(n.id); return !!v && summaries.get(n.id)?.video?.id !== v.id; };
+
 const pending = loadNotices()
   .filter((n) => (n.start?.date ?? n.posted ?? '') >= from)
-  .filter((n) => redo.has(n.id) || summaries.get(n.id)?.sourceHash !== n.hash)
+  .filter((n) => redo.has(n.id) || summaries.get(n.id)?.sourceHash !== n.hash || videoChanged(n))
   .sort((a, b) => (a.start?.date ?? '').localeCompare(b.start?.date ?? ''));
 
 const tool = listOnly ? null : pdftotext();
@@ -122,8 +137,9 @@ for (const n of pending) {
     notice: path.relative(ROOT, path.join(ROOT, 'data', 'notices', String(n.body), `${n.id}.yaml`)),
     summary: path.relative(ROOT, path.join(ROOT, 'data', 'summaries', `${n.id}.yaml`)),
     hash: n.hash,
-    reason: summaries.has(n.id) ? 'changed' : 'new',
+    reason: !summaries.has(n.id) ? 'new' : summaries.get(n.id).sourceHash !== n.hash ? 'changed' : videoChanged(n) ? 'video' : 'redo',
     files,
+    video: videoFor(n.id),
   });
 }
 fs.writeFileSync(path.join(WORK, 'pending.json'), JSON.stringify({ generated: today, from, pdftotext: tool, pending: out }, null, 2));

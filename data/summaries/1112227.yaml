@@ -2,94 +2,124 @@ notice: 1112227
 sourceHash: fd03827c74cc6f41
 engine: claude-local
 model: claude-sonnet-5-5
-summarized: 2026-10-06
-headline: "Hearings tonight on Oak Village and Leland Meadows rezones, plus FY 2027 budget"
-summary: "Tonight the City Council holds public hearings on two Master Planned Development rezones and preliminary plats, Oak Village (110 single-family lots) and Leland Meadows (206 lots), and on the FY 2027 salary schedule and Budget Revision 1. It also votes on a $519,902.28 pipeline change order, a new Zayo Group telecom franchise and a Storm Drain Master Plan update, and discusses a Transportation Utility Fee. The council meeting starts at 6:00 pm in the Council Chambers, and public comment is limited to three minutes per person."
+summarized: 2026-10-07
+headline: "Council approved Oak Village and Leland Meadows rezones, plus the FY 2027 budget revision"
+summary: "On 06 OCT 2026 the City Council approved the Oak Village (110 lots) and Leland Meadows (206 lots) zone changes and preliminary plats after public hearings, and passed FY 2027 Budget Revision 1, a Cold Springs pipeline change order, the Storm Drain Master Plan update, new voter participation areas and a Zayo Group telecom franchise. Residents spoke against the data center during public comment, referendum sponsors said a referendum on the Title 15 amendment had been filed, and staff said the overlay zone and noise study will wait for that process. Staff also previewed a Transportation Utility Fee, with a public hearing proposed for 08 DEC 2026."
 items:
+  - title: "Staff report: data center overlay"
+    what: "Staff will start the overlay zone and noise study directed on 21 SEP and bring a timeline in two meetings. Repealing the Title 15 amendment would end the referendum, so that waits."
+    tags: [land-use, technology, home]
+    watch: [data-centers, title-15]
+    hearing: false
+    applicant: false
+    result: null
+    at: "1:01:24"
   - title: "Oak Village zone change and preliminary plat"
-    what: "Hearing on rezoning 100 South Spanish Fork Parkway to Public Facilities, R-1-9 and R-1-12 with the Master Planned Development Overlay, and a 110-lot single-family plat."
+    what: "Hearing on rezoning 100 South Spanish Fork Parkway for 110 single-family lots, with a development agreement condition. Residents raised traffic and parking; staff will study First South."
     tags: [land-use]
     watch: [developments]
     hearing: true
     applicant: false
-    result: null
+    result: "Zone change and preliminary plat each approved, no opposing vote heard"
+    resultFrom: video
+    at: "2:53:24"
   - title: "Leland Meadows zone change and preliminary plat"
-    what: "Hearing on rezoning 1200 West 1400 South from Rural Residential to R-1-6 and R-1-15 with the Master Planned Development Overlay, and a 206-lot single-family plat."
-    tags: [land-use]
+    what: "Hearing on rezoning 1200 West 1400 South to R-1-6 and R-1-15 with the Master Planned Development Overlay, and a 206-lot plat. Residents raised wet ground, Mill Road traffic and fencing next to farms."
+    tags: [land-use, roads]
     watch: [developments]
     hearing: true
     applicant: false
-    result: null
+    result: "Zone change and amended preliminary plat each approved, no opposing vote heard"
+    resultFrom: video
+    at: "5:12:26"
+  - title: "Leland Meadows plat conditions added"
+    what: "The plat carries 11 conditions. New ones: sturdier fencing along farm and feed lot boundaries, and the developer paying half the Mill Road and Arrowhead Trail turn-lane cost, up to about $100,000."
+    tags: [land-use, roads]
+    watch: [developments]
+    hearing: false
+    applicant: false
+    result: "Amended plat motion approved, no opposing vote heard"
+    resultFrom: video
+    at: "5:19:56"
   - title: "Fiscal Year 2027 salary schedule"
-    what: "State-required hearing on salaries of elected officials and executive officers, based on a 16-city salary study. Adopted with the budget, with no separate motion."
+    what: "State-required hearing on salaries of elected officials and executive officers, based on a 16-city salary study. No separate motion: the schedule is adopted with the budget revision."
     tags: [taxes]
     watch: []
     hearing: true
     applicant: false
-    result: null
+    result: "No separate vote; adopted with Budget Revision 1"
+    resultFrom: video
+    at: "5:23:20"
   - title: "FY 2027 Budget Revision 1"
-    what: "Hearing and vote on an ordinance carrying unspent FY 2026 capital project money into FY 2027, which raises the FY 2027 budget, with some fee and salary schedule adjustments."
+    what: "Hearing and ordinance carrying unspent FY 2026 capital project money into FY 2027, with some parks and recreation fee changes. Safer grant and bond payment money were left for a later revision."
     tags: [taxes]
     watch: []
     hearing: true
     applicant: false
-    result: null
+    result: "Approved, no opposing vote heard"
+    resultFrom: video
+    at: "5:36:40"
   - title: "Zayo Group telecom franchise agreement"
     what: "Consent item: a new standard franchise letting Zayo Group place wires, cables and telecom facilities in city rights-of-way in return for the municipal telecommunications license tax."
     tags: [technology]
     watch: [broadband]
     hearing: false
     applicant: false
-    result: null
+    result: "Consent items approved, no opposing vote heard"
+    resultFrom: video
+    at: "1:13:10"
   - title: "Creekside Developers 1300 S purchase addendum"
     what: "Consent item: Addendum 3 to the contract for Creekside Developers to buy city property on 1300 South. It adds non-refundable earnest money and extends the closing date."
     tags: [land-use]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Consent items approved, no opposing vote heard"
+    resultFrom: video
+    at: "1:13:10"
+  - title: "Voter participation areas map"
+    what: "Ordinance moving the four voter participation areas to follow current precincts. The clerk said the areas set the signature thresholds for the Title 15 referendum."
+    tags: [home]
+    watch: [title-15]
+    hearing: false
+    applicant: false
+    result: "Approved, no opposing vote heard"
+    resultFrom: video
+    at: "5:40:46"
   - title: "Cold Springs Pipeline Phase 2 change order"
-    what: "Staff recommend a $519,902.28 change order for railroad flagging and staffing costs, abandoning the old 30-inch pipe, and an added valve. The contractor flags $105,397.50 more, not yet requested."
+    what: "A $519,902.28 change order for railroad flagging and staffing costs, abandoning the old 30-inch pipe, and an added valve. The contractor flags $105,397.50 more, not yet requested."
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved, no opposing vote heard"
+    resultFrom: video
+    at: "5:46:45"
   - title: "Storm Drain Master Plan update 2026"
-    what: "Resolution updating the Storm Drain Master Plan to match the newly adopted Land Use Element of the General Plan."
+    what: "Resolution updating the Storm Drain Master Plan to match the new Land Use Element. Staff said some areas, mainly near the I-15 crossing, will need larger detention ponds."
     tags: [land-use]
     watch: []
     hearing: false
     applicant: false
-    result: null
-  - title: "Voter participation areas map"
-    what: "Ordinance changing the map of four voter participation areas so they follow current voting precinct boundaries. The agenda notes the attached map is a draft that will be replaced."
-    tags: [home]
-    watch: []
-    hearing: false
-    applicant: false
-    result: null
+    result: "Approved, no opposing vote heard"
+    resultFrom: video
+    at: "5:58:51"
   - title: "Transportation Utility Fee discussion"
-    what: "Discussion item with no description or attachment on the agenda."
-    tags: [taxes, roads]
+    what: "Staff proposed a road fee to replace utility transfers: about $600,000 in 2027, near $2 a month for homes. A hearing is proposed for 08 DEC 2026, starting 01 JAN 2027."
+    tags: [taxes, roads, home]
     watch: []
     hearing: false
     applicant: false
     result: null
-  - title: "Work session: budget revisions and fee changes"
-    what: "The 4:30 pm work session lists Budget Revisions and Fee Changes and a Communications Intern. No formal actions are taken in a work session."
-    tags: [taxes]
-    watch: []
-    hearing: false
-    applicant: false
-    result: null
-tags: [land-use, taxes, technology, home, roads]
-watch: [developments, broadband]
+    at: "5:59:17"
+tags: [land-use, technology, home, taxes, roads]
+watch: [data-centers, title-15, developments, broadband]
 score: 5
 hearing: { date: 2026-10-06, time: "18:00" }
-attend: true
-attendWhy: "Public hearings and votes on the Oak Village and Leland Meadows zone changes and plats, both named Spanish Fork developments."
-basis: "agenda+attachments (scan read as images)"
+attend: false
+attendWhy: null
+basis: "agenda+attachments (scan read as images)+video"
+video: { id: xupvfBbJDPI, url: "https://www.youtube.com/watch?v=xupvfBbJDPI" }
 sources:
   - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1112227.html" }
   - { label: "City Council Agenda 10-06-2026.pdf", url: "https://www.utah.gov/pmn/files/1495651.pdf" }
