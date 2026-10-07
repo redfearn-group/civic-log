@@ -105,8 +105,10 @@ function videoFor(id) {
 }
 const videoChanged = (n) => { const v = videoFor(n.id); return !!v && summaries.get(n.id)?.video?.id !== v.id; };
 
+// A notice older than the window still counts when it was named in --redo or
+// has a meeting video (made by hand with videos.mjs --url) the summary has not used.
 const pending = loadNotices()
-  .filter((n) => (n.start?.date ?? n.posted ?? '') >= from)
+  .filter((n) => (n.start?.date ?? n.posted ?? '') >= from || redo.has(n.id) || videoChanged(n))
   .filter((n) => redo.has(n.id) || summaries.get(n.id)?.sourceHash !== n.hash || videoChanged(n))
   .sort((a, b) => (a.start?.date ?? '').localeCompare(b.start?.date ?? ''));
 

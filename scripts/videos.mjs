@@ -5,6 +5,13 @@
 //
 //   node scripts/videos.mjs           match videos and download captions
 //   node scripts/videos.mjs --list    match only, no downloads
+//   node scripts/videos.mjs --url <youtube link> --notice <id>
+//                                     tie one video to one collected notice by hand
+//
+// The --url mode is for a meeting the feeds missed or one older than the
+// 30-day window. The notice must already be in data/notices; the next
+// pending.mjs run picks the pair up and the summarizer reads the video. A
+// record made this way has from: manual and is never replaced by a feed match.
 //
 // A video comes from the notice itself (PMN's "Audio File Location", added by
 // the city some days after the meeting) or, sooner, from the channel feeds in
@@ -131,6 +138,22 @@ function download(id) {
   return fs.existsSync(json) ? json : null;
 }
 
+// Download one video's captions and write its transcript and excerpts files.
+// Returns the length of the meeting as h:mm:ss, or null when YouTube has no captions yet.
+function pullCaptions(id) {
+  const json = download(id);
+  if (!json) return null;
+  const caps = readCaptions(json);
+  fs.writeFileSync(path.join(WORK, `${id}.txt`), transcript(caps), 'utf-8');
+  fs.writeFileSync(path.join(WORK, `${id}.excerpts.txt`), excerpts(caps, keywords), 'utf-8');
+  return hms(caps.at(-1)?.ms ?? 0);
+}
+
+function fail(message) {
+  console.error(`ERROR ${message}`);
+  process.exit(1);
+}
+
 const cfg = readYaml(path.join(ROOT, 'config', 'sources.yaml'), {});
 const interests = readYaml(path.join(ROOT, 'config', 'interests.yaml'), { watch: [] });
 const keywords = interests.watch.flatMap((w) => w.keywords ?? []);
@@ -138,7 +161,36 @@ const today = todayMountain();
 const from = addDays(today, -BACKFILL_DAYS);
 const bodies = new Set((cfg.videos ?? []).flatMap((c) => c.match.map((m) => m.body)));
 // Only meetings that have happened: a stream still live has partial captions.
-const recent = loadNotices().filter((n) => bodies.has(n.body) && n.start?.date >= from && n.start.date < today);
+const notices = loadNotices();
+const recent = notices.filter((n) => bodies.has(n.body) && n.start?.date >= from && n.start.date < today);
+
+fs.mkdirSync(WORK, { recursive: true });
+
+// Manual mode: one video, one notice, any date.
+const argAfter = (flag) => { const i = process.argv.indexOf(flag); return i >= 0 ? process.argv[i + 1] : undefined; };
+if (process.argv.includes('--url')) {
+  const url = argAfter('--url');
+  const id = youtubeId(url);
+  if (!id) fail(`--url needs a YouTube watch, youtu.be or /live link (got ${url ?? 'nothing'})`);
+  const noticeId = argAfter('--notice');
+  const n = notices.find((x) => String(x.id) === String(noticeId));
+  if (!n) fail(`--notice needs the id of a notice in data/notices (got ${noticeId ?? 'nothing'})`);
+  writeYaml(path.join(VIDEOS, `${n.id}.yaml`), { notice: n.id, video: id, url: `https://www.youtube.com/watch?v=${id}`, title: null, from: 'manual', found: today });
+  let status = 'listed';
+  if (!listOnly) {
+    try {
+      const len = pullCaptions(id);
+      status = len ? `captions ${len}` : 'no captions yet';
+    } catch (e) {
+      fail(`caption download failed: ${e.message.split('\n')[0]}`);
+    }
+  }
+  console.log(`${String(n.id).padEnd(8)} ${id} (manual) ${status}`);
+  console.log(`Tied to ${n.start?.date ?? 'undated'} ${n.bodyLabel}: ${n.title}`);
+  console.log('Next: node scripts/pending.mjs, then summarize the pending notice.');
+  console.log(`VIDEOS=1 TRANSCRIPTS=${status.startsWith('captions') ? 1 : 0}`);
+  process.exit(0);
+}
 
 const found = new Map(); // notice id -> { id, title, from }
 for (const n of recent) {
@@ -154,7 +206,12 @@ for (const v of await channelVideos(cfg.videos ?? [])) {
   else if (have.id === v.id) have.title = v.title;
 }
 
-fs.mkdirSync(WORK, { recursive: true });
+// A hand-made record is never replaced by a feed match.
+for (const n of recent) {
+  const prev = readYaml(path.join(VIDEOS, `${n.id}.yaml`));
+  if (prev?.from === 'manual') found.set(n.id, { id: prev.video, title: prev.title, from: 'manual' });
+}
+
 let ready = 0;
 for (const [notice, v] of found) {
   const file = path.join(VIDEOS, `${notice}.yaml`);
@@ -165,12 +222,9 @@ for (const [notice, v] of found) {
   let status = 'listed';
   if (!listOnly) {
     try {
-      const json = download(v.id);
-      if (json) {
-        const caps = readCaptions(json);
-        fs.writeFileSync(path.join(WORK, `${v.id}.txt`), transcript(caps), 'utf-8');
-        fs.writeFileSync(path.join(WORK, `${v.id}.excerpts.txt`), excerpts(caps, keywords), 'utf-8');
-        status = `captions ${hms(caps.at(-1)?.ms ?? 0)}`;
+      const len = pullCaptions(v.id);
+      if (len) {
+        status = `captions ${len}`;
         ready++;
       } else status = 'no captions yet';
     } catch (e) {

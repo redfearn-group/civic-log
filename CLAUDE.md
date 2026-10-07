@@ -7,7 +7,7 @@ Civic monitor for Spanish Fork, Utah County and (later) Utah. Public repo, Astro
 | Step | Runs where | Files |
 | :--- | :--- | :--- |
 | Collect | GitHub Actions `collect.yml`, daily 12:00 UTC | `scripts/collect.mjs` writes `data/notices/<body>/<id>.yaml` |
-| Videos | Same scheduled task, before Summarize | `scripts/videos.mjs` matches meetings to YouTube videos (`videos:` in `config/sources.yaml`), writes `data/videos/<notice>.yaml`, and pulls captions with yt-dlp into `work/video/` |
+| Videos | Same scheduled task, before Summarize | `scripts/videos.mjs` matches meetings to YouTube videos (`videos:` in `config/sources.yaml`), writes `data/videos/<notice>.yaml`, and pulls captions with yt-dlp into `work/video/`. For a meeting the feeds missed or one older than 30 days: `node scripts\videos.mjs --url <youtube link> --notice <id>` ties one video to a collected notice (record has `from: manual`, never replaced by a feed match); the next `pending.mjs` picks it up even outside the window. The notice must already be in `data/notices`. |
 | Summarize | Scheduled task `civic-log-summarize` on the XPS, 07:00/12:00/17:00 with a once-a-day guard | `scripts/pending.mjs` writes `work/pending.json` (gitignored); Claude writes `data/summaries/<id>.yaml`; PR self-merged, `data/summaries/` and `data/videos/` only |
 | Validate | Locally and in `check.yml` | `scripts/check-summaries.mjs` |
 | Alerts | `alerts.yml` on push to main touching summaries | `scripts/alerts.mjs`, one issue per body and date, deduped by `[pmn <ids>]` in the title |
