@@ -47,3 +47,13 @@ bodies:
   - { id: 1600, label: Provo Municipal Council, short: Provo Council, tier: neighbor, active: false }
   - { id: 1676, label: Nebo School District Board of Education, short: Nebo Board, tier: region, active: false }
   - { id: 1480, label: Mountainland Association of Governments, short: MAG, tier: region, active: false }
+
+# Meeting videos (scripts/videos.mjs, run locally by the summarizer task).
+# channel is the YouTube channel id; each match maps a video title to a body.
+# Titles end in the meeting date, e.g. "Spanish Fork City Council - October 6, 2026".
+# Anchored patterns skip clips such as "Volition Title 15 Amendment - Planning Commission".
+videos:
+  - channel: UCWoO6hLABG5UlTJ7HO1Sigw   # @spanishfork_city
+    match:
+      - { body: 5, title: '^Spanish Fork City Council\s*[-|]' }
+      - { body: 6, title: '^(Spanish Fork )?Planning Commission\s*[-|]' }

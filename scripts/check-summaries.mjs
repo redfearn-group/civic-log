@@ -11,6 +11,7 @@ const TAGS = new Set(interests.tags.map((t) => t.id));
 const WATCH = new Set(interests.watch.map((w) => w.id));
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
 const EM_DASH = /—/;
+const TIME = /^(\d{1,2}:)?\d{1,2}:\d{2}$/;
 
 const notices = new Map(loadNotices().map((n) => [n.id, n]));
 const only = new Set(process.argv.slice(2).map(Number).filter(Boolean));
@@ -48,6 +49,17 @@ for (const [id, s] of loadSummaries()) {
     for (const w of it.watch ?? []) { if (!WATCH.has(w)) err(`items[${i}] unknown watch ${w}`); itemWatch.add(w); }
     if (typeof it.hearing !== 'boolean') err(`items[${i}].hearing must be true or false`);
     if (typeof it.applicant !== 'boolean') err(`items[${i}].applicant must be true or false`);
+    if (it.resultFrom != null && !['minutes', 'video'].includes(it.resultFrom)) err(`items[${i}].resultFrom must be minutes or video`);
+    if (it.resultFrom === 'video' && !s.video) err(`items[${i}] has a video result but the summary has no video`);
+    if (it.resultFrom && !it.result) err(`items[${i}].resultFrom is set but result is empty`);
+    if (it.at != null && !TIME.test(String(it.at))) err(`items[${i}].at must be m:ss or h:mm:ss`);
+    if (it.at != null && !s.video) err(`items[${i}].at needs a summary video`);
+  }
+  if (s.video) {
+    if (!/^[\w-]{11}$/.test(String(s.video.id))) err('video.id must be an 11-character YouTube id');
+    if (s.video.url !== `https://www.youtube.com/watch?v=${s.video.id}`) err('video.url must be the watch url for video.id');
+    const v = readYaml(path.join(ROOT, 'data', 'videos', `${id}.yaml`));
+    if (v && v.video !== s.video.id) warn(`video ${s.video.id} differs from data/videos (${v.video})`);
   }
   if ((s.items ?? []).length > 12) err('more than 12 items');
   const same = (a, b) => a.size === b.size && [...a].every((x) => b.has(x));

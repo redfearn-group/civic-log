@@ -2,17 +2,27 @@ notice: 1109425
 sourceHash: 581148a0a68751cb
 engine: claude-local
 model: claude-sonnet-5-5
-summarized: 2026-10-06
-headline: "Spanish Fork special meeting 21 SEP: Volition data center Title 15 amendment on agenda"
-summary: "At its 21 SEP 2026 special meeting the Spanish Fork City Council took up the Volition-proposed Title 15 amendment for data centers with onsite power generation, which it had tabled on 18 AUG and again on 01 SEP. The agenda also had a hearing on vacating part of Volunteer Drive, a $1,450,000 airport property purchase, a storm drain master plan update, and work sessions on salaries and recreation fees. The meeting has passed; the attached minutes cover 18 AUG, and the notice links a video of the meeting."
+summarized: 2026-10-07
+headline: "Council passes data center rules 3-2 with seven conditions; storm drain plan continued"
+summary: "On 21 SEP 2026 the Spanish Fork City Council approved the Volition-driven Title 15 amendment for data centers with onsite power 3-2 (Cardon and Tooke opposed), with seven conditions including starting work on an overlay zone and a review of the noise ordinance. It approved the Volunteer Drive vacation and, on the consent agenda, the $1,450,000 airport land purchase, and it continued the storm drain master plan and the transportation utility fee. Results come from the meeting video and are unofficial until minutes are adopted. A site plan and a development agreement must still come back before any data center can be approved."
 items:
   - title: "Title 15 data center amendment (Volition)"
-    what: "Ordinance defining data centers with onsite power and setting requirements. Staff slides say adoption lets the city accept one such application, then a site plan and development agreement."
+    what: "Ordinance defining data centers with onsite power and setting rules for them, adopted with seven conditions, including starting an overlay zone and reviewing the noise ordinance (Chapter 9.32)."
     tags: [land-use, technology]
     watch: [data-centers, title-15]
     hearing: false
     applicant: false
+    result: "Approved 3-2 (Cardon, Tooke opposed; Oyler moved, Marshall seconded)"
+    resultFrom: video
+    at: "5:57:55"
+  - title: "Discussion: data center overlay zone and rules"
+    what: "Council and staff discussed moving the rules into an overlay district, a one-data-center cap, air quality modeling, noise limits, and water caps (about 300,000 gallons a year)."
+    tags: [land-use, technology, home]
+    watch: [data-centers, title-15]
+    hearing: false
+    applicant: false
     result: null
+    at: "3:19:02"
   - title: "Minutes, 18 AUG 2026: Title 15 data center hearing"
     what: "After a public hearing with extensive comment, the Council tabled the data center amendment to 01 SEP 2026 so staff could revise the language."
     tags: [land-use, technology]
@@ -20,6 +30,7 @@ items:
     hearing: false
     applicant: false
     result: "Tabled 5-0 (Oyler moved, Tooke seconded)"
+    resultFrom: minutes
   - title: "Minutes, 18 AUG 2026: Hollow Acres zone change"
     what: "Zone change from R-R and R-1-12 to C-2 (general commercial) on the northern part of a property near 400 North Spanish Fork Parkway, with a condition that Parkway improvements be built in one phase."
     tags: [land-use, roads]
@@ -27,6 +38,7 @@ items:
     hearing: false
     applicant: false
     result: "Approved 5-0 (Oyler moved, Beck seconded)"
+    resultFrom: minutes
   - title: "Minutes, 18 AUG 2026: accessory dwelling unit parking"
     what: "Title 15 amendment changing parking requirements for detached accessory dwelling units smaller than 650 square feet, needed because of changes to state law."
     tags: [land-use, home]
@@ -34,34 +46,43 @@ items:
     hearing: false
     applicant: false
     result: "Approved 5-0 (Cardon moved, Marshall seconded)"
+    resultFrom: minutes
   - title: "Volunteer Drive vacation near Annie's Acres"
-    what: "Public hearing on an ordinance vacating a portion of Volunteer Drive near the Annie's Acres subdivision. The agenda says staff reports would be posted later."
+    what: "Public hearing on vacating a sliver of road right-of-way near the Annie's Acres subdivision; the land reverts to the adjacent owner. No one spoke at the hearing."
     tags: [land-use, roads]
     watch: []
     hearing: true
     applicant: false
-    result: null
+    result: "Approved, no opposing vote heard (Marshall moved, Tooke seconded)"
+    resultFrom: video
+    at: "1:46:39"
   - title: "Airport land purchase for Taxiway Bravo"
     what: "Consent item: buy 3226 N 1150 W for $1,450,000, paid $500,000 at closing, $500,000 by 01 JUL 2027 and $450,000 by 15 JAN 2028, with a $1 leaseback to the seller until 31 DEC 2027."
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved with the consent items (Beck moved, Cardon seconded)"
+    resultFrom: video
+    at: "1:43:59"
   - title: "Storm Drain Master Plan update 2026"
-    what: "Resolution updating the Storm Drain Master Plan to match the newly adopted Land Use Element of the General Plan."
+    what: "Resolution updating the Storm Drain Master Plan to match the newly adopted Land Use Element of the General Plan. Continued, no new date stated."
     tags: [land-use]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Continued (Marshall moved, Oyler seconded)"
+    resultFrom: video
+    at: "6:00:42"
   - title: "Transportation Utility Fee discussion"
-    what: "Discussion item on a Transportation Utility Fee. The agenda gives no further description."
+    what: "Discussion item on a Transportation Utility Fee. The agenda gives no further description, and the Council continued it without discussion."
     tags: [roads, taxes]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Continued, no opposing vote heard (Beck moved, Cardon seconded)"
+    resultFrom: video
+    at: "6:01:05"
   - title: "Work session: employee salary study"
     what: "Staff slides propose a 5.5% raise budget against a 4.24% average market increase, a wider pay grade structure, and the same 4.24% raise for part-time pay, the Mayor and the Council."
     tags: [taxes]
@@ -82,14 +103,17 @@ items:
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved with the consent items (Beck moved, Cardon seconded)"
+    resultFrom: video
+    at: "1:43:59"
 tags: [land-use, technology, roads, home, taxes]
 watch: [data-centers, title-15]
 score: 5
 hearing: { date: 2026-09-21, time: "18:00" }
 attend: false
 attendWhy: null
-basis: agenda+attachments
+basis: agenda+attachments+video
+video: { id: KF_sucbFw7o, url: "https://www.youtube.com/watch?v=KF_sucbFw7o" }
 sources:
   - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1109425.html }
   - { label: Adopted City Council Minutes 09-01-2026 .pdf, url: https://www.utah.gov/pmn/files/1493235.pdf }

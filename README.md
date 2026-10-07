@@ -7,7 +7,7 @@ Short summaries of Spanish Fork and Utah County public meetings, with the hearin
 ## How it works
 
 1. **Collect.** Every morning at 6 AM Mountain, a GitHub Action reads the [Utah Public Notice Website](https://www.utah.gov/pmn/) for each body in `config/sources.yaml`. It saves new or changed notices to `data/notices/`. No AI is involved, and the commit history is the change log.
-2. **Summarize.** Claude reads each new notice, its agenda and its attachments, and writes `data/summaries/<id>.yaml` following `prompts/summarize.md`. Scanned PDFs are read as page images. During testing this runs as a scheduled task on the owner's laptop. It will move to a GitHub Action calling the Claude API once the summaries have proven reliable.
+2. **Summarize.** Claude reads each new notice, its agenda and its attachments, and writes `data/summaries/<id>.yaml` following `prompts/summarize.md`. Scanned PDFs are read as page images. For Council and Planning Commission meetings, the captions of the city's meeting video are read too, so motions and votes appear the next morning, labeled unofficial until the minutes are adopted. During testing this runs as a scheduled task on the owner's laptop. It will move to a GitHub Action calling the Claude API once the summaries have proven reliable.
 3. **Score.** Each item is tagged and scored 1 to 5 against `config/interests.yaml`. A meeting is marked **Attend** when it holds a public hearing on a high-impact item or touches a topic on the watch list.
 4. **Deliver.**
    - The site, rebuilt daily.
@@ -27,6 +27,7 @@ Short summaries of Spanish Fork and Utah County public meetings, with the hearin
 
 ```sh
 npm run collect           # fetch notices for all active bodies
+npm run videos            # match meetings to their videos, download captions (needs yt-dlp)
 npm run pending           # list notices needing summaries, extract their text
 npm run check-summaries   # validate every summary against the format rules
 npm run build             # build the site to ./dist
