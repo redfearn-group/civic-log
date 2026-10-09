@@ -12,7 +12,7 @@ start:
   time: '10:00'
 location: 401 S Pleasant Grove Blvd Pleasant Grove, UT 84062
 posted: '2026-09-14'
-edited: '2026-09-17'
+edited: '2026-10-08'
 url: https://www.utah.gov/pmn/sitemap/notice/1108467.html
 video: null
 attachments:
@@ -21,6 +21,11 @@ attachments:
     category: Audio Recording
     added: '2026-09-17'
     url: https://www.utah.gov/pmn/files/1489697.mp3
+  - id: 1499069
+    name: 09.15.2026 Approved Budget Work Session.pdf
+    category: Meeting Minutes
+    added: '2026-10-08'
+    url: https://www.utah.gov/pmn/files/1499069.pdf
   - id: 1487829
     name: 09.15.2026 Budget Work Session Agenda.pdf
     category: Public Information Handout
@@ -49,6 +54,6 @@ agenda: >-
   FUNDS OF UTAH COUNTY, UTAH.
 
   -Aileen Conder, Commission
-hash: 10f0d50f2d3ca5e7
+hash: 68c609d15b058ba8
 firstSeen: '2026-10-06'
-lastChanged: '2026-10-06'
+lastChanged: '2026-10-09'
