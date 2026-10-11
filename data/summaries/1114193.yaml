@@ -1,0 +1,24 @@
+notice: 1114193
+sourceHash: 1f14fe1746435c72
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-11
+headline: "Public hearing 20 OCT on county rules for 345 kV transmission lines"
+summary: "The Utah County Planning Commission holds a public hearing on 20 OCT 2026 at 5:30 p.m. in Room 1400 of the County Administration Building, Provo. The hearing covers a requested land use ordinance amendment on electric transmission lines of 345 kV and over. Written comments are due by 1:00 p.m. that day to planningcommission@utahcounty.gov, and participation is in person."
+items:
+  - title: "345 kV transmission line ordinance amendment"
+    what: "Requested text amendment to Section 8.44 to allow 345 kV and larger transmission lines in a new corridor as a conditional use in any zone, or set added standards for lines and substations."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+tags: [land-use]
+watch: []
+score: 4
+hearing: { date: 2026-10-20, time: "17:30" }
+attend: true
+attendWhy: "Public hearing on county ordinance rules for 345 kV transmission lines and substations."
+basis: agenda
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1114193.html }
