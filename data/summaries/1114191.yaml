@@ -1,0 +1,32 @@
+notice: 1114191
+sourceHash: 0ec7659fd69d9684
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-11
+headline: "Planning Commission 20 OCT: county data center ordinance returns, 345 kV line hearing"
+summary: "The Utah County Planning Commission meets 20 OCT 2026 at 5:30 p.m. in Provo. It holds a public hearing on a requested ordinance change for electric transmission lines of 345 kV and over, and takes up the County Commission's proposed data center ordinance again, continued from 15 SEP 2026. Written comments are due by 1:00 p.m. that day to planningcommission@utahcounty.gov, and participation in the hearing is in person."
+items:
+  - title: "345 kV transmission line ordinance amendment"
+    what: "Requested text amendment to Section 8.44 to allow 345 kV and larger transmission lines in a new corridor as a conditional use in any zone, or set added standards for lines and substations."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "County data center ordinance"
+    what: "County Commission's proposed amendments to Chapters 2, 8, 10 and 12 adding data centers as a permitted use in the M&G-1 and I-1 zones, a Data Center Overlay zone and development standards."
+    tags: [land-use, technology]
+    watch: [data-centers, county-data-center-ordinance]
+    hearing: false
+    applicant: false
+    result: null
+tags: [land-use, technology]
+watch: [data-centers, county-data-center-ordinance]
+score: 5
+hearing: { date: 2026-10-20, time: "17:30" }
+attend: true
+attendWhy: "County data center ordinance continued from 15 SEP 2026, plus a public hearing on 345 kV transmission line rules."
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1114191.html }
+  - { label: Agenda 2026 October 20, url: https://www.utah.gov/pmn/files/1499255.pdf }

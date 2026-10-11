@@ -1,102 +1,115 @@
 notice: 1110283
-sourceHash: 18bd559328912484
+sourceHash: 18288dcf89246087
 engine: claude-local
 model: claude-sonnet-5-5
-summarized: 2026-10-06
-headline: "Utah County Commission: 2026 budget amendment hearing, jail fee, property tax code"
-summary: "The 23 SEP 2026 Utah County Commission agenda included a public hearing to amend the 2026 county budgets, an ordinance changing the jail fingerprinting fee, and ordinances on property tax request processing and financial administration. It also listed county technology contracts, an email retention schedule, road and parkway agreements, and a request to remove land north of Santaquin from an agriculture protection area. The meeting date has passed, and the next Commission meetings are 07 OCT 2026 and 21 OCT 2026 at 2:00 p.m."
+summarized: 2026-10-11
+headline: "County Commission 23 SEP: budget hearing held, fee and tax ordinances approved"
+summary: "The Utah County Commission held its public hearing on amending the 2026 county budgets on 23 SEP 2026, then approved nearly all agenda items on consent, including the jail fingerprinting fee ordinance and two county code ordinances on property tax processing and financial administration. The email retention schedule, the IBM hypercare contract and the property tax actions letter were continued to 07 OCT 2026. A settlement agreement signature was ratified 2-1."
 items:
   - title: "2026 county budget amendment hearing"
-    what: "Public hearing on amending 2026 budgets in the General Fund and other funds, with a resolution amending the 2026 county budget also on the regular agenda."
+    what: "Public hearing on amending 2026 budgets in the General Fund and other funds. The resolution amending the 2026 county budget was approved on consent."
     tags: [taxes]
     watch: []
     hearing: true
     applicant: false
-    result: null
+    result: "Hearing opened and closed 3-0; budget resolution approved on consent"
+    resultFrom: minutes
   - title: "Jail fingerprinting fee ordinance"
     what: "Ordinance amending the county fee schedule for the Utah County Jail fingerprinting fee."
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
   - title: "Property tax refund and abatement ordinance"
     what: "Ordinance amending county code 3.07.020 to change how property tax refund, abatement, deferral, credit and exemption requests are processed."
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
+  - title: "Property tax actions, letter 2026-11"
+    what: "Approval of property tax actions in recommendation letter 2026-11."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Continued on consent to 07 OCT 2026"
+    resultFrom: minutes
   - title: "Financial administration ordinance"
     what: "Ordinance amending section 2.01.040, Financial Administration, of the Utah County Code. The agenda gives no detail on the change."
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
   - title: "Sheriff software agreement"
     what: "Software agreement with 2357 Solutions LLC for the Utah County Sheriff's Office."
     tags: [technology]
     watch: []
     hearing: false
     applicant: false
-    result: null
-  - title: "Email retention schedule"
-    what: "Resolution adopting a retention schedule for county email communications."
+    result: "Approved on consent"
+    resultFrom: minutes
+  - title: "Email retention schedule and IBM hypercare"
+    what: "Resolution adopting a retention schedule for county email, and a contract with IBM to extend hypercare for 6 weeks."
     tags: [technology]
     watch: []
     hearing: false
     applicant: false
-    result: null
-  - title: "IBM hypercare extension"
-    what: "Contract with IBM to extend hypercare for 6 weeks, presented by the County Auditor."
-    tags: [technology]
-    watch: []
-    hearing: false
-    applicant: false
-    result: null
+    result: "Both continued on consent to 07 OCT 2026"
+    resultFrom: minutes
   - title: "Information Services DevOps position"
     what: "Staffing plan change upgrading a vacant Programmer III position to a DevOps Engineer position."
     tags: [technology]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
   - title: "Agriculture protection area removal"
     what: "Commission chair to sign a petition removing four parcels, about 34.99 acres, north of Santaquin in unincorporated county from an agriculture protection area."
     tags: [land-use]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
   - title: "Eagles Landing road dedication and addendum"
     what: "Accept the road dedication in Eagles Landing, Plat B subdivision, and approve an addendum to the Eagle's Landing development agreement."
     tags: [land-use]
     watch: []
     hearing: false
     applicant: false
-    result: null
-  - title: "Loafer Mountain Parkway agreements"
-    what: "Agreements to move the banks of a stormwater basin off Loafer Mountain Parkway (Kenny Seng Construction) and for a wetlands site grazing plan (Consor North America)."
+    result: "Both approved on consent"
+    resultFrom: minutes
+  - title: "Parkway and stormwater basin agreements"
+    what: "Agreements for Loafer Mountain Parkway basin and wetlands work (Kenny Seng Construction, Consor North America) and Lower Provo River Parkway construction (Stapp Construction, ITB #2026-9)."
     tags: [roads]
     watch: []
     hearing: false
     applicant: false
-    result: null
-  - title: "Lower Provo River Parkway construction"
-    what: "Agreement with Stapp Construction, Inc. to build improvements to Lower Provo River Parkway under ITB #2026-9."
-    tags: [roads]
+    result: "All approved on consent"
+    resultFrom: minutes
+  - title: "Settlement agreement ratification"
+    what: "Ratify the Commission signature on a settlement agreement. The agenda gives no detail on the parties or terms."
+    tags: []
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved 2-1 (Beltran opposed)"
+    resultFrom: minutes
 tags: [taxes, technology, land-use, roads]
 watch: []
 score: 4
 hearing: { date: 2026-09-23, time: "14:00" }
 attend: false
 attendWhy: null
-basis: agenda+attachments
+basis: agenda+attachments (scan read as images)
 sources:
   - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1110283.html }
+  - { label: 09.23.2026 Approved Meeting Minutes, url: https://www.utah.gov/pmn/files/1499083.pdf }
   - { label: 09.23.2026 FINAL Commission Meeting Agenda, url: https://www.utah.gov/pmn/files/1491479.pdf }
