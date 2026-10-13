@@ -1,0 +1,38 @@
+notice: 1114729
+sourceHash: 0f8a1584dfba1ab6
+engine: claude-local
+model: claude-opus-5-5
+summarized: '2026-10-13'
+headline: 'Hearing 04 NOV on up to $30M county sales tax bonds for a public works facility'
+summary: >-
+  On 07 OCT 2026 the Utah County Commission adopted a resolution authorizing up to $30,000,000 in
+  sales tax revenue bonds to build a new public works facility, and called a public hearing for 04
+  NOV 2026 at 2:00 pm in Room 1400 of the County Administration Building, 100 East Center Street,
+  Provo. The bonds would be repaid from county option sales tax revenue over up to 21 years, with an
+  estimated total principal and interest cost of $37,561,157. Residents can speak at the hearing,
+  examine the resolution at the County Clerk's office, and have 30 days from publication to contest
+  its legality.
+items:
+  - title: Public hearing on Series 2026 sales tax revenue bonds
+    what: >-
+      Up to $30,000,000 in bonds, up to 21 years at no more than 6.50% interest, to build a new
+      public works facility; repaid from county option sales tax revenue.
+    tags:
+      - taxes
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+tags:
+  - taxes
+watch: []
+score: 4
+hearing: { date: 2026-11-04, time: "14:00" }
+attend: true
+attendWhy: Public hearing on up to $30,000,000 in county sales tax revenue bonds for a new public works facility.
+basis: agenda+attachments
+sources:
+  - label: PMN notice
+    url: https://www.utah.gov/pmn/sitemap/notice/1114729.html
+  - label: Notice of Public Hearing and Bonds to be Issued - Utah Co. STRB 2026.pdf
+    url: https://www.utah.gov/pmn/files/1499981.pdf
