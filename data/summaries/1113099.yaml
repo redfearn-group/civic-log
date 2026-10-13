@@ -1,16 +1,15 @@
 notice: 1113099
-sourceHash: 6f9b7c77ee7f8377
+sourceHash: d80bf363235433ee
 engine: claude-local
 model: claude-opus-5-5
-summarized: '2026-10-08'
+summarized: '2026-10-13'
 headline: 'Utah County Commission 07 OCT: $30M sales tax bond, property tax actions'
 summary: >-
-  The Utah County Commission meets 07 OCT 2026 at 2:00 pm with a long agenda that includes a
-  resolution on about $30,000,000 of sales tax revenue bonds, property tax actions, an email
-  retention schedule, a software contract for the Community Development Block Grant system, and
-  software and IT contracts with IBM, Workday and Accenture. Residents can comment in person (two
-  minutes each) or watch on YouTube. The agenda lists actions only, with no dollar figures except
-  the bond amount.
+  The Utah County Commission met 07 OCT 2026 with a long agenda that included a resolution on about
+  $30,000,000 of sales tax revenue bonds, property tax actions, an email retention schedule, a
+  software contract for the Community Development Block Grant system, and IT contracts with IBM,
+  Workday and Accenture. A later county notice says the bond resolution was adopted and sets a public
+  hearing on the bonds for 04 NOV 2026. The county has posted an audio recording of the meeting.
 items:
   - title: Sales tax revenue bonds, about $30,000,000
     what: >-
