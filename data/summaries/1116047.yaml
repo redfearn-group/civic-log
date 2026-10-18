@@ -1,0 +1,67 @@
+﻿notice: 1116047
+sourceHash: 68dbf60487506589
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-18
+headline: Council hearings on Ridgeline Townhomes, Nelson Commercial and Shady Oaks rezones
+summary: On 20 OCT 2026 the City Council holds four public hearings on land use. Three are map and zone changes (45 townhomes on SR 51, a 3.18-acre commercial rezone on South Main, and a 2.54-acre mixed-use change on River Bottoms Road), and one is a code change on the Planning Commission. Residents can speak at the 6:00 PM meeting or send written comments.
+items:
+  - title: Ridgeline Townhomes
+    what: General Plan map change to High Density Residential, R-3 zone with Master Planned Development overlay, and a 45-townhome preliminary plat at 1271 North SR 51.
+    tags: [land-use, home]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: Nelson Commercial zone change
+    what: Rezone 3.18 acres at 2162 South Main Street from Rural Residential to Commercial 2.
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: Shady Oaks map and zone change
+    what: Change 2.54 acres at 3575 East River Bottoms Road to Mixed Use on the General Plan and Commercial Office zoning.
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: Planning Commission code amendment
+    what: Zoning text amendment adding language to align the municipal code with state law on Planning Commission matters.
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Work session: water and irrigation"
+    what: "Work session at 4:30 PM on the Water and Pressurized Irrigation Master Plans. No formal action is taken."
+    tags: [taxes, home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Work session: Foundry Area Vision"
+    what: "Work session at 4:30 PM on the Foundry Area Vision. No formal action is taken."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Spanish Fork 101: property taxes"
+    what: Informational segment on property taxes.
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [land-use, home, taxes]
+watch: []
+score: 4
+hearing: { date: 2026-10-20, time: "18:00" }
+attend: true
+attendWhy: Public hearings on Ridgeline Townhomes, Nelson Commercial and Shady Oaks land use changes.
+basis: agenda text only
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1116047.html" }
+
