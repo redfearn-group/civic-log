@@ -1,0 +1,102 @@
+notice: 1116741
+sourceHash: 6ce712707ad74e5f
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-10-20
+headline: "County Commission to tentatively adopt its 2027 budget and act on a mining bond"
+summary: "The Utah County Commission meets 21 OCT 2026 at 2:00 PM in Provo. The main item is a resolution tentatively adopting the 2027 budget for the general fund and other funds. Other items cover a quarry compliance agreement and bond, development bond releases, road agreements and warming center funding. Public comment is limited to 2 minutes and the meeting streams on YouTube."
+items:
+  - title: "2027 tentative county budget"
+    what: "Resolution to approve and tentatively adopt the 2027 budget for the general fund and other budgetary funds of Utah County."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "CMC Rock open pit mining bond and agreement"
+    what: "Compliance agreement and bond for an existing open pit mine near 7605 S Lincoln Beach Rd (M&G-1 zone), plus release of an $85,000 surety bond once a replacement bond is received."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Subdivision and fire improvement bond releases"
+    what: "Partial release of the construction bond for Rafter Lazy H Subdivision Plat A, and release of the fire truck and fire improvement bond for Eagle's Landing."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "2026 eligible corridor maps"
+    what: "Approval of the 2026 maps of eligible corridors for the Corridor Preservation Funds."
+    tags: [roads]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "200 South 300 West intersection amendment"
+    what: "Resolution to sign the first amendment to the 2024 agreement with American Fork City for the 200 South 300 West intersection project."
+    tags: [roads]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "IBM hypercare extension"
+    what: "Contract with IBM to extend hypercare support for 6 weeks. The agenda gives no further detail."
+    tags: [technology]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Nebo School District interlocal agreement"
+    what: "Resolution authorizing an interlocal cooperation agreement with Nebo School District, presented by the Sheriff's Office."
+    tags: [schools]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Winter warming center lease and funding"
+    what: "Lease of a county building to Community Action as a warming center for winter 2026-2027, and an MOU advancing funds to operate it."
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Spring Lake housing rehabilitation grant"
+    what: "Subrecipient agreement with the Housing Authority of Utah County for a Community Development Block Grant to rehabilitate an affordable multi-family complex in Spring Lake."
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Debris basin management award"
+    what: "Public Works director to sign the state Division of Emergency Management award packet for management services for the Hobble Creek and Payson debris basins."
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Spring Lake law enforcement agreement"
+    what: "Interlocal agreement with Spring Lake for law enforcement services."
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Work session: Utah County Fair"
+    what: "Work session presentation by the Utah County Fair."
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [taxes, land-use, roads, technology, schools, home]
+watch: []
+score: 4
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1116741.html" }
+  - { label: 10.21.2026 FINAL Commission Meeting Agenda.pdf, url: "https://www.utah.gov/pmn/files/1503473.pdf" }
