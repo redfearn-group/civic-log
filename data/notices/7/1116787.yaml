@@ -13,15 +13,25 @@ start:
   time: '10:00'
 location: 80 s Main Street Spanish Fork , UT 84660
 posted: '2026-10-19'
-edited: '2026-10-19'
+edited: '2026-10-22'
 url: https://www.utah.gov/pmn/sitemap/notice/1116787.html
 video: null
 attachments:
+  - id: 1505161
+    name: drc.10-21-2026.mp3
+    category: Audio Recording
+    added: '2026-10-22'
+    url: https://www.utah.gov/pmn/files/1505161.mp3
   - id: 1503543
     name: Development Review Committee - Oct 21 2026.pdf
     category: Public Information Handout
     added: '2026-10-19'
     url: https://www.utah.gov/pmn/files/1503543.pdf
+  - id: 1505159
+    name: agenda.drc.10-21-2026.pdf
+    category: Public Information Handout
+    added: '2026-10-22'
+    url: https://www.utah.gov/pmn/files/1505159.pdf
 agenda: >-
   Development Review Committee Agenda
 
@@ -98,6 +108,6 @@ agenda: >-
 
 
   4. ADJOURN
-hash: 547c37d900d488f1
+hash: 2629f3d39f299a4d
 firstSeen: '2026-10-20'
-lastChanged: '2026-10-20'
+lastChanged: '2026-10-23'
