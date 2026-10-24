@@ -16,10 +16,45 @@ start:
   time: '18:00'
 location: 80 South Main Street at Library Hall Spanish Fork, UT 84660
 posted: '2026-10-15'
-edited: '2026-10-15'
+edited: '2026-10-23'
 url: https://www.utah.gov/pmn/sitemap/notice/1116047.html
-video: null
-attachments: []
+video: https://www.youtube.com/watch?v=Ui_33yqWPgY
+attachments:
+  - id: 1506115
+    name: Adopted 10 City Council Minutes 10-06-2026.pdf
+    category: Meeting Minutes
+    added: '2026-10-23'
+    url: https://www.utah.gov/pmn/files/1506115.pdf
+  - id: 1506117
+    name: PRESENTATION 2026 DWMP PIWMP CC Presentation (1).pdf
+    category: Public Information Handout
+    added: '2026-10-23'
+    url: https://www.utah.gov/pmn/files/1506117.pdf
+  - id: 1506119
+    name: PRESENTATION 2026 DWMP PIWMP CC Presentation.pdf
+    category: Public Information Handout
+    added: '2026-10-23'
+    url: https://www.utah.gov/pmn/files/1506119.pdf
+  - id: 1506121
+    name: PRESENTATION SF 101 - Property Taxes.pdf
+    category: Public Information Handout
+    added: '2026-10-23'
+    url: https://www.utah.gov/pmn/files/1506121.pdf
+  - id: 1506123
+    name: presentation.cc.10-20-2026.pdf
+    category: Public Information Handout
+    added: '2026-10-23'
+    url: https://www.utah.gov/pmn/files/1506123.pdf
+  - id: 1506125
+    name: presentation.foundryvision.10-20-2026.pdf
+    category: Public Information Handout
+    added: '2026-10-23'
+    url: https://www.utah.gov/pmn/files/1506125.pdf
+  - id: 1506127
+    name: Ordinance Certificates Spanish_Fork_October_20_2026_Ordinance_Certificates.pdf
+    category: Public Information Handout
+    added: '2026-10-23'
+    url: https://www.utah.gov/pmn/files/1506127.pdf
 agenda: >-
   CITY COUNCIL Agenda
 
@@ -255,6 +290,6 @@ agenda: >-
   to hear
 
   from you so we can work together to continue to build our community on sound principles.
-hash: 68dbf60487506589
+hash: 2ff426340ce656b3
 firstSeen: '2026-10-16'
-lastChanged: '2026-10-16'
+lastChanged: '2026-10-24'
