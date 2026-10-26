@@ -1,136 +1,125 @@
 notice: 1113099
-sourceHash: d80bf363235433ee
+sourceHash: 8f3aed2e846940e6
 engine: claude-local
 model: claude-opus-5-5
-summarized: '2026-10-13'
-headline: 'Utah County Commission 07 OCT: $30M sales tax bond, property tax actions'
+summarized: 2026-10-26
+headline: "Utah County Commission 07 OCT: $30M sales tax bonds approved, new administrator"
 summary: >-
-  The Utah County Commission met 07 OCT 2026 with a long agenda that included a resolution on about
-  $30,000,000 of sales tax revenue bonds, property tax actions, an email retention schedule, a
-  software contract for the Community Development Block Grant system, and IT contracts with IBM,
-  Workday and Accenture. A later county notice says the bond resolution was adopted and sets a public
-  hearing on the bonds for 04 NOV 2026. The county has posted an audio recording of the meeting.
+  The approved minutes show the Utah County Commission adopted a resolution on about $30,000,000 of
+  sales tax revenue bonds and approved property tax actions on consent on 07 OCT 2026, and appointed
+  Jed Webb as County Administrator 2-0 with Commissioner Gardner absent. The email retention schedule
+  was struck from the agenda and the IBM contract extension was continued to 21 OCT 2026. Ten people
+  spoke in public comment, most of them asking the county to pause or ban data centers.
 items:
   - title: Sales tax revenue bonds, about $30,000,000
     what: >-
       Resolution authorizing the issuance and sale of approximately $30,000,000 aggregate principal
-      amount of sales tax revenue bonds within certain parameters, and related matters.
-    tags:
-      - taxes
+      amount of sales tax revenue bonds within certain parameters (Resolution 2026-786).
+    tags: [taxes]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: Approved on consent
+    resultFrom: minutes
   - title: Property tax actions, letter 2026-11
     what: Approve the property tax actions included in recommendation letter 2026-11.
-    tags:
-      - taxes
+    tags: [taxes]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: Approved on consent
+    resultFrom: minutes
+  - title: County Administrator appointment
+    what: Resolution appointing Jed Webb as Utah County Administrator (Resolution 2026-766).
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: Approved 2-0 (Gardner absent)
+    resultFrom: minutes
   - title: Email communications retention schedule
-    what: >-
-      Resolution adopting a retention schedule for email communications, presented by Information
-      Systems.
-    tags:
-      - technology
+    what: Resolution adopting a retention schedule for email communications, presented by Information Systems.
+    tags: [technology]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: Struck from the agenda
+    resultFrom: minutes
   - title: Cloud software for the CDBG system
     what: >-
-      Approve a contract to purchase a cloud-based software-as-a-service program for managing the
-      Community Development Block Grant system.
-    tags:
-      - technology
+      Contract to purchase a cloud-based software-as-a-service program for managing the Community
+      Development Block Grant system.
+    tags: [technology]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: Approved on consent
+    resultFrom: minutes
   - title: IBM, Workday and Accenture contracts
     what: >-
       Contract with IBM to extend hypercare for 6 weeks, a Workday renewal for HRIS subscription
       services, and an Accenture change order for AMS support hours in 2027.
-    tags:
-      - technology
+    tags: [technology]
     watch: []
     hearing: false
     applicant: false
-    result: null
-  - title: County ADA compliance policy
-    what: Resolution adopting and enacting a Utah County ADA compliance policy.
-    tags:
-      - home
-    watch: []
-    hearing: false
-    applicant: false
-    result: null
+    result: IBM extension continued to 21 OCT 2026; Workday and Accenture approved on consent
+    resultFrom: minutes
   - title: Mapleton bike park agreement
-    what: Approve an agreement between Utah County and Mapleton City for the Mapleton Bike Park.
-    tags:
-      - home
-      - roads
+    what: Agreement between Utah County and Mapleton City for the Mapleton Bike Park.
+    tags: [home, roads]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: Approved on consent
+    resultFrom: minutes
   - title: Road, rail crossing and sidewalk agreements
     what: >-
       Interlocal agreements with Eagle Mountain (Ranches Parkway) and Lindon (400 West), a Union
       Pacific crossing for Dairy Fork Road, and a Payson CDBG grant for 500 S sidewalk and road.
-    tags:
-      - roads
+    tags: [roads]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: Approved on consent
+    resultFrom: minutes
   - title: Home rehabilitation environmental reviews
     what: >-
       Eleven consent items approving environmental reviews for single-family home rehabilitations in
       nine cities, including two in Spanish Fork.
-    tags:
-      - home
+    tags: [home]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: Approved on consent
+    resultFrom: minutes
   - title: Spanish Fork River Park pipe fence
-    what: >-
-      Agreement with Custom Fence Co to complete the pipe fence specified in ITB #2026-17 for
-      Spanish Fork River Park.
-    tags:
-      - home
+    what: Agreement with Custom Fence Co to complete the pipe fence specified in ITB #2026-17 for Spanish Fork River Park.
+    tags: [home]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: Approved on consent
+    resultFrom: minutes
   - title: Fiber repair at 3075 North Main
-    what: >-
-      Agreement with C&C Doing It Right Construction to provide materials and manpower to repair
-      fiber at 3075 North Main.
-    tags:
-      - technology
+    what: Agreement with C&C Doing It Right Construction to provide materials and manpower to repair fiber at 3075 North Main.
+    tags: [technology]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: Approved on consent
+    resultFrom: minutes
   - title: Eight jail control board operator positions
     what: >-
       Add eight full-time Control Board Operator positions to the Sheriff's Office Housing Division,
       earliest start 02 JAN 2027.
-    tags:
-      - home
+    tags: [home]
     watch: []
     hearing: false
     applicant: false
-    result: null
-tags:
-  - taxes
-  - technology
-  - home
-  - roads
+    result: Approved 2-0 (Gardner absent)
+    resultFrom: minutes
+tags: [taxes, home, technology, roads]
 watch: []
 score: 4
 hearing: null
@@ -138,7 +127,6 @@ attend: false
 attendWhy: null
 basis: agenda+attachments
 sources:
-  - label: PMN notice
-    url: https://www.utah.gov/pmn/sitemap/notice/1113099.html
-  - label: Commission_Agenda_10-07-2026 Version 2.pdf
-    url: https://www.utah.gov/pmn/files/1497135.pdf
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1113099.html" }
+  - { label: 10.07.2026 Approved Meeting Minutes.pdf, url: "https://www.utah.gov/pmn/files/1505613.pdf" }
+  - { label: Commission_Agenda_10-07-2026 Version 2.pdf, url: "https://www.utah.gov/pmn/files/1497135.pdf" }

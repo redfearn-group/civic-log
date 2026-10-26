@@ -1,67 +1,123 @@
 ﻿notice: 1116047
-sourceHash: 68dbf60487506589
+sourceHash: 2ff426340ce656b3
 engine: claude-local
 model: claude-sonnet-5-5
-summarized: 2026-10-18
-headline: Council hearings on Ridgeline Townhomes, Nelson Commercial and Shady Oaks rezones
-summary: On 20 OCT 2026 the City Council holds four public hearings on land use. Three are map and zone changes (45 townhomes on SR 51, a 3.18-acre commercial rezone on South Main, and a 2.54-acre mixed-use change on River Bottoms Road), and one is a code change on the Planning Commission. Residents can speak at the 6:00 PM meeting or send written comments.
+summarized: 2026-10-26
+headline: Council approved Ridgeline Townhomes, Nelson Commercial, Shady Oaks and a Title 15 change
+summary: "On 20 OCT 2026 the City Council held four public hearings and, by the meeting video, approved all of them with no opposing vote heard: 45 townhomes on SR 51, a 3.18-acre commercial rezone, a Shady Oaks event center rezone with fence and parking conditions, and a Title 15 Planning Commission change. Minutes of the 06 OCT 2026 meeting, now attached, record the Oak Village and Leland Meadows approvals, Budget Revision 1 and a 3-2 vote on voter participation areas for the Title 15 referendum. Video results are unofficial until these minutes are adopted."
 items:
   - title: Ridgeline Townhomes
-    what: General Plan map change to High Density Residential, R-3 zone with Master Planned Development overlay, and a 45-townhome preliminary plat at 1271 North SR 51.
+    what: General Plan change to High Density Residential, R-3 zone with Master Planned Development overlay, and a 45-townhome preliminary plat at 1271 North SR 51. All three approved.
     tags: [land-use, home]
     watch: []
     hearing: true
     applicant: false
-    result: null
+    result: "Approved, no opposing vote heard (general plan, zone change and preliminary plat)"
+    resultFrom: video
+    at: "27:13"
   - title: Nelson Commercial zone change
-    what: Rezone 3.18 acres at 2162 South Main Street from Rural Residential to Commercial 2.
+    what: Rezone of 3.18 acres at 2162 South Main Street from Rural Residential to Commercial 2, consistent with the General Plan designation of Commercial.
     tags: [land-use]
     watch: []
     hearing: true
     applicant: false
-    result: null
+    result: "Approved 3-0"
+    resultFrom: video
+    at: "37:57"
   - title: Shady Oaks map and zone change
-    what: Change 2.54 acres at 3575 East River Bottoms Road to Mixed Use on the General Plan and Commercial Office zoning.
+    what: "Mixed Use plan change and Commercial Office zoning for 2.54 acres at 3575 East River Bottoms Road, for a proposed event center. Conditions: a wall or fence and at least 60 parking spaces."
     tags: [land-use]
     watch: []
     hearing: true
     applicant: false
-    result: null
+    result: "Approved, no opposing vote heard (general plan, then zone change with fence and parking conditions)"
+    resultFrom: video
+    at: "1:18:57"
   - title: Planning Commission code amendment
-    what: Zoning text amendment adding language to align the municipal code with state law on Planning Commission matters.
+    what: Title 15 text amendment updating Planning Commission procedures and training to match recently adopted state law.
     tags: [land-use]
-    watch: []
+    watch: [title-15]
     hearing: true
     applicant: false
-    result: null
-  - title: "Work session: water and irrigation"
-    what: "Work session at 4:30 PM on the Water and Pressurized Irrigation Master Plans. No formal action is taken."
-    tags: [taxes, home]
-    watch: []
-    hearing: false
-    applicant: false
-    result: null
-  - title: "Work session: Foundry Area Vision"
-    what: "Work session at 4:30 PM on the Foundry Area Vision. No formal action is taken."
-    tags: [land-use]
+    result: "Approved, no opposing vote heard"
+    resultFrom: video
+    at: "1:26:34"
+  - title: "Work sessions: water master plans and Foundry vision"
+    what: "Work sessions at 4:30 PM on the Water and Pressurized Irrigation Master Plans (a valve exercising case study) and the Foundry Area Vision map. No formal action is taken."
+    tags: [taxes, home, land-use]
     watch: []
     hearing: false
     applicant: false
     result: null
   - title: "Spanish Fork 101: property taxes"
-    what: Informational segment on property taxes.
+    what: Finance staff compared Spanish Fork's property tax rates and average bills with nearby cities and tied low rates to sales tax from travelers.
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
     result: null
-tags: [land-use, home, taxes]
-watch: []
-score: 4
+    at: "1:33:11"
+  - title: "Minutes, 06 OCT 2026: Oak Village zone change and plat"
+    what: Oak Village zone change and preliminary plat approved with a development agreement and a staff review of traffic and safety on 100 South.
+    tags: [land-use, home]
+    watch: [developments]
+    hearing: false
+    applicant: false
+    result: "Approved 5-0 (zone change and preliminary plat)"
+    resultFrom: minutes
+  - title: "Minutes, 06 OCT 2026: Leland Meadows zone change and plat"
+    what: Leland Meadows zone change and subdivision preliminary plat approved, with added fencing conditions along irrigation, agricultural protection areas and feedlots.
+    tags: [land-use, home]
+    watch: [developments]
+    hearing: false
+    applicant: false
+    result: "Approved 5-0 (zone change and preliminary plat)"
+    resultFrom: minutes
+  - title: "Minutes, 06 OCT 2026: FY 2027 Budget Revision 1"
+    what: Budget revision carrying forward unfinished projects, with FY 2027 salary ranges and parks fee changes (golf, recreation, pavilions, cemetery plot transfers).
+    tags: [taxes, home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Approved 5-0"
+    resultFrom: minutes
+  - title: "Minutes, 06 OCT 2026: voter participation areas"
+    what: Ordinance redrawing the four voter participation areas to current precincts, used to count signatures on the Title 15 land use referendum.
+    tags: [land-use]
+    watch: [title-15]
+    hearing: false
+    applicant: false
+    result: "Approved 3-2 (Cardon, Tooke opposed)"
+    resultFrom: minutes
+  - title: "Minutes, 06 OCT 2026: Cold Springs pipeline change order"
+    what: Change order of $519,902.28 on Cold Springs Pipeline Rehabilitation Phase 2, driven by added railroad oversight requirements.
+    tags: [taxes, home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Approved 5-0"
+    resultFrom: minutes
+  - title: "Minutes, 06 OCT 2026: Zayo Group franchise agreement"
+    what: Franchise agreement for Zayo Group approved as part of the consent items.
+    tags: [technology]
+    watch: [broadband]
+    hearing: false
+    applicant: false
+    result: "Approved 5-0 (consent items)"
+    resultFrom: minutes
+tags: [land-use, home, taxes, technology]
+watch: [title-15, developments, broadband]
+score: 5
 hearing: { date: 2026-10-20, time: "18:00" }
-attend: true
-attendWhy: Public hearings on Ridgeline Townhomes, Nelson Commercial and Shady Oaks land use changes.
-basis: agenda text only
+attend: false
+attendWhy: null
+basis: agenda+attachments (scan read as images)+video
+video: { id: Ui_33yqWPgY, url: "https://www.youtube.com/watch?v=Ui_33yqWPgY" }
 sources:
   - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1116047.html" }
-
+  - { label: Adopted 10 City Council Minutes 10-06-2026.pdf, url: "https://www.utah.gov/pmn/files/1506115.pdf" }
+  - { label: PRESENTATION 2026 DWMP PIWMP CC Presentation (1).pdf, url: "https://www.utah.gov/pmn/files/1506117.pdf" }
+  - { label: PRESENTATION 2026 DWMP PIWMP CC Presentation.pdf, url: "https://www.utah.gov/pmn/files/1506119.pdf" }
+  - { label: PRESENTATION SF 101 - Property Taxes.pdf, url: "https://www.utah.gov/pmn/files/1506121.pdf" }
+  - { label: presentation.cc.10-20-2026.pdf, url: "https://www.utah.gov/pmn/files/1506123.pdf" }
+  - { label: presentation.foundryvision.10-20-2026.pdf, url: "https://www.utah.gov/pmn/files/1506125.pdf" }

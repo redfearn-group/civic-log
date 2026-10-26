@@ -1,10 +1,10 @@
 notice: 1116787
-sourceHash: 547c37d900d488f1
+sourceHash: 2629f3d39f299a4d
 engine: claude-local
-model: claude-sonnet-5-5
-summarized: 2026-10-20
-headline: "Spanish Fork review committee takes up a Larson Park zone change and 205-lot plat"
-summary: "Spanish Fork's Development Review Committee meets 21 OCT 2026 at 10:00 AM at Library Hall, 80 South Main. It will act on a Larson Park zone change and preliminary plat, a 169-lot townhome final plat on South Main and a five-lot industrial plat on SR-77. This is a staff-level review meeting, not a public hearing, and it is in person only."
+model: claude-opus-5-5
+summarized: 2026-10-26
+headline: "Spanish Fork review committee took up a Larson Park zone change and 205-lot plat"
+summary: "Spanish Fork's Development Review Committee met 21 OCT 2026 to act on a Larson Park zone change and preliminary plat, a 169-lot townhome final plat on South Main, a five-lot industrial plat on SR-77 and the PI and Water Master Plans update. This is a staff-level review meeting, not a public hearing. The city has posted an audio recording, but no minutes or results yet."
 items:
   - title: "Larson Park zone change and preliminary plat"
     what: "Rezone from R-R Rural Residential to C-2, R-3 and R-1-15 with Master Planned Overlay, and a plat of 205 residential lots and townhomes plus one commercial lot near 1700 West 1900 South."
@@ -28,7 +28,7 @@ items:
     applicant: false
     result: null
   - title: "PI and Water Master Plans update"
-    what: "Update of the city's PI and Water Master Plans. The agenda gives no further detail."
+    what: "Update of the city's pressurized irrigation (PI) and Water Master Plans. The agenda gives no further detail."
     tags: [home]
     watch: []
     hearing: false
@@ -52,8 +52,8 @@ tags: [land-use, home]
 watch: [developments]
 score: 5
 hearing: null
-attend: true
-attendWhy: "Larson Park zone change and 205-lot preliminary plat on the agenda."
+attend: false
+attendWhy: null
 basis: agenda
 sources:
   - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1116787.html" }
