@@ -1,0 +1,66 @@
+notice: 1119163
+sourceHash: bee9bf7d62dbb28d
+engine: claude-local
+model: claude-opus-5-5
+summarized: 2026-11-01
+headline: "Spanish Fork council takes up water master plans and a 100 South safety review"
+summary: "The Spanish Fork City Council meets 3 NOV 2026, with a work session at 4:30 PM in the Explorer Room and the regular meeting at 6:00 PM in the Council Chambers, 80 South Main Street. New business covers updates to the drinking water and pressure irrigation master plans, a benefits broker agreement and an eight-foot fence request. The agenda lists no public hearing, but residents can speak during public comments."
+items:
+  - title: "Drinking water and pressure irrigation master plans"
+    what: "New business: updates to the city's Drinking Water Master Plan and Pressure Irrigation Master Plan."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "100 South Corridor roadway safety review"
+    what: "Work session at 4:30 PM on a roadway safety review of the 100 South corridor."
+    tags: [roads]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Eight-foot fence, 1068 West River Ridge Lane"
+    what: "New business: approval request for an eight-foot tall fence at 1068 West River Ridge Lane."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Benefits broker agreement with GBS"
+    what: "New business: benefits broker agreement with GBS."
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Albertsons opioid settlement"
+    what: "Consent item: city participation in the Albertsons opioid settlement."
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Thurber Building update"
+    what: "Work session update on the Thurber Building."
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Snowplowing operations"
+    what: "Spanish Fork 101 presentation on the city's snowplowing operations."
+    tags: [home, roads]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [taxes, roads, land-use, home]
+watch: []
+score: 4
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1119163.html" }

@@ -1,0 +1,24 @@
+notice: 1119277
+sourceHash: bfd926be86ebc1b2
+engine: claude-local
+model: claude-opus-5-5
+summarized: 2026-11-01
+headline: "Utah County Commission budget work session on the 2027 budget, 3 NOV 2026 at 1 PM"
+summary: "The Utah County Commission holds a budget work session on 3 NOV 2026 at 1:00 PM in the Historic County Courthouse, 51 S University Ave, Provo, on the 2027 budget for the General Fund and other county funds. It is the second of two sessions that day, after one at 10:00 AM. The agenda lists discussion only, with no public hearing, and the meeting is open to the public."
+items:
+  - title: "2027 Utah County budget work session"
+    what: "Work session on the 2027 Utah County budget for the General Fund and other budgetary funds."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [taxes]
+watch: []
+score: 3
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1119277.html" }
