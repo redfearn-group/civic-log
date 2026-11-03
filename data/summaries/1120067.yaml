@@ -1,0 +1,106 @@
+notice: 1120067
+sourceHash: 6813c72e436b8d42
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-11-03
+headline: "DRC reviews a Harmons grocery store and 7-Eleven site plans, and the Factory Point concept"
+summary: "The Spanish Fork Development Review Committee meets 04 NOV 2026 at 10:00 AM. Staff recommend approval of site plans for a 66,845 sq ft Harmons grocery store and a 7-Eleven with gas sales at 2300 South Main Street. It also discusses the Factory Point concept plan, which is open to the public."
+items:
+  - title: "Harmons site plan"
+    what: "Site plan for a new 66,845 sq ft grocery store on 7.4 acres at 2643 East 400 North. Gas sales are not requested now, but a future fuel center is shown. Staff recommend approval."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Canyon Court Plat A site plan"
+    what: "Site plan for a 6-unit, 8,746 sq ft commercial building with 39 parking stalls at 552 North Spanish Fork Parkway. Staff recommend approval."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "7-Eleven subdivision and site plan"
+    what: "Combines parcels into one 2.03-acre lot and approves a convenience store with gas sales at 2300 South Main Street. Issues include 300 West access spacing and burying the powerline."
+    tags: [land-use, roads]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Factory Point concept"
+    what: "Discussion of a Factory Point zone change concept; the attached exhibit is titled Sugar Stack Townhomes and comes from the applicant's engineer."
+    tags: [land-use]
+    watch: [developments]
+    hearing: false
+    applicant: true
+    result: null
+  - title: "Stewart Farms concept plan"
+    what: "Discussion of a concept plan for the Stewart property near 3400 East and 700 South."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: true
+    result: null
+  - title: "Horrocks River Bottoms annexation concept"
+    what: "Discussion of a concept plan for a proposed annexation. The agenda gives no size or location."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: true
+    result: null
+  - title: "3400 East city park concept"
+    what: "Concept for a city park with a split-area dog park, playground, pavilion, restrooms and 44 angled parking stalls, laid out around overhead power lines."
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Construction site fugitive dust"
+    what: "Discussion item on controlling fugitive dust at construction sites. The agenda gives no detail."
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Minutes, 21 OCT 2026: Larson Park"
+    what: "Committee recommended denial of the Larson Park zone change and preliminary plat, finding it did not meet the Master Planned Development Overlay purpose."
+    tags: [land-use]
+    watch: [developments]
+    hearing: false
+    applicant: false
+    result: "Recommended denial, all in favor"
+    resultFrom: minutes
+  - title: "Minutes, 21 OCT 2026: Swenson Industrial"
+    what: "Committee recommended approval of the Swenson Industrial preliminary plat with a condition to record a right-of-way and easement along 1730 West."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Recommended approval, all in favor"
+    resultFrom: minutes
+  - title: "Minutes, 21 OCT 2026: Creekside Village"
+    what: "Committee approved the Creekside Village Townhomes final plat with conditions."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Approved, all in favor"
+    resultFrom: minutes
+  - title: "Minutes, 21 OCT 2026: Water master plans"
+    what: "Committee recommended City Council approval of updates to the Pressurized Irrigation and Drinking Water Master Plans."
+    tags: [taxes, home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Recommended approval, all in favor"
+    resultFrom: minutes
+tags: [land-use, roads, home, taxes]
+watch: [developments]
+score: 4
+hearing: null
+attend: true
+attendWhy: "Factory Point concept plan discussion, a named development in the pipeline."
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1120067.html" }
+  - { label: agenda.drc.11-4-2026.pdf, url: "https://www.utah.gov/pmn/files/1509787.pdf" }

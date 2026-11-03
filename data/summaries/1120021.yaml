@@ -1,0 +1,102 @@
+notice: 1120021
+sourceHash: bd72779fd55e55ad
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-11-03
+headline: "Utah County holds a hearing on up to $30M in sales tax revenue bonds"
+summary: "The County Commission meets 04 NOV 2026 at 2:00 PM in Provo. It holds a public hearing on issuing up to $30,000,000 of sales tax revenue bonds, then votes on the bond sale documents. Residents can comment at the hearing or in public comments. It also sets an 18 NOV 2026 hearing on the 2027 county budget."
+items:
+  - title: "Hearing: $30M sales tax revenue bonds"
+    what: "Public hearing on issuing up to $30,000,000 of sales tax revenue bonds and their possible economic impact on the private sector."
+    tags: [taxes]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Bond sale documents, Series 2026"
+    what: "Resolution authorizing the preliminary official statement and notice of bond sale for $30,000,000 of Sales Tax Revenue Bonds, Series 2026."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Set 2027 budget hearing"
+    what: "Sets a public hearing on the 2027 General Fund and other county budgets for 18 NOV 2026 at 2:00 PM in Room 1400."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "County fee schedule ordinance"
+    what: "Ordinance amending the Utah County fee schedule, presented by the Sheriff's office. The agenda does not say which fees change."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Forensic interview disclosure resolution"
+    what: "Resolution restricting disclosure of Children's Justice Center forensic interviews to prosecutors and law enforcement without an AI acceptable use policy."
+    tags: [technology]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "New fiber at Freedom Commons"
+    what: "Agreement with C&C Doing It Right Construction for materials and labor to run new fiber to Freedom Commons, 200 West University Avenue, tied to the county fiber network."
+    tags: [technology]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "9600 South road land purchase"
+    what: "Real estate purchase agreement with Rafter Lazy H Land, LLC for the 9600 South Road project."
+    tags: [roads]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Utah and Wasatch county boundary"
+    what: "Notice of impending boundary action and final plat adjusting the Utah and Wasatch county line under a 1922 agreement never filed with the state."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Audit services agreement"
+    what: "Agreement between the county and Gilbert & Stewart, CPA PC for audit services."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Santaquin ambulance selection letter"
+    what: "Letter selecting Santaquin Fire/EMS as the county ambulance provider west of Santaquin to the Juab County line, supporting its state re-licensure."
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Third-party building inspection firm"
+    what: "Contract with Drakon Opsis, LLC as a third-party building inspection firm for the county."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "UTA trail connection license"
+    what: "General license agreement with the Utah Transit Authority for a multi-use trail connection."
+    tags: [roads]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [taxes, technology, roads, land-use, home]
+watch: []
+score: 4
+hearing: { date: 2026-11-04, time: "14:00" }
+attend: true
+attendWhy: "Public hearing on up to $30,000,000 of Utah County sales tax revenue bonds."
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1120021.html" }
+  - { label: 11.04.2026 Commission Meeting Agenda.pdf, url: "https://www.utah.gov/pmn/files/1509705.pdf" }
