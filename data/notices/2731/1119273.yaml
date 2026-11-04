@@ -12,10 +12,15 @@ start:
   time: '10:00'
 location: 51 S UNIVERSITY AVE, STE 319 PROVO, UT 84601
 posted: '2026-10-30'
-edited: '2026-10-30'
+edited: '2026-11-04'
 url: https://www.utah.gov/pmn/sitemap/notice/1119273.html
 video: null
 attachments:
+  - id: 1510695
+    name: 11.03.2026 Buget work session.MP3
+    category: Audio Recording
+    added: '2026-11-04'
+    url: https://www.utah.gov/pmn/files/1510695.MP3
   - id: 1508655
     name: 11.03.2026 10am Budget Work Session.pdf
     category: Public Information Handout
@@ -58,6 +63,6 @@ agenda: >-
   aids and services) during this meeting should notify the Utah County Clerk's Office at
   801-851-8113. Handicap parking is available as well as a level entrance to the building.
   Interpretation services are available with prior notice for the hearing disabled.
-hash: fe183076de091dcf
+hash: 562bc52619f85d25
 firstSeen: '2026-10-30'
-lastChanged: '2026-10-30'
+lastChanged: '2026-11-04'
