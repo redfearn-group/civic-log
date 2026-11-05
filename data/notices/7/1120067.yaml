@@ -13,10 +13,15 @@ start:
   time: '10:00'
 location: 80 s Main Street Spanish Fork , UT 84660
 posted: '2026-11-02'
-edited: '2026-11-02'
+edited: '2026-11-04'
 url: https://www.utah.gov/pmn/sitemap/notice/1120067.html
 video: null
 attachments:
+  - id: 1510939
+    name: drc.11-4-2026.mp3
+    category: Audio Recording
+    added: '2026-11-04'
+    url: https://www.utah.gov/pmn/files/1510939.mp3
   - id: 1509787
     name: agenda.drc.11-4-2026.pdf
     category: Public Information Handout
@@ -97,6 +102,6 @@ agenda: >-
 
 
   4. ADJOURN
-hash: 6813c72e436b8d42
+hash: 62f5b7e013d1bc11
 firstSeen: '2026-11-02'
-lastChanged: '2026-11-02'
+lastChanged: '2026-11-04'

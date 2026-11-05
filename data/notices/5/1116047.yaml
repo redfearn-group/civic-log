@@ -16,7 +16,7 @@ start:
   time: '18:00'
 location: 80 South Main Street at Library Hall Spanish Fork, UT 84660
 posted: '2026-10-15'
-edited: '2026-10-23'
+edited: '2026-11-04'
 url: https://www.utah.gov/pmn/sitemap/notice/1116047.html
 video: https://www.youtube.com/watch?v=Ui_33yqWPgY
 attachments:
@@ -25,6 +25,11 @@ attachments:
     category: Meeting Minutes
     added: '2026-10-23'
     url: https://www.utah.gov/pmn/files/1506115.pdf
+  - id: 1511161
+    name: Adopted 10 City Council Minutes 10-20-2026.pdf
+    category: Meeting Minutes
+    added: '2026-11-04'
+    url: https://www.utah.gov/pmn/files/1511161.pdf
   - id: 1506117
     name: PRESENTATION 2026 DWMP PIWMP CC Presentation (1).pdf
     category: Public Information Handout
@@ -290,6 +295,6 @@ agenda: >-
   to hear
 
   from you so we can work together to continue to build our community on sound principles.
-hash: 2ff426340ce656b3
+hash: 2ceddeab956e61e5
 firstSeen: '2026-10-16'
-lastChanged: '2026-10-24'
+lastChanged: '2026-11-04'

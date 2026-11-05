@@ -14,10 +14,40 @@ start:
   time: '18:00'
 location: 80 South Main Street at Library Hall Spanish Fork, UT 84660
 posted: '2026-10-29'
-edited: '2026-10-29'
+edited: '2026-11-04'
 url: https://www.utah.gov/pmn/sitemap/notice/1119163.html
-video: null
-attachments: []
+video: https://www.youtube.com/watch?v=8jTEhjcjNaw&t=809s
+attachments:
+  - id: 1511155
+    name: Adopted 10 City Council Minutes 10-20-2026.pdf
+    category: Meeting Minutes
+    added: '2026-11-04'
+    url: https://www.utah.gov/pmn/files/1511155.pdf
+  - id: 1511145
+    name: PRESENTATION City Council - 11_3_26 - Employee Benefits Broker Transition - Google Slides.pdf
+    category: Public Information Handout
+    added: '2026-11-04'
+    url: https://www.utah.gov/pmn/files/1511145.pdf
+  - id: 1511147
+    name: PRESENTATION City Council Snow removal.pdf
+    category: Public Information Handout
+    added: '2026-11-04'
+    url: https://www.utah.gov/pmn/files/1511147.pdf
+  - id: 1511149
+    name: PRESENTATION 100 South Corridor - Safety Study 2026 (CCWS 11-3).pdf
+    category: Public Information Handout
+    added: '2026-11-04'
+    url: https://www.utah.gov/pmn/files/1511149.pdf
+  - id: 1511151
+    name: presentation.cc.11-3-2026.pdf
+    category: Public Information Handout
+    added: '2026-11-04'
+    url: https://www.utah.gov/pmn/files/1511151.pdf
+  - id: 1511153
+    name: PRESENTATION Spanish Fork 2027 Council Calendar.pdf
+    category: Public Information Handout
+    added: '2026-11-04'
+    url: https://www.utah.gov/pmn/files/1511153.pdf
 agenda: >-
   CITY COUNCIL Agenda
 
@@ -155,6 +185,6 @@ agenda: >-
   from you so we can work together to continue to build our community on sound principles.
 
   Page 2 of 2
-hash: bee9bf7d62dbb28d
+hash: 99af26cdddafabb9
 firstSeen: '2026-10-29'
-lastChanged: '2026-10-29'
+lastChanged: '2026-11-04'
