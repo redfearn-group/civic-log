@@ -14,10 +14,15 @@ start:
   time: '18:00'
 location: 80 s Main Street Spanish Fork , UT 84660
 posted: '2026-11-02'
-edited: '2026-11-03'
+edited: '2026-11-05'
 url: https://www.utah.gov/pmn/sitemap/notice/1120061.html
-video: null
+video: https://www.youtube.com/watch?v=66w0Rz0iEso&t=40s
 attachments:
+  - id: 1511335
+    name: pc.11-4-2026.mp3
+    category: Audio Recording
+    added: '2026-11-05'
+    url: https://www.utah.gov/pmn/files/1511335.mp3
   - id: 1509831
     name: agenda.amended.pc.11-4-2026.pdf
     category: Public Information Handout
@@ -117,6 +122,6 @@ agenda: >-
 
 
   5. ADJOURN
-hash: c6b8ff1bab3cdefd
+hash: 2c2bbace356dda23
 firstSeen: '2026-11-02'
-lastChanged: '2026-11-03'
+lastChanged: '2026-11-05'
