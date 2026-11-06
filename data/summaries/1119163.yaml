@@ -1,10 +1,10 @@
 notice: 1119163
 sourceHash: 99af26cdddafabb9
 engine: claude-local
-model: claude-opus-5-5
-summarized: 2026-11-04
-headline: "Council reviews 100 South safety study, water master plans and a new benefits broker"
-summary: "The Spanish Fork City Council met 3 NOV 2026. Staff presented a 100 South corridor safety study requested after the Oak Village hearing, and the council took up the drinking water and pressure irrigation master plans, a new employee benefits broker and an eight-foot fence request. The attached minutes of 20 OCT 2026 record approvals of Ridgeline Townhomes, Shady Oaks, the Nelson Commercial zone change and a Title 15 amendment on the Planning Commission."
+model: claude-sonnet-5-5
+summarized: 2026-11-05
+headline: "Council adopted water master plans, approved a benefits broker and an 8-foot fence"
+summary: "At the 3 NOV 2026 meeting the Spanish Fork City Council adopted the drinking water and pressure irrigation master plans 5-0, approved the GBS employee benefits broker agreement 5-0, and approved an eight-foot fence request with no opposing vote heard. Council members said the data center application has not been processed and no site plan has been submitted yet. The attached minutes of 20 OCT 2026 record approvals of Ridgeline Townhomes, Shady Oaks, the Nelson Commercial zone change and a Title 15 amendment on the Planning Commission."
 items:
   - title: "100 South corridor safety study"
     what: "Staff study: 3,800 to 4,500 daily trips now, about 700 more from Oak Village, within capacity. Flags a slightly substandard curve at 1600 E and a lighting gap at 1800 E."
@@ -14,33 +14,41 @@ items:
     applicant: false
     result: null
   - title: "Drinking water and pressure irrigation master plans"
-    what: "New business: updates to the city's Drinking Water Master Plan and Pressure Irrigation Master Plan."
+    what: "Updates to the city's Drinking Water Master Plan and Pressure Irrigation Master Plan, adopted by separate resolutions."
     tags: [taxes, home]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Both approved 5-0 (Beck, Marshall, Tooke, Cardon, Oyler)"
+    resultFrom: video
+    at: "2:13:16"
   - title: "Benefits broker agreement with GBS"
-    what: "Agreement making GBS Benefits and Consulting the city's employee benefits broker from 1 JAN 2027, chosen unanimously by a staff committee after an RFP with 4 firms. Plans stay the same."
+    what: "Agreement making GBS Benefits and Consulting the city's employee benefits broker from 1 JAN 2027, chosen unanimously by a staff committee after an RFP. Plans stay the same."
     tags: []
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved 5-0"
+    resultFrom: video
+    at: "1:55:06"
   - title: "Eight-foot fence, 1068 West River Ridge Lane"
     what: "Request to waive the 6-foot residential fence limit for a fence that steps up to 8 feet along part of a side property line. The code lets the council waive the height at its sole discretion."
     tags: [land-use]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved, no opposing vote heard"
+    resultFrom: video
+    at: "1:50:48"
   - title: "Albertsons opioid settlement"
-    what: "Consent item: city participation in the Albertsons opioid settlement."
+    what: "Consent item: city participation in the Albertsons opioid settlement, approved with the minutes in one consent motion."
     tags: []
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved, no opposing vote heard"
+    resultFrom: video
+    at: "1:45:37"
   - title: "Snowplowing operations"
     what: "Spanish Fork 101 on plowing 183 centerline miles in priority order. Cars must be off streets during storms and up to 48 hours after. Salt use fell from 3,000 tons to 173 tons."
     tags: [home, roads]
@@ -48,13 +56,23 @@ items:
     hearing: false
     applicant: false
     result: null
+    at: "1:33:56"
   - title: "2027 meeting calendar"
-    what: "Discussion of the 2027 calendar: council on first and third Tuesdays, Planning Commission on first Wednesdays, joint meetings proposed 11 MAY and 12 OCT 2027."
+    what: "2027 calendar: council on first and third Tuesdays, Planning Commission on first Wednesdays, joint meetings proposed 11 MAY and 12 OCT 2027. An ordinance returns for approval later."
     tags: []
     watch: []
     hearing: false
     applicant: false
     result: null
+    at: "2:14:03"
+  - title: "Discussion: data centers"
+    what: "Council said the Title 15 amendment was adopted, the data center application is not yet processed, and no site plan has been submitted. Public-comment questions were to be answered by email."
+    tags: [technology, land-use]
+    watch: [data-centers, title-15]
+    hearing: false
+    applicant: false
+    result: null
+    at: "1:14:30"
   - title: "Minutes, 20 OCT 2026: Ridgeline Townhomes"
     what: "General plan change to high density, rezone from C-2 to R-3 with the Master Planned Development Overlay, and preliminary plat for 45 townhomes at Spanish Fork Parkway and SR-51."
     tags: [land-use]
@@ -87,13 +105,14 @@ items:
     applicant: false
     result: "Approved 3-0 (Oyler, Tooke absent)"
     resultFrom: minutes
-tags: [roads, home, taxes, land-use]
-watch: [developments, title-15]
+tags: [roads, home, taxes, land-use, technology]
+watch: [developments, data-centers, title-15]
 score: 5
 hearing: null
 attend: false
 attendWhy: null
-basis: agenda+attachments (scan read as images)
+basis: agenda+attachments (scan read as images)+video
+video: { id: 8jTEhjcjNaw, url: "https://www.youtube.com/watch?v=8jTEhjcjNaw" }
 sources:
   - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1119163.html" }
   - { label: Adopted 10 City Council Minutes 10-20-2026.pdf, url: "https://www.utah.gov/pmn/files/1511155.pdf" }

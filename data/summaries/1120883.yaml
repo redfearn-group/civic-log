@@ -1,0 +1,24 @@
+notice: 1120883
+sourceHash: 3e443649f3594c96
+engine: claude-local
+model: claude-opus-5-5
+summarized: 2026-11-05
+headline: "Hearing notice: General Plan rewrite, 240-acre I-1 rezone and rail transfer use"
+summary: "The Utah County Planning Commission gives notice of public hearings on 17 NOV 2026 at 5:30 PM in Room 1400 of the County Administration Building, Provo. The hearings cover a comprehensive General Plan amendment for unincorporated Utah County, a rezone of about 240 acres to Industrial (I-1) in the Spanish Fork/Springville area, and a Rail Transfer Facility as a permitted use in the M&G-1 zone. Written comments are due by 1:00 PM that day; spoken comment is in person only."
+items:
+  - title: "Public hearings, 17 NOV 2026"
+    what: "Hearings on a comprehensive General Plan amendment, Landmark Real Estate's 240-acre PF to I-1 rezone, and Ute Railway Logistics' rail transfer facility use in M&G-1."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+tags: [land-use]
+watch: []
+score: 4
+hearing: { date: 2026-11-17, time: "17:30" }
+attend: true
+attendWhy: "Public hearings on the county General Plan rewrite and a 240-acre industrial rezone near Spanish Fork."
+basis: agenda
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1120883.html" }
