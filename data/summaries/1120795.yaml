@@ -1,0 +1,25 @@
+notice: 1120795
+sourceHash: 8246c97cfdaf55ed
+engine: claude-local
+model: claude-opus-5-5
+summarized: 2026-11-05
+headline: "County Commission hearing on the 2027 Utah County budget"
+summary: "The Utah County Commission holds a public hearing on 18 NOV 2026 at 2:00 PM in Room 1400 of the County Administration Building, Provo, on the 2027 budget for the general fund and other funds. After the hearing it may adjust the tentative budget and adopt it by resolution. Residents can speak at the hearing."
+items:
+  - title: "2027 county budget hearing and adoption"
+    what: "Public hearing on the 2027 budget for the county general fund and other funds, followed by possible final adjustments and adoption by resolution."
+    tags: [taxes]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+tags: [taxes]
+watch: []
+score: 4
+hearing: { date: 2026-11-18, time: "14:00" }
+attend: true
+attendWhy: "Public hearing and adoption vote on the 2027 Utah County budget."
+basis: agenda+attachments (scan read as images)
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1120795.html" }
+  - { label: Notice 2026-846.pdf, url: "https://www.utah.gov/pmn/files/1511365.pdf" }

@@ -1,0 +1,39 @@
+notice: 1120879
+sourceHash: 8820853bfe977be3
+engine: claude-local
+model: claude-opus-5-5
+summarized: 2026-11-05
+headline: "County planners hear a General Plan rewrite and a 240-acre industrial rezone"
+summary: "The Utah County Planning Commission meets 17 NOV 2026 at 5:30 PM in Provo. It holds public hearings on a comprehensive amendment of the county General Plan, a rezone of about 240 acres from Public Facilities to Industrial (I-1) in the Spanish Fork/Springville area, and a code change adding a Rail Transfer Facility as a permitted use in the Mining and Grazing (M&G-1) zone. Written comments are due to planningcommission@utahcounty.gov by 1:00 PM that day; spoken comment is in person only."
+items:
+  - title: "Comprehensive General Plan amendment"
+    what: "Public hearing on a comprehensive amendment of the Utah County General Plan, which guides land use in unincorporated Utah County."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Landmark Real Estate rezone, PF to I-1"
+    what: "Zone map change from Public Facilities (PF) to Industrial (I-1) for about 240 acres in Section 34, T7S R2E, Spanish Fork/Springville area of unincorporated Utah County."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: "Rail Transfer Facility in the M&G-1 zone"
+    what: "Ute Railway Logistics LLC asks for a land use ordinance text amendment adding a Rail Transfer Facility as a permitted use in the Mining and Grazing (M&G-1) zone."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+tags: [land-use]
+watch: []
+score: 4
+hearing: { date: 2026-11-17, time: "17:30" }
+attend: true
+attendWhy: "Public hearings on the county General Plan rewrite and a 240-acre industrial rezone near Spanish Fork."
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1120879.html" }
+  - { label: Agenda 2026 November 17.pdf, url: "https://www.utah.gov/pmn/files/1511517.pdf" }

@@ -1,10 +1,10 @@
 notice: 1120061
-sourceHash: c6b8ff1bab3cdefd
+sourceHash: 2c2bbace356dda23
 engine: claude-local
 model: claude-opus-5-5
-summarized: 2026-11-04
-headline: "Planning Commission hears a zone change for 896 apartments near Canyon Creek Parkway"
-summary: "The Spanish Fork Planning Commission meets 4 NOV 2026 at 6:00 PM (work session at 5:00 PM) on an amended agenda. It holds a public hearing on South Valley Village, a proposed zone change and two preliminary plats for 896 multi-family units plus commercial lots at about 2400 North Canyon Creek Parkway, with an 18.76-acre annexation. Residents can speak at the hearing."
+summarized: 2026-11-05
+headline: "Planning Commission heard a zone change for 896 apartments near Canyon Creek Parkway"
+summary: "The Spanish Fork Planning Commission met 4 NOV 2026 at 6:00 PM (work session at 5:00 PM) on an amended agenda. It held a public hearing on South Valley Village, a proposed zone change and two preliminary plats for 896 multi-family units plus commercial lots at about 2400 North Canyon Creek Parkway, with an 18.76-acre annexation."
 items:
   - title: "South Valley Village zone change and plats"
     what: "Rezone I-1, B-P and C-2 land to P-F, C-2 and R-4 with the Master Planned Development Overlay for commercial lots and two subdivisions totaling 896 multi-family units."
@@ -31,8 +31,8 @@ tags: [land-use]
 watch: []
 score: 4
 hearing: { date: 2026-11-04, time: "18:00" }
-attend: true
-attendWhy: "Public hearing on the South Valley Village zone change for 896 multi-family units."
+attend: false
+attendWhy: null
 basis: agenda
 sources:
   - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1120061.html" }
