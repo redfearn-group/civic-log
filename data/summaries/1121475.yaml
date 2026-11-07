@@ -1,0 +1,77 @@
+notice: 1121475
+sourceHash: 94746dba9993a2c3
+engine: claude-local
+model: claude-opus-5-5
+summarized: 2026-11-06
+headline: "DRC reviews a new city Public Works building, a rezone and a Costco fuel expansion"
+summary: "The Spanish Fork Development Review Committee meets 11 NOV 2026 at 10:00 AM in Library Hall, 80 South Main Street. Staff recommend approval of a site plan for a new city Public Works building and a six-lot final plat, and the committee takes up a residential-to-commercial rezone near 750 South 2000 East. The packet's 4 NOV 2026 minutes record approval of the Harmons, Canyon Court and 7-Eleven plans."
+items:
+  - title: "Spanish Fork Public Works Building site plan"
+    what: "Site plan for a new city Public Works building on 19.5 acres in the P-F zone, fronting 200 East, after demolition of existing buildings and tanks. Staff recommend approval."
+    tags: [land-use, home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Meadow Subdivision Plat A final plat"
+    what: "Final plat for six single-family lots on 1.85 acres at Meadow Lane and SR-51 (1450 North Meadow Lane), R-1-6 zone. No access from SR-51 to lot 1. Staff recommend approval."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Jex Property rezone"
+    what: "Request to rezone part of a property at about 750 South 2000 East from R-1-8 Residential to C-2 General Commercial. The packet has no staff report."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Costco fuel expansion concept"
+    what: "The applicant proposes a 7,744 sq ft canopy expansion, ten new fuel dispensers and new 40,000 and 30,000 gallon underground tanks at the Costco at 273 East 1000 North, with no parking removed."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: true
+    result: null
+  - title: "Kyco site improvements"
+    what: "Discussion of site improvements at 3612 North 1150 West. The agenda gives no detail."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Minutes, 04 NOV 2026: Harmons site plan"
+    what: "Committee approved the site plan for a grocery store of just under 67,000 sq ft on about seven acres, with a condition to address redlines."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Approved, all in favor"
+    resultFrom: minutes
+  - title: "Minutes, 04 NOV 2026: Canyon Court Plat A site plan"
+    what: "Committee approved the six-tenant commercial building at 552 North Spanish Fork Parkway, with the access from the Parkway to be paved."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Approved, all in favor"
+    resultFrom: minutes
+  - title: "Minutes, 04 NOV 2026: 7-Eleven plat and site plan"
+    what: "Committee approved the one-lot subdivision and the site plan for a 7-Eleven with fuel sales at about 2300 South Main Street; the plat must record before a building permit."
+    tags: [land-use, roads]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Approved, all in favor"
+    resultFrom: minutes
+tags: [land-use, home, roads]
+watch: []
+score: 4
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1121475.html" }
+  - { label: agenda.drc.11-11-2026.pdf, url: "https://www.utah.gov/pmn/files/1512657.pdf" }
