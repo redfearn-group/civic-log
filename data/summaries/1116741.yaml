@@ -1,102 +1,115 @@
 notice: 1116741
-sourceHash: 2aec08985414e25e
+sourceHash: c42f89275c23f207
 engine: claude-local
 model: claude-opus-5-5
-summarized: 2026-10-27
-headline: "County Commission took up its 2027 tentative budget and a mining bond"
-summary: "The Utah County Commission met 21 OCT 2026 in Provo. The main item was a resolution tentatively adopting the 2027 budget for the general fund and other funds, alongside a quarry compliance agreement and bond, development bond releases, road agreements and warming center funding. Outcomes are not yet in minutes; an audio recording of the meeting is now posted on the PMN notice."
+summarized: 2026-11-06
+headline: "County Commission tentatively adopted its 2027 budget and approved a quarry bond"
+summary: "The Utah County Commission met 21 OCT 2026 in Provo. Approved minutes show the 2027 tentative budget, the CMC Rock quarry compliance agreement and bond, road agreements and the winter warming center lease all passed, while an IBM support extension was struck from the agenda. The tentative budget is the starting point for the final 2027 budget, which is still in work sessions."
 items:
   - title: "2027 tentative county budget"
-    what: "Resolution to approve and tentatively adopt the 2027 budget for the general fund and other budgetary funds of Utah County."
+    what: "Resolution approving and tentatively adopting the 2027 budget for the general fund and other budgetary funds of Utah County."
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent (Resolution 2026-827)"
+    resultFrom: minutes
   - title: "CMC Rock open pit mining bond and agreement"
     what: "Compliance agreement and bond for an existing open pit mine near 7605 S Lincoln Beach Rd (M&G-1 zone), plus release of an $85,000 surety bond once a replacement bond is received."
     tags: [land-use]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
   - title: "Subdivision and fire improvement bond releases"
     what: "Partial release of the construction bond for Rafter Lazy H Subdivision Plat A, and release of the fire truck and fire improvement bond for Eagle's Landing."
     tags: [land-use]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
   - title: "2026 eligible corridor maps"
     what: "Approval of the 2026 maps of eligible corridors for the Corridor Preservation Funds."
     tags: [roads]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
   - title: "200 South 300 West intersection amendment"
     what: "Resolution to sign the first amendment to the 2024 agreement with American Fork City for the 200 South 300 West intersection project."
     tags: [roads]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
   - title: "IBM hypercare extension"
     what: "Contract with IBM to extend hypercare support for 6 weeks. The agenda gives no further detail."
     tags: [technology]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Stricken from the agenda"
+    resultFrom: minutes
   - title: "Nebo School District interlocal agreement"
     what: "Resolution authorizing an interlocal cooperation agreement with Nebo School District, presented by the Sheriff's Office."
     tags: [schools]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
   - title: "Winter warming center lease and funding"
     what: "Lease of a county building to Community Action as a warming center for winter 2026-2027, and an MOU advancing funds to operate it."
     tags: [home]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Lease approved 3-0 after being tabled and taken back up (Gordon moved); MOU approved on consent"
+    resultFrom: minutes
+  - title: "TANF mortgage payment agreements"
+    what: "Resolution letting the county's Human Services manager sign TANF mortgage payment agreements for the county. Commissioners discussed whether to cap the agreements."
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: "Approved 3-0 (Beltran moved, Powers Gardner seconded)"
+    resultFrom: minutes
   - title: "Spring Lake housing rehabilitation grant"
     what: "Subrecipient agreement with the Housing Authority of Utah County for a Community Development Block Grant to rehabilitate an affordable multi-family complex in Spring Lake."
     tags: [home]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
   - title: "Debris basin management award"
     what: "Public Works director to sign the state Division of Emergency Management award packet for management services for the Hobble Creek and Payson debris basins."
     tags: [home]
     watch: []
     hearing: false
     applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
   - title: "Spring Lake law enforcement agreement"
     what: "Interlocal agreement with Spring Lake for law enforcement services."
     tags: [home]
     watch: []
     hearing: false
     applicant: false
-    result: null
-  - title: "Work session: Utah County Fair"
-    what: "Work session presentation by the Utah County Fair."
-    tags: []
-    watch: []
-    hearing: false
-    applicant: false
-    result: null
+    result: "Approved on consent"
+    resultFrom: minutes
 tags: [taxes, land-use, roads, technology, schools, home]
 watch: []
 score: 4
 hearing: null
 attend: false
 attendWhy: null
-basis: agenda+attachments
+basis: agenda+attachments (scan read as images)
 sources:
   - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1116741.html" }
+  - { label: 10.21.2026 Approved Meeting Minutes.pdf, url: "https://www.utah.gov/pmn/files/1512523.pdf" }
   - { label: 10.21.2026 FINAL Commission Meeting Agenda.pdf, url: "https://www.utah.gov/pmn/files/1503473.pdf" }
