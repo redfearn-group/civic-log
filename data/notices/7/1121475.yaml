@@ -13,15 +13,15 @@ start:
   time: '10:00'
 location: 80 s Main Street Spanish Fork , UT 84660
 posted: '2026-11-06'
-edited: '2026-11-06'
+edited: '2026-11-09'
 url: https://www.utah.gov/pmn/sitemap/notice/1121475.html
 video: null
 attachments:
-  - id: 1512657
+  - id: 1512909
     name: agenda.drc.11-11-2026.pdf
     category: Public Information Handout
-    added: '2026-11-06'
-    url: https://www.utah.gov/pmn/files/1512657.pdf
+    added: '2026-11-09'
+    url: https://www.utah.gov/pmn/files/1512909.pdf
 agenda: >-
   Development Review Committee Agenda
 
@@ -80,10 +80,10 @@ agenda: >-
   3.1 Costco Fuel Expansion Concept
 
 
-  3.2 3612 North 1150 West - Kyco Site Improvements
+  3.2 Site Improvements
 
 
   4. ADJOURN
-hash: 94746dba9993a2c3
+hash: ca5ca08517b14cfa
 firstSeen: '2026-11-06'
-lastChanged: '2026-11-06'
+lastChanged: '2026-11-09'

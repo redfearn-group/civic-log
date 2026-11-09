@@ -14,7 +14,7 @@ start:
   time: '13:00'
 location: 51 S UNIVERSITY AVE, STE 319 PROVO, UT 84601
 posted: '2026-10-30'
-edited: '2026-11-03'
+edited: '2026-11-09'
 url: https://www.utah.gov/pmn/sitemap/notice/1119277.html
 video: null
 attachments:
@@ -23,6 +23,11 @@ attachments:
     category: Public Information Handout
     added: '2026-10-30'
     url: https://www.utah.gov/pmn/files/1508657.pdf
+  - id: 1512935
+    name: 11.03.2026 1PM.pdf
+    category: Public Information Handout
+    added: '2026-11-09'
+    url: https://www.utah.gov/pmn/files/1512935.pdf
 agenda: >-
   PUBLIC NOTICE IS HEREBY GIVEN THAT THE
 
@@ -60,6 +65,6 @@ agenda: >-
   aids and services) during this meeting should notify the Utah County Clerk's Office at
   801-851-8113. Handicap parking is available as well as a level entrance to the building.
   Interpretation services are available with prior notice for the hearing disabled.
-hash: 9e57d19a6bb2cded
+hash: 4ceea91463e9f43a
 firstSeen: '2026-10-30'
-lastChanged: '2026-11-03'
+lastChanged: '2026-11-09'

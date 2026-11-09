@@ -13,10 +13,15 @@ start:
   time: '14:00'
 location: 100 East Center Street Room 1400 Provo, UT 84606
 posted: '2026-11-02'
-edited: '2026-11-02'
+edited: '2026-11-09'
 url: https://www.utah.gov/pmn/sitemap/notice/1120021.html
 video: null
 attachments:
+  - id: 1512927
+    name: 11.04.2026.mp3
+    category: Audio Recording
+    added: '2026-11-09'
+    url: https://www.utah.gov/pmn/files/1512927.mp3
   - id: 1509705
     name: 11.04.2026 Commission Meeting Agenda.pdf
     category: Public Information Handout
@@ -318,6 +323,6 @@ agenda: >-
   aids and services) during this meeting should notify the Utah County Clerk's Office at
   801-851-8113. Handicap parking is available as well as a level entrance to the building.
   Interpretation services are available with prior notice for the hearing disabled.
-hash: bd72779fd55e55ad
+hash: 7d7f2f6b0006c543
 firstSeen: '2026-11-02'
-lastChanged: '2026-11-02'
+lastChanged: '2026-11-09'
