@@ -1,8 +1,8 @@
 notice: 1120021
-sourceHash: bd72779fd55e55ad
+sourceHash: 7d7f2f6b0006c543
 engine: claude-local
 model: claude-sonnet-5-5
-summarized: 2026-11-03
+summarized: 2026-11-10
 headline: "Utah County holds a hearing on up to $30M in sales tax revenue bonds"
 summary: "The County Commission meets 04 NOV 2026 at 2:00 PM in Provo. It holds a public hearing on issuing up to $30,000,000 of sales tax revenue bonds, then votes on the bond sale documents. Residents can comment at the hearing or in public comments. It also sets an 18 NOV 2026 hearing on the 2027 county budget."
 items:
@@ -94,8 +94,8 @@ tags: [taxes, technology, roads, land-use, home]
 watch: []
 score: 4
 hearing: { date: 2026-11-04, time: "14:00" }
-attend: true
-attendWhy: "Public hearing on up to $30,000,000 of Utah County sales tax revenue bonds."
+attend: false
+attendWhy: null
 basis: agenda+attachments
 sources:
   - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1120021.html" }
