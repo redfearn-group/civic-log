@@ -1,8 +1,8 @@
 notice: 1121475
-sourceHash: 94746dba9993a2c3
+sourceHash: ca5ca08517b14cfa
 engine: claude-local
-model: claude-opus-5-5
-summarized: 2026-11-06
+model: claude-sonnet-5-5
+summarized: 2026-11-10
 headline: "DRC reviews a new city Public Works building, a rezone and a Costco fuel expansion"
 summary: "The Spanish Fork Development Review Committee meets 11 NOV 2026 at 10:00 AM in Library Hall, 80 South Main Street. Staff recommend approval of a site plan for a new city Public Works building and a six-lot final plat, and the committee takes up a residential-to-commercial rezone near 750 South 2000 East. The packet's 4 NOV 2026 minutes record approval of the Harmons, Canyon Court and 7-Eleven plans."
 items:
@@ -34,8 +34,8 @@ items:
     hearing: false
     applicant: true
     result: null
-  - title: "Kyco site improvements"
-    what: "Discussion of site improvements at 3612 North 1150 West. The agenda gives no detail."
+  - title: "Site improvements"
+    what: "Discussion item 3.2, listed as site improvements. The updated agenda no longer names a site and gives no detail."
     tags: [land-use]
     watch: []
     hearing: false
@@ -74,4 +74,4 @@ attendWhy: null
 basis: agenda+attachments
 sources:
   - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1121475.html" }
-  - { label: agenda.drc.11-11-2026.pdf, url: "https://www.utah.gov/pmn/files/1512657.pdf" }
+  - { label: agenda.drc.11-11-2026.pdf, url: "https://www.utah.gov/pmn/files/1512909.pdf" }

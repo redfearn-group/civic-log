@@ -1,21 +1,14 @@
 notice: 1120999
-sourceHash: 60bab0870f32101f
+sourceHash: 19e55409a08ec063
 engine: claude-local
-model: claude-opus-5-5
-summarized: 2026-11-06
-headline: "County Commission holds a work session on the 2027 Utah County budget"
-summary: "The Utah County Commission holds a budget work session on 9 NOV 2026 at 10:00 AM in the Historic County Courthouse, 51 S University Ave, Suite 319, Provo. The only item is the 2027 budget for the general fund and other county funds, which the Commission tentatively adopted on 21 OCT 2026. No vote is listed, so this is a chance to hear how the final budget is taking shape."
-items:
-  - title: "2027 county budget work session"
-    what: "Work session on the 2027 Utah County budget for the general fund and other budgetary funds. The agenda lists no action."
-    tags: [taxes]
-    watch: []
-    hearing: false
-    applicant: false
-    result: null
-tags: [taxes]
+model: claude-sonnet-5-5
+summarized: 2026-11-10
+headline: "Canceled: Utah County Commission budget work session, 9 NOV 2026"
+summary: "The Utah County Commission canceled its 10:00 AM budget work session on the 2027 county budget set for 9 NOV 2026. The public hearing on the 2027 budget is set for 18 NOV 2026 at 2:00 PM."
+items: []
+tags: []
 watch: []
-score: 3
+score: 1
 hearing: null
 attend: false
 attendWhy: null
