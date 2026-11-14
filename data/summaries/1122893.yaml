@@ -1,0 +1,59 @@
+notice: 1122893
+sourceHash: b1a50ccdfb7d1517
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-11-13
+headline: "Council hearing on South Valley Village: annexation, rezoning, 896 apartments"
+summary: "On 17 NOV 2026 the Spanish Fork City Council holds a public hearing on annexing and rezoning about 2400 North Canyon Creek Parkway for South Valley Village, which proposes 896 multi-family homes in the R-4 zone and about 8 acres of C-2. The Council also considers a $750,000 Water Department metal building under a Public Works Building construction contract with Big-D. Residents can comment at the hearing, which follows a 4:30 PM work session on solid waste vouchers."
+items:
+  - title: South Valley Village annexation and zoning
+    what: "Public hearing and ordinances to annex land near 2400 North Canyon Creek Parkway, rezone it, and approve two preliminary plats for master planned developments."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: South Valley Village density
+    what: "The proposed developments include 896 multi-family homes in the R-4 zone and about 8 acres zoned C-2."
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+  - title: Public Works Building AIA contract
+    what: "Approve the Big-D construction management contract and a $750,000 Water Department metal building, plus $150,000 of site work, built first to clear storage containers."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: GBS retirement advisory agreement
+    what: "Names GBS Retire as investment advisor for the City's 401(k) plan from 1 JAN 2027 at an annual fee of 0.17% of plan assets."
+    tags: [taxes]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Work session: solid waste vouchers"
+    what: "Work session at 4:30 PM on solid waste voucher programs. No formal action is taken in a work session."
+    tags: [home]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: 2027 annual meeting schedule
+    what: "Resolution setting the City's regular meeting schedule for 2027, as state law requires."
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [land-use, taxes, home]
+watch: []
+score: 4
+hearing: { date: 2026-11-17, time: "18:00" }
+attend: true
+attendWhy: "Public hearing on the South Valley Village annexation, zone change and two preliminary plats (896 multi-family homes)."
+basis: agenda
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1122893.html" }
