@@ -16,10 +16,25 @@ start:
   time: '18:00'
 location: 80 South Main Street at Library Hall Spanish Fork, UT 84660
 posted: '2026-11-16'
-edited: '2026-11-16'
+edited: '2026-11-19'
 url: https://www.utah.gov/pmn/sitemap/notice/1123881.html
-video: null
-attachments: []
+video: https://www.youtube.com/watch?v=haKKJ3bweyg
+attachments:
+  - id: 1520611
+    name: Adopted 11 City Council Minutes 11-03-2026.pdf
+    category: Meeting Minutes
+    added: '2026-11-19'
+    url: https://www.utah.gov/pmn/files/1520611.pdf
+  - id: 1520607
+    name: PRESENTATION Work Session Vouchers.pdf
+    category: Public Information Handout
+    added: '2026-11-19'
+    url: https://www.utah.gov/pmn/files/1520607.pdf
+  - id: 1520609
+    name: PRESENTATION.cc.11-17-2026.pdf
+    category: Public Information Handout
+    added: '2026-11-19'
+    url: https://www.utah.gov/pmn/files/1520609.pdf
 agenda: >-
   AMENDED CITY COUNCIL Agenda
 
@@ -280,6 +295,6 @@ agenda: >-
   is based upon principles of hard work, dedication and sacrifice. Our meetings are open to the
   public and we hope to hear from you so we can work together to continue to build our community on
   sound principles.
-hash: 2b7c295c60346024
+hash: 83abe55630bed35f
 firstSeen: '2026-11-16'
-lastChanged: '2026-11-16'
+lastChanged: '2026-11-19'
