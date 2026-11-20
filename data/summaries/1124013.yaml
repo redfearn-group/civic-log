@@ -1,0 +1,45 @@
+﻿notice: 1124013
+sourceHash: fad017a141bf3b43
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-11-19
+headline: "DRC reviews Larson Park rezone and plat (141 lots, 82 townhomes) and a Title 15 change"
+summary: "The Spanish Fork Development Review Committee met on 18 NOV 2026 at 10:00 AM. It had two action items: a Title 15 change that lowers the minimum Master Planned Development size from five acres to four, and a zone change and preliminary plat for Larson Park at about 1700 West 1900 South. It also held concept discussions on a Costco fuel expansion and Mammoth Machinery."
+items:
+  - title: "Hollow Acres text amendment"
+    what: "Amends code section 15.3.20.080 (B)(2)(a) to cut the minimum contiguous acreage for Master Planned Developments from five acres to four."
+    tags: [land-use]
+    watch: [title-15]
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Larson Park zone change"
+    what: "Rezone from R-R Rural Residential to C-2, R-3 and R-1-15 with the Master Planned Development Overlay, at about 1700 West 1900 South."
+    tags: [land-use]
+    watch: [developments]
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Larson Park preliminary plat"
+    what: "Preliminary plat of 141 residential lots, 82 townhomes and one commercial lot."
+    tags: [land-use]
+    watch: [developments]
+    hearing: false
+    applicant: false
+    result: null
+  - title: "Concept discussions"
+    what: "Costco fuel expansion concept and Mammoth Machinery concept, discussion only."
+    tags: [land-use]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: [land-use]
+watch: [title-15, developments]
+score: 5
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1124013.html" }
