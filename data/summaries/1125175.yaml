@@ -1,0 +1,25 @@
+﻿notice: 1125175
+sourceHash: c4bf528a623a3213
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-11-20
+headline: Two seats open on the Utah County Planning Commission; letters due 04 DEC 2026
+summary: Utah County announced two vacancies on its Planning Commission on 18 NOV 2026. Any registered voter in Utah County may apply by emailing a letter of interest and a short description of qualifications to boards@utahcounty.gov by 5:00 p.m. on 04 DEC 2026. The County Commission will appoint the new members by resolution.
+items:
+  - title: Planning Commission vacancies
+    what: Two vacancies; letters of interest from registered Utah County voters are due by 5:00 p.m. on 04 DEC 2026 to boards@utahcounty.gov.
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+tags: []
+watch: []
+score: 2
+hearing: null
+attend: false
+attendWhy: null
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1125175.html }
+  - { label: Notice 2026-869.pdf, url: https://www.utah.gov/pmn/files/1520839.pdf }
