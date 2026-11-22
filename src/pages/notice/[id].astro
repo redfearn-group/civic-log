@@ -60,7 +60,7 @@ const upcoming = date >= todayMountain();
         {(notice.video || summary.video) && <li><a href={notice.video ?? summary.video?.url} target="_blank" rel="noopener">Meeting video</a></li>}
       </ul>
       <p class="note">
-        AI summary ({summary.engine === "claude-local" ? "Claude, run locally" : "Claude API"}, {formatDate(summary.summarized)}),
+        AI summary ({summary.engine === "claude-local" ? "Claude, run locally" : summary.engine === "claude-cloud" ? "Claude, cloud run" : "Claude API"}, {formatDate(summary.summarized)}),
         based on {summary.basis}. Check the source before relying on it.
       </p>
     </>

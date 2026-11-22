@@ -32,7 +32,7 @@ for (const [id, s] of loadSummaries()) {
   if (!n) { err('no matching notice in data/notices'); continue; }
 
   if (s.sourceHash !== n.hash) warn('stale: notice changed since this summary was written');
-  if (!['claude-local', 'claude-api'].includes(s.engine)) err(`engine must be claude-local or claude-api, got ${s.engine}`);
+  if (!['claude-local', 'claude-cloud', 'claude-api'].includes(s.engine)) err(`engine must be claude-local, claude-cloud or claude-api, got ${s.engine}`);
   if (!s.model) err('model is missing');
   if (!ISO.test(String(s.summarized))) err('summarized must be YYYY-MM-DD');
   if (!s.headline || s.headline.length > 90) err(`headline missing or over 90 characters (${s.headline?.length})`);
