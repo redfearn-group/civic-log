@@ -1,0 +1,24 @@
+﻿notice: 1125395
+sourceHash: 75467e4564c790af
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-11-22
+headline: Council hearing 08 DEC 2026 on Larson Park rezone and 141-lot, 82-townhome plat
+summary: The Spanish Fork City Council will hold a public hearing on 08 DEC 2026 at 6:00 p.m. in Library Hall, 80 South Main Street, on Larson Park near 1700 West 1900 South. The request rezones the land from R-R Rural Residential to C-2, R-3 and R-1-15 with a Master Planned Development Overlay and approves a preliminary plat. Residents can speak at the hearing.
+items:
+  - title: Larson Park rezone and preliminary plat
+    what: Rezone from R-R to C-2, R-3 and R-1-15 with MPD Overlay, plus a preliminary plat of 141 residential lots, 82 townhomes and one commercial lot.
+    tags: [land-use]
+    watch: [developments]
+    hearing: true
+    applicant: false
+    result: null
+tags: [land-use]
+watch: [developments]
+score: 5
+hearing: { date: 2026-12-08, time: "18:00" }
+attend: true
+attendWhy: Public hearing on the Larson Park rezone and a 141-lot, 82-townhome preliminary plat.
+basis: agenda
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1125395.html }
