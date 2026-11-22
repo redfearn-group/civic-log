@@ -1,0 +1,24 @@
+﻿notice: 1125391
+sourceHash: fa814d5557da271c
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-11-22
+headline: Council hearing 08 DEC 2026 on rezoning part of 750 South 2000 East to commercial
+summary: The Spanish Fork City Council will hold a public hearing on 08 DEC 2026 at 6:00 p.m. in Library Hall, 80 South Main Street, on the Jex Property rezone. It would change a portion of the property near 750 South 2000 East from R-1-8 Residential to C-2 General Commercial. Neighbors can speak at the hearing.
+items:
+  - title: Jex Property rezone
+    what: Rezones a portion of property at about 750 South 2000 East from R-1-8 Residential to C-2 General Commercial.
+    tags: [land-use]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+tags: [land-use]
+watch: []
+score: 4
+hearing: { date: 2026-12-08, time: "18:00" }
+attend: true
+attendWhy: Public hearing on a residential-to-commercial rezone near 750 South 2000 East.
+basis: agenda
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1125391.html }

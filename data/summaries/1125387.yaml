@@ -1,0 +1,25 @@
+﻿notice: 1125387
+sourceHash: 2e9f33f6c6a1ac88
+engine: claude-local
+model: claude-sonnet-5-5
+summarized: 2026-11-22
+headline: Council hearing 08 DEC 2026 on cutting the Master Planned Development minimum to 4 acres
+summary: The Spanish Fork City Council will hold a public hearing on 08 DEC 2026 at 6:00 p.m. in Library Hall, 80 South Main Street, on a Title 15 amendment for the Hollow Acres project. It would lower the minimum contiguous acreage for a Master Planned Development from five acres to four. Residents can speak at the hearing.
+items:
+  - title: Hollow Acres text amendment
+    what: Amends city code section 15.3.20.080 (B)(2)(a) to lower the Master Planned Development minimum contiguous acreage from five acres to four.
+    tags: [land-use]
+    watch: [title-15]
+    hearing: true
+    applicant: false
+    result: null
+tags: [land-use]
+watch: [title-15]
+score: 5
+hearing: { date: 2026-12-08, time: "18:00" }
+attend: true
+attendWhy: Public hearing on a Title 15 amendment lowering the Master Planned Development minimum acreage.
+basis: agenda
+sources:
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1125387.html }
+
