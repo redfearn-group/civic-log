@@ -14,7 +14,7 @@ Write `data/summaries/<id>.yaml` with exactly these fields:
 ```yaml
 notice: 1111313              # the notice id
 sourceHash: 1a2b3c4d5e6f7a8b # the notice's hash field, copied exactly
-engine: claude-local         # claude-local now; claude-api later
+engine: claude-local         # claude-local (laptop), claude-cloud (cloud routine) or claude-api
 model: <model id you are running on>
 summarized: 2026-10-06       # today, YYYY-MM-DD
 headline: <one line, 90 characters max, the most important thing>

@@ -46,7 +46,7 @@ export interface SummaryItem {
 export interface Summary {
   notice: number;
   sourceHash: string;
-  engine: "claude-local" | "claude-api";
+  engine: "claude-local" | "claude-cloud" | "claude-api";
   model: string;
   summarized: string;
   headline: string;
