@@ -1,13 +1,13 @@
 notice: 1118033
-sourceHash: 3f139ff62c2ed20a
-engine: claude-local
-model: claude-opus-5-5
-summarized: 2026-10-28
+sourceHash: 49f474f3e18327dc
+engine: claude-cloud
+model: claude-sonnet-5-5
+summarized: 2026-11-23
 headline: "Utah County Commission budget work session on the 2027 county budget, 27 OCT 2026"
-summary: "The Utah County Commission held a budget work session on 27 OCT 2026 at 11:00 AM in the Historic County Courthouse, 51 S University Ave, Provo, on the 2027 budget for the General Fund and other county funds. It is one of three work sessions set for 27 to 29 OCT 2026, with discussion only and no public hearing. The county has posted an audio recording of the session on the notice page."
+summary: "The Utah County Commission met 27 OCT 2026 in Provo for the first of its 2027 budget work sessions. Public Works, the county Clerk, Health Department and Recorder presented new budget requests, along with a Capital Improvement Plan and a General Fund review. The minutes record department budget reviews and no votes other than adjournment. No public hearing was held. The commission approved these minutes on 18 NOV 2026."
 items:
   - title: "2027 Utah County budget work session"
-    what: "Work session on the 2027 Utah County budget for the General Fund and other budgetary funds."
+    what: "Departments (Public Works, Clerk, Health, Recorder) presented new 2027 budget requests, plus a Capital Improvement Plan and General Fund review; follow-up assignments were given."
     tags: [taxes]
     watch: []
     hearing: false
@@ -19,6 +19,7 @@ score: 3
 hearing: null
 attend: false
 attendWhy: null
-basis: agenda
+basis: agenda+attachments
 sources:
   - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1118033.html" }
+  - { label: "10.27.2026 Approved Budget Work Session Minutes.pdf", url: "https://www.utah.gov/pmn/files/1522063.pdf" }
