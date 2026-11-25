@@ -1,77 +1,91 @@
-﻿notice: 1120795
-sourceHash: 727b1b86743db70e
-engine: claude-local
+notice: 1120795
+sourceHash: c7af5b0ca32c9c1a
+engine: claude-cloud
 model: claude-sonnet-5-5
-summarized: 2026-11-19
-headline: "County budget hearing, $30M sales tax bond and transmission line rules on 18 NOV agenda"
-summary: "The Utah County Commission met on 18 NOV 2026 at 2:00 PM in Room 1400, Provo. It held a public hearing on the 2027 budget and could adopt it by resolution. The regular agenda also had a $30,000,000 sales tax revenue bond sale, the 2027-2029 capital improvement plan and a land use ordinance on 345 kV transmission lines."
+summarized: 2026-11-24
+headline: Utah County 2027 budget hearing and $30M sales tax bond sale on 18 NOV 2026 agenda
+summary: The Utah County Commission met on 18 NOV 2026 at 2:00 p.m. in Provo with a public hearing on the 2027 county budget, then a long regular agenda. It included a $30,000,000 sales tax revenue bond sale, a 2027-2029 capital plan, and a new county ordinance on large power transmission lines. No minutes or recording of results were attached, so outcomes are not known here.
 items:
-  - title: "2027 county budget hearing and adoption"
-    what: "Public hearing on the 2027 budget for the county general fund and other funds, followed by possible final adjustments and adoption by resolution."
+  - title: 2027 county budget hearing
+    what: Public hearing on the 2027 budget for the general fund and other funds, after which the Commission may adjust and adopt the budget by resolution.
     tags: [taxes]
     watch: []
     hearing: true
     applicant: false
     result: null
-  - title: "Sales tax revenue bonds, Series 2026"
-    what: "Resolution authorizing a preliminary official statement and notice of bond sale for $30,000,000 of sales tax revenue bonds."
+  - title: $30M sales tax revenue bonds, Series 2026
+    what: Resolution authorizing a preliminary official statement and notice of bond sale for $30,000,000 in sales tax revenue bonds.
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
     result: null
-  - title: "2027-2029 capital improvement plan"
-    what: "Adopt the county's three-year capital improvement plan, with a transfer of excess lease revenue from the Freedom Commons and Taylor buildings into its fund."
+  - title: 2027-2029 Capital Improvement Plan
+    what: Adopt the county's three-year capital improvement plan under the capital planning policy.
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
     result: null
-  - title: "345 kV transmission line standards"
-    what: "Ordinance amending section 8.44 of the Utah County Land Use Ordinance with development standards for 345 kV and larger transmission lines and their substations in a new right-of-way."
+  - title: Transmission line standards, Land Use Ordinance 8.44
+    what: Ordinance adding development standards for electric transmission lines of 345 kV and over and their substations in a new transmission right-of-way.
     tags: [land-use]
     watch: []
     hearing: false
     applicant: false
     result: null
-  - title: "Interlocal road agreements"
-    what: "Agreements with Alpine, Highland, Payson, Santaquin and Saratoga Springs for road and utility repairs, plus Jacobs and Jones & DeMille road and trail engineering amendments."
+  - title: Road and trail interlocal agreements
+    what: Agreements with Alpine, Highland, Payson, Santaquin and Saratoga Springs for road and utility repairs and the Market Street extension, plus road assessment and Utah Lake Trail contract amendments.
     tags: [roads]
     watch: []
     hearing: false
     applicant: false
     result: null
-  - title: "Sheriff DIMS software agreement"
-    what: "Agreement with Datagain Inc. for DIMS software for the Sheriff's Office."
-    tags: [technology]
+  - title: Delta Gateway access road repair change order
+    what: Change order with Stapp Construction to repair the Delta Gateway access road along the Lower Provo River Parkway.
+    tags: [roads]
     watch: []
     hearing: false
     applicant: false
     result: null
-  - title: "Email retention and CivicRelay software"
-    what: "Resolution adopting a five-year retention schedule for county email, and a software subscription agreement with CivicRelay, LLC."
-    tags: [technology]
-    watch: []
-    hearing: false
-    applicant: false
-    result: null
-  - title: "Lobbying agreements"
-    what: "Agreements with Capital Government Solutions for federal relations and Consult-LEC for 2027 legislative session representation."
+  - title: Compensation review phase 4
+    what: Implement phase 4 of the 2026 limited compensation review from pay period 23 and amend the budget to match.
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
     result: null
-  - title: "Pay review and staffing"
-    what: "Phase 4 of the 2026 limited compensation review with a budget amendment, and an upgrade of two legal assistant positions."
+  - title: Excess lease revenue transfer
+    what: Transfer excess lease revenues from the Freedom Commons and Taylor buildings to the capital improvement plan fund.
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
     result: null
-  - title: "Planning Commission vacancy"
-    what: "Notice of vacancy on the Utah County Planning Commission."
-    tags: [land-use]
+  - title: Lobbying and legislative agreements
+    what: Agreements with Capital Government Solutions for federal relations and with Consult-LEC for a 2027 legislative session specialist.
+    tags: []
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: CivicRelay software subscription
+    what: Software subscription agreement with CivicRelay, LLC. The agenda gives no detail on what it does.
+    tags: [technology]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: Sheriff DIMS software agreement
+    what: Agreement with DataGain Inc. for DIMS software for the Sheriff's Office.
+    tags: [technology]
+    watch: []
+    hearing: false
+    applicant: false
+    result: null
+  - title: Property tax adjustments
+    what: Resolution adjusting taxes per a correction letter and board of equalization letter, and approval of property tax actions in recommendation letter 2026-13.
+    tags: [taxes]
     watch: []
     hearing: false
     applicant: false
@@ -84,6 +98,6 @@ attend: false
 attendWhy: null
 basis: agenda+attachments (scan read as images)
 sources:
-  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1120795.html" }
-  - { label: Notice 2026-846.pdf, url: "https://www.utah.gov/pmn/files/1511365.pdf" }
-  - { label: 11.18.2026 FINAL Commission Meeting Agenda.pdf, url: "https://www.utah.gov/pmn/files/1517719.pdf" }
+  - { label: PMN notice, url: https://www.utah.gov/pmn/sitemap/notice/1120795.html }
+  - { label: Notice 2026-846.pdf, url: https://www.utah.gov/pmn/files/1511365.pdf }
+  - { label: 11.18.2026 FINAL Commission Meeting Agenda.pdf, url: https://www.utah.gov/pmn/files/1517719.pdf }
