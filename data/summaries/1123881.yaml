@@ -1,100 +1,96 @@
-﻿notice: 1123881
+notice: 1123881
 sourceHash: 83abe55630bed35f
-engine: claude-local
+engine: claude-cloud
 model: claude-sonnet-5-5
-summarized: 2026-11-19
-headline: "Council hearing on South Valley Village: 896 apartments on 86 acres, staff says deny"
-summary: "On 17 NOV 2026 the Spanish Fork City Council held a public hearing on the South Valley Village annexation, zone change and two preliminary plats at about 2400 North Canyon Creek Parkway. The plan has 896 multi-family homes, about 8 acres of commercial and a 6 acre city park, and city staff recommended denial of all four requests. Council also took up a $750,000 Water Department metal building and Public Works Building contract, a 401(k) advisor agreement and a 2000 East property purchase. The outcome is not in the posted materials."
+summarized: 2026-11-24
+headline: Council continued South Valley Village annexation and 896-home plan; staff urged denial
+summary: On 17 NOV 2026 the City Council held a public hearing on South Valley Village, an 86-acre annexation, zone change and two preliminary plats near 2400 North Canyon Creek Parkway, and continued all four parts after saying it first needs its own talk about the area. A work session on the area is to be scheduled in the next six to eight weeks. The Council also approved a Public Works Building construction contract with a $750,000 water department metal building, plus a 401(k) advisor agreement and a right-of-way purchase.
 items:
-  - title: "South Valley Village annexation and zone change"
-    what: "Annexation and zone change of 86.07 acres to P-F, C-2 and R-4 with the Master Planned Development Overlay. Staff recommends denial as premature."
-    tags: [land-use]
+  - title: South Valley Village annexation and plats
+    what: Annexation, zone change and two Master Planned Development plats on 86.07 acres, with 896 multi-family homes, 7.96 acres commercial, 6.18 acres city park. Staff recommended denial on all four.
+    tags: [land-use, roads]
     watch: []
     hearing: true
     applicant: false
-    result: null
-  - title: "South Valley Village preliminary plats"
-    what: "Two preliminary plats for 896 multi-family homes, 7.96 acres of commercial and a 6.18 acre park. Staff recommends denial: the plats miss city rules and part lies outside the city."
-    tags: [land-use]
+    result: "Continued, no opposing vote heard"
+    resultFrom: video
+    at: "2:36:15"
+  - title: Public Works Building AIA contract
+    what: Big D construction management contract terms, plus a $750,000 pre-engineered metal building for the Water Department and $150,000 of site work. Later phases return for separate approval.
+    tags: [home, taxes]
     watch: []
-    hearing: true
+    hearing: false
     applicant: false
-    result: null
-  - title: "Public Works Building contract"
-    what: "AIA contract with Big-D for construction management, including a $750,000 metal building for Water Department storage plus $150,000 of site work."
+    result: "Approved, no opposing vote heard"
+    resultFrom: video
+    at: "2:51:17"
+  - title: GBS Retire 401(k) advisory agreement
+    what: Consent item. GBS Retire becomes investment advisor for the City 401(k) plan from 01 JAN 2027 at 0.17% of plan assets a year, paid from plan assets.
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
-    result: null
-  - title: "GBS retirement advisory agreement"
-    what: "GBS Retire becomes investment advisor for the city 401(k) from 01 JAN 2027 at 0.17 percent of plan assets a year, paid from plan assets."
-    tags: [taxes]
+    result: "Approved, no opposing vote heard"
+    resultFrom: video
+    at: "1:16:39"
+  - title: 2000 East to Highway 6 property purchase
+    what: Consent item. Purchase of right-of-way and a utility easement for the 2000 East connection to Highway 6, plus a conditional purchase of severed property. Funded by MAG.
+    tags: [roads, taxes]
     watch: []
     hearing: false
     applicant: false
-    result: null
-  - title: "Jex property purchase for 2000 East"
-    what: "Right-of-way purchase and utility easement, plus a conditional purchase of severed property, for the 2000 East connection to Highway 6. MAG funds the purchase."
-    tags: [roads]
+    result: "Approved, no opposing vote heard"
+    resultFrom: video
+    at: "1:16:39"
+  - title: 2027 annual meeting schedule
+    what: Resolution setting the regular City Council and Planning Commission meeting dates for 2027, which state law requires the City to publish.
+    tags: [home]
     watch: []
     hearing: false
     applicant: false
-    result: null
-  - title: "2027 meeting schedule"
-    what: "Resolution setting the City Council's 2027 regular meeting calendar."
+    result: "Approved 4-0 (Marshall absent)"
+    resultFrom: video
+    at: "2:53:12"
+  - title: "Work session: solid waste voucher programs"
+    what: Work session item on solid waste voucher programs. No formal action is taken in a work session, and the attached slides could not be read, so no details are given.
     tags: [home]
     watch: []
     hearing: false
     applicant: false
     result: null
-  - title: "Work session: solid waste vouchers"
-    what: "Staff presentation on spring and fall clean-up and green waste vouchers: fall clean-up used 1,312 vouchers by 768 households, and yearly cost fell from $43,107 in FY26 to $20,472 so far in FY27."
-    tags: [home, taxes]
-    watch: []
-    hearing: false
-    applicant: false
-    result: null
-  - title: "Minutes, 03 NOV 2026: 8-foot fence"
-    what: "Council approved an eight-foot fence at 1068 West River Ridge Lane, where the neighbor had no objection."
-    tags: [land-use]
-    watch: []
-    hearing: false
-    applicant: false
-    result: "Approved 5-0"
-    resultFrom: minutes
-  - title: "Minutes, 03 NOV 2026: GBS benefits broker"
-    what: "Council approved the benefits broker agreement with GBS Benefits, the first broker change in 22 years, chosen from seven proposals."
+  - title: "Minutes, 03 NOV 2026: Benefits broker agreement"
+    what: Council chose GBS Benefits as the City employee benefits broker after a request for proposals, replacing a broker used since 2004. The agreement has lower fees and can be ended on 90 days notice.
     tags: [taxes]
     watch: []
     hearing: false
     applicant: false
     result: "Approved 5-0"
     resultFrom: minutes
-  - title: "Minutes, 03 NOV 2026: water master plans"
-    what: "Council adopted the updated Drinking Water Master Plan and the Pressurized Irrigation Master Plan, each by its own motion."
+  - title: "Minutes, 03 NOV 2026: Drinking Water Master Plan"
+    what: Adopted the updated drinking water plan, which finds spare supply and storage today and projects about four million gallons of added storage at full buildout.
     tags: [taxes, home]
     watch: []
     hearing: false
     applicant: false
-    result: "Both approved 5-0"
+    result: "Approved 5-0"
     resultFrom: minutes
-  - title: "Minutes, 03 NOV 2026: 100 South traffic study"
-    what: "Work session on the 100 South traffic study, which found no unusually dangerous conditions. Staff was directed to review crossings, lighting and traffic calming. No decisions were made."
-    tags: [roads]
+  - title: "Minutes, 03 NOV 2026: Pressurized Irrigation Plan"
+    what: Adopted the updated secondary irrigation plan, which projects a source shortfall of about 8,800 to 9,000 gallons per minute and a need for more storage at full development.
+    tags: [taxes, home]
     watch: []
     hearing: false
     applicant: false
-    result: null
-tags: [land-use, taxes, roads, home]
+    result: "Approved 5-0"
+    resultFrom: minutes
+tags: [land-use, roads, home, taxes]
 watch: []
 score: 4
 hearing: { date: 2026-11-17, time: "18:00" }
 attend: false
 attendWhy: null
-basis: agenda+attachments (scan read as images)
+basis: agenda+attachments+video
+video: { id: haKKJ3bweyg, url: "https://www.youtube.com/watch?v=haKKJ3bweyg" }
 sources:
   - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1123881.html" }
   - { label: PRESENTATION.cc.11-17-2026.pdf, url: "https://www.utah.gov/pmn/files/1520609.pdf" }
-  - { label: PRESENTATION Work Session Vouchers.pdf, url: "https://www.utah.gov/pmn/files/1520607.pdf" }
   - { label: Adopted 11 City Council Minutes 11-03-2026.pdf, url: "https://www.utah.gov/pmn/files/1520611.pdf" }
