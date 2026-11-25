@@ -12,10 +12,15 @@ start:
   time: '17:30'
 location: 100 E Center; suite 1400 Provo, UT 84606
 posted: '2026-10-09'
-edited: '2026-10-09'
+edited: '2026-11-24'
 url: https://www.utah.gov/pmn/sitemap/notice/1114191.html
 video: null
 attachments:
+  - id: 1522962
+    name: 2026-10-26 - PC Minutes - Signed.pdf
+    category: Meeting Minutes
+    added: '2026-11-24'
+    url: https://www.utah.gov/pmn/files/1522962.pdf
   - id: 1499255
     name: Agenda 2026 October 20.pdf
     category: Other
@@ -94,6 +99,6 @@ agenda: >-
 
   The personal data collected on this form is classified as a public record and may be made
   available to the public as provided by Utah Code 63G-2-201.
-hash: 0ec7659fd69d9684
+hash: 28d53475d8c5ff8b
 firstSeen: '2026-10-09'
-lastChanged: '2026-10-09'
+lastChanged: '2026-11-24'
