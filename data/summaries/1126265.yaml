@@ -1,0 +1,25 @@
+notice: 1126265
+sourceHash: 716d455ae6edd14e
+engine: claude-cloud
+model: claude-sonnet-5-5
+summarized: 2026-11-25
+headline: Utah County hearing on pay raises for county executives in the final budget
+summary: The Utah County Commission will hold a public hearing on 02 DEC 2026 at 2:00 PM in Provo on adopting a final or amended budget that includes pay increases for county executive officers. This covers the county manager, assistant manager, department heads and their chief assistants or deputies. Residents can attend and comment at the hearing.
+items:
+  - title: Budget with executive pay increases
+    what: Hearing on adopting a final or amended county budget that includes a compensation increase or possible increase for county executive officers.
+    tags: [taxes]
+    watch: []
+    hearing: true
+    applicant: false
+    result: null
+tags: [taxes]
+watch: []
+score: 4
+hearing: { date: 2026-12-02, time: "14:00" }
+attend: true
+attendWhy: Public hearing on the county budget with pay increases for county executive officers.
+basis: agenda+attachments
+sources:
+  - { label: PMN notice, url: "https://www.utah.gov/pmn/sitemap/notice/1126265.html" }
+  - { label: notice.pdf, url: "https://www.utah.gov/pmn/files/1523223.pdf" }
